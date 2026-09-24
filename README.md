@@ -1,6 +1,6 @@
 # PyJHora 6-MCP Vedic Astrology Server Suite
 
-A high-performance, enterprise-grade Model Context Protocol (MCP) suite exposing 100% of mathematical calculations and astrological parameters from [PyJHora](https://github.com/naturalstupid/PyJHora) via JSON-RPC 2.0 stdio interfaces. Compatible with **Claude Desktop**, **Cursor**, **Windsurf**, **Antigravity**, **Gemini CLI**, and any standard MCP client across **Linux**, **macOS**, and **Windows**.
+Model Context Protocol (MCP) suite exposing 100% of mathematical calculations and astrological parameters from [PyJHora](https://github.com/naturalstupid/PyJHora) via JSON-RPC 2.0 stdio interfaces. Compatible with **Claude Desktop**, **Cursor**, **Windsurf**, **Antigravity**, **Gemini CLI**, and any standard MCP client across **Linux**, **macOS**, and **Windows**.
 
 ---
 
