@@ -1,0 +1,891 @@
+<<<PAGE_1>>>
+Om Gam Ganapataye Namah Om Rishibhyo Namah Om Sree Gu rubhyo Namah 
+Unified Nakshatra Dasa Approach: 
+In Annual & Natal Charts 
+P.V.R. Narasimha Rao 
+January 7, 2014 (version 4) 
+December 31, 2013 (version 1) 
+Warning : All copyrights are reserved with author. This article cannot be reproduced in any form in part or in 
+full, without express permission from the author. 
+Introduction 
+Maharshi Parasara taught nine conditional nakshatra  dasas after teaching Vimsottari dasa. Each dasa ha s a 
+condition of applicability. For example, Shodasotta ri dasa applies if birth occurs in Sun's hora in Su kla paksha 
+or in Moon's hora in Krishna paksha, i.e.  it applies in 50% charts. Dwisaptati sama dasa app lies if lagna lord is 
+in 7 th  house or 7 th  lord is in lagna, i.e.  it applies in 16.67% charts. Different conditional  nakshatra dasas apply 
+under different conditions and the applicability ra te varies from 8.33% to 50%. There are  three  conditional 
+nakshatra dasas that apply in 50% charts. These das as obviously have an overlap,  i.e.  several dasas may be 
+applicable in the same chart. On top of all these d asas, of course, Vimsottari dasa is considered the most 
+important nakshatra dasa. The obvious question: How can we pick the best dasa in a chart? 
+Some people use rarer conditional dasas when they are applicable, but ignore 3 common conditional dasas with 
+50% applicability rate. That does not make sense – why did Parasara teach them if they are not useful?  One 
+more consideration: If we always prefer a condition al nakshatra dasa to Vimsottari dasa when atleast o ne of 
+them is applicable, then we will very rarely end up  using Vimsottari dasa. That does not make sense ei ther, for 
+Parasara taught that Vimsottari dasa is the most important dasa. 
+Bottomline is that Parasara did not explicitly teac h how to priorotize Vimsottari dasa and conditional  nakshatra 
+dasas that may be simultaneously applicable. So the  whole methodology of conditional nakshatra dasas i s laden 
+with confusions. 
+A methodology  deduced  from Parasara's teachings, for picking  one  dasa in any chart from among 
+Vimsottari dasa and nine conditional nakshatra dasa s, is proposed in this write-up. This methodology 
+seems to work well in natal charts as well as annua l Tithi Pravesha charts. In fact, it works better i n 
+annual Tithi Pravesha charts. 
+Pushya-paksha Ayanamsa 
+A new ayanamsa called “Pushya-paksha ayanamsa” enab led the discovery shared in this article. Please re ad the 
+write-up  titled  “Introducing  Pushya-paksha  Ayanamsa ”  at  http://www.VedicAstrologer.org/articles  before 
+reading this write-up. It will explain the definition as well as the rationale behind Pushya-paksha ayanamsa. 
+Replicating Calculations 
+
+<<<PAGE_2>>>
+You can download “Jagannatha Hora” software from  http://www.VedicAstrologer.org/jh  and select Pushya- 
+paksha ayanamsa. In addition, you will need to set some divisional chart calculation options to follow  this 
+write-up. Some divisional charts are computed incorrectly by people now-a-days. 
+For example, when computing siddhamsa (D-24) chart used for seeing education, today's astrologers map 24 
+parts of odd signs to Le → Cn and 24 parts of even signs to Cn → Ge. This is structurally absurd. For even signs, 
+it should go  anti-zodiacally,  i.e.  Cn → Le , instead  of Cn → Ge . Parasara  is absolutely clear,  but translators 
+misinterpreted him. This author identified such err ors in various divisional charts and corrected them  after 
+experimentation. 
+In  the main menu of “Jagannatha  Hora”  software (ver sion  7.65 or higher),  you  can  select  “Preferences”,  
+“Related to Calculations” and “Set Calculation Opti ons as recommended by author”, to set divisional ch art 
+calculations as used in this write-up. 
+Conditional Nakshatra Dasa Methodology 
+Controlling Planet 
+As pointed out earlier, we will almost never get to  use Vimsottari dasa, if we say that a conditional dasa 
+overrides Vimsottari dasa whenever its condition is  satisfied. So we conclude that the conditions give n by 
+Parasara are only necessary conditions and not sufficient conditions . In many charts satisfying the condition 
+of a conditional dasa, Vimsottari dasa may still do minate over the conditional dasa. The conditional d asa may 
+override Vimsottari dasa only in a limited number o f charts. The condition taught by Parasara  enables  the 
+applicability of a dasa, but does not  guarantee  it. Some factors  in addition  to the condition are needed to 
+guarantee it. Here is a proposed methodology. 
+If we understand the subtle meaning of a condition and find its link to the seed nakshatra of the dasa, we can 
+associate them to a planet. We can associate 9 cond itional nakshatra dasas to 9 planets. We can call t hem 
+“controlling planets”. 
+This controlling planet has a link to the condition  of the dasa and augments the condition. It also has a link to 
+the seed nakshatra of the dasa. In addition to the condition being satisfied, the controlling planet s hould be 
+strong ( i.e.  the principle behind the condition is augmented), for a conditional nakshatra dasa to work better than 
+Vimsottari dasa. 
+Dasa 
+(years) 
+Condition of Applicability Seed nakshatra 
+(deity) 
+Controlling 
+Planet 
+Shodasottari dasa 
+(116) 
+Lagna in Sun's hora in Sukla paksha or 
+Lagna in Moon's hora in Krishna paksha 
+Pushya 
+(Jupiter) 
+Jupiter 
+Dwadasottari dasa 
+(112) 
+Lagna in Taurus/Libra navamsa Revati 
+(Pushan) 
+Ketu 
+Ashtottari dasa 
+(108) 
+Rahu in a quadrant/trine from lagna lord, 
+but not in lagna 
+Ardra 
+(Rudra) 
+Mars 
+Panchottari dasa 
+(105) 
+Lagna in Cancer dwadasamsa 1 Anuradha 
+(Mitra) 
+Venus 
+Satabdika dasa Lagna in the same sign in rasi & nava msa Revati Sun 
+1According to some translators of Parasara, lagna should be in Cancer in both rasi and dwadasamsa. But that is 
+an incorrect translation. 
+
+<<<PAGE_3>>>
+Dasa 
+(years) 
+Condition of Applicability Seed nakshatra 
+(deity) 
+Controlling 
+Planet 
+(100) (Pushan) 
+Chaturaaseeti dasa 
+(84) 
+The 10 th  lord in 10 th Swati 
+(Vayu) 
+Saturn 
+Dwisaptati sama dasa 
+(72) 
+Lagna lord in 7 th  or 7th  lord in lagna Moola 
+(Nirriti) 
+Rahu 
+Shashtisama dasa 
+(60) 
+Sun in lagna Aswini 
+(Aswinis) 
+Moon 
+Shattrimsa sama dasa 
+(36) 
+Lagna in Sun's hora in daytime or 
+Lagna in Moon's hora in night time 
+Sravana 
+(Vishnu) 
+Mercury 
+Let us go through the list and see the justification for each controlling planet. 
+(1) Shodasottari  dasa  (116  years) :  The  seed  nakshatra  is  Pushya  and  its  deity is  Jup iter,  who  shows 
+dhishakti (wisdom/intellect). This dasa is applicab le if lagna is in deva hora and Sun (soul) is in th e 
+visible half from Moon (mind), or if lagna is in pi tri hora and Moon (mind) is in the visible half fro m 
+Sun (soul). The condition shows a wise relationship  between mind and soul. Soul is a focus of mind in 
+deva hora and mind is a focus of soul in pitri hora !! This dasa is applicable if such a wise relations hip 
+exists between mind and soul. That is augmented if Jupiter showing wisdom affecting the relationship 
+between soul and mind is strong. So Jupiter is the controlling planet. No wonder the seed nakshatra is  
+Jupiter's Pushya. 
+(2) Dwadasottari dasa (112 years) : The seed nakshatra is Revati and its deity is Poo shan. This dasa is 
+applicable if lagna is in a navamsa owned by Venus.  Navamsa shows the inner sense of dharma and 
+lagna  shows  one's  overall  personality.  Venus  stands for the  spirit  of happiness.  Lagna  being  in  a 
+navamsa owned by Venus shows the importance of happ iness at a deeper level of personality. As real 
+inner happiness comes with the freedom of detachmen t, this is augmented by Ketu (detachment and 
+freedom).  Pooshan is one of 12 Adityas  who gives in ner strength. There are two dasas taking his 
+nakshatra as the seed – Sataabdika dasa counts naks hatras zodiacally from Revati and Dwadasottari dasa 
+counts nakshatras anti-zodiacally from Revati. The controlling planets are Sun and Ketu – the soul 
+giving inherent inner strength and detachment retri eving that inner strength by undoing the bondages. 
+Counting is reverse for Ketu, as he reverses all th e conditioning accumulated through various lives 
+(“viparItaM ketoH” as Jaimini says). 
+(3) Ashtottari dasa (108  years) : The seed nakshatra is Ardra and and its deity is Rudra.  This dasa is 
+applicable if Rahu is in a quadrant/trine from lagn a lord, but not occupying lagna. Lagna shows the 5 
+koshas (shells) that define a personality, while la gna lord shows the functioning of Purusha  through 
+those koshas. Rahu shows the outcaste/deviant. Rahu 's trine/quadrant influence on the functioning of 
+Purusha  through  koshas  shows  an  inventive,  fierce  a nd  rule-breaking  manner  in  which  cosmic 
+intelligence works through one's personality.  Rahu being in lagna itself deprives the personality of 
+vitality.  The energy and drive of Mars augments  the  inventive and rule-breaking manner in which 
+cosmic intelligence functions through one's persona lity. The fierce Mars can be linked to Rudra, who 
+owns Ardra nakshara. In fact, Mars is born from the sweat of Rudra. 
+(4) Panchottari dasa (105  years) : The seed nakshatra is Anuradha and its deity is M itra. This dasa is 
+applicable if lagna is in Cancer dwadasamsa. Dwadas amsa shows the source from which one comes and 
+inherits.  Cancer  is  the  sign  of  creation.  Lagna  bei ng  in  Cancer  in  dwadasamsa  shows  a  creative 
+personality that taps into one's creative roots. Ve nus showing jala tattwa (water element) augments th is 
+
+<<<PAGE_4>>>
+creative connection to the roots. Anuradha (literal ly, “following Radha”) nakshatra is owned by Mitra,  a 
+Vedic deity of companionship. One can see a link to Venus. 
+(5) Sataabdika dasa (100 years) : The seed nakshatra is Revati and and its deity is  Pooshan. This dasa is 
+applicable if lagna is in the same sign in rasi and  navamsa. Navamsa shows inner sense of dharma and 
+lagna being in the same sign in rasi and navamsa sh ows that one's personality maintains a synergy 
+between  inner  sense of  dharma  and  outer  expression.  This  shows  a principled  and  strong  person. 
+Strength of Sun (soul) augments this strength of pe rsonality. No wonder the seed nakshatra is ruled by  
+Pooshan, one of the 12 Adityas who gives strength. 
+(6) Chaturaaseeti sama dasa (84 years) : The seed nakshatra is Swaati and its deity is Vaa yu. This dasa is 
+applicable if the 10 th  lord is in the 10 th  house. This shows importance of work in one's life , which is 
+augmented by Saturn showing the work ethic. Saturn represents wind and no wonder Swati ruled by 
+Vayu (wind) is the seed nakshatra. 
+(7) Dwisaptati sama dasa (72 years) : The seed nakshatra is Moola and its deity is Nirr iti. This dasa is 
+applicable if lagna lord is in 7 th  or 7th  lord is in lagna. That shows predominance of desir es (7 th  house) in 
+one's personality (1 st  house).  That is augmented by Rahu who shows desire s. No wonder the seed 
+nakshatra is Moola owned by Nirriti, who is shown by Rahu. 
+(8) Shashtisama dasa (60 years) : The seed nakshatra is Aswini and its deities are Aswinis. This dasa is 
+applicable if Sun is in lagna. Sun in lagna gives g ood will power, vitality and well-being. If this is  
+augmented  by clarity of mind (Moon),  it enhances  vi tality  and  well-being.  Moon is the planet  of 
+nurturing and cure, which is shown by twin deities Aswinis ruling Aswini star. No wonder Aswini is the  
+seed nakshatra. 
+(9) Shattrimsa sama dasa (36 years) : The seed nakshatra is Sravana and its deity is Vi shnu. This dasa is 
+applicable if lagna is in deva hora and Sun (soul) is in the visible half from lagna (self that acts i n the 
+world), or if lagna is in pitri hora and lagna (act ing self) is in the visible half from Sun (soul). S oul is a 
+focus of acting self in deva hora and acting self i s a focus of soul in pitri hora. The condition show s a 
+productive relationship between self that acts in t he world and soul, that promotes an understanding o f 
+one's  existence  and  meaningful  actions.  That  is  aug mented  if  Mercury  showing  knowledge  and 
+understanding is strong. So Mercury is the controll ing planet. Mercury shows sustainer Vishnu and no 
+wonder the seed nakshatra is Vishnu's Sravana. 
+Dasa Selection 
+The idea is that controlling planet of a conditiona l dasa has to be strong in a chart in addition to t he condition 
+being satisfied, for the dasa to dominate over Vims ottari dasa and other conditional nakshatra dasas. The 
+principle behind the condition needs to be  augmented  by the  strength  of a planet that is important for that 
+principle. That way, we can always pick the most applicable dasa in a chart. 
+Use the following steps: 
+(1) Evaluate the nine conditions and identify which conditional nakshatra dasas apply in the chart. 
+(2) Among the applicable  conditional dasas, compare the strengths of controlling planets in the chart. Select 
+the dasa with the strongest controlling planet. Use standard rules for strength. 
+(a) The following is the decreasing order of strengt h of planets: 
+(i) An exalted planet is the strongest, 
+(ii) Next is a planet in moolatrikona, 
+(iii) Next is a planet in own sign, 
+
+<<<PAGE_5>>>
+(iv) Next is a planet in an adhimitra rasi (super-fr iendly sign) 
+(v) Next is a planet in a mitra rasi (friendly sign)
+(vi) Planets in sama (neutral), satru (inimical), ad hisatru (super-inimical) rasis or in debilitation 
+signs are weak and not to be considered. 
+(b) Consider the following exceptions judiciously: 
+(i) If a planet is at the very beginning or end of a  sign, it is weak. 
+(ii) If a planet is associated with 9 th  or 10 th  lord, it  is extra strong. 
+(iii) If a planet is combust or afflicted by enemies  or afflicted by the 6 th /8 th  lords, it is weak. 
+(iv) Rahu and Ketu become strong when with other pla nets (any planets). 
+(3) If controlling planet of no applicable dasa is p articularly strong, no conditional dasa applies. Ju st use 
+Vimsottari dasa. There will be many charts in which Vimsottari dasa works the best. 
+Dasas in Divisional Charts 
+When analyzing a specific divisional chart for even ts related to a specific area of life, we can find nakshatra 
+dasas from Moon in that divisional chart. In order to apply the conditions of conditional dasas in a d ivisional 
+chart, we need to treat a divisional chart as rasi chart and further divide it into hora, navamsa and dwadasamsa 
+charts. There is a precedent in tradition, in the f orm of charts such as nava-navamsa (D-81) and navam sa- 
+dwadasamsa (D-108) charts. 
+We also  need  to  evaluate  the conditions  of Shodasot tari  and  Shattrimsa sama  dasa  strictly based  on  the  
+divisional chart in question. We define Sukla paksh a and Krishna paksha as Sun being in the visible ha lf from 
+Moon and and Moon being in the visible half from Su n, respectively. We define daytime and night time a s Sun 
+being in the visible half from lagna and and lagna being in the visible half from Sun, respectively. In fact, this is 
+how we explained the connection between the conditi ons, seed nakshatras and controlling planets earlie r in this 
+write-up. 
+Use of Lagna and Sun 
+Normally we use the nakshatra occupied by Moon in t he divisional chart of interest to find dasas. If M oon is 
+particularly weak and lagna is stronger, we can use lagna instead. 
+If Moon is waning and just below Sun's longitude or  badly afflicted by nodes or if all quadrants from Moon are 
+empty or if Moon is in his marana karaka sthana (8 th  house) or if Moon is in deep debilitation or if Mo on is in 
+gandanta, then Moon may be considered to be weak an d lagna preferred. Note that Sun is strengthened by  
+planets in trines from him, while Moon is strengthened by planets in quadrants from him. Lagna is stre ngthened 
+by both. 
+In extremely rare cases where not only is Moon weak  but lagna is also weak ( i.e.  lagna is in deep gandanta or 
+badly afflicted), we may use Sun if he is stronger.
+Natal & Annual Charts 
+These dasas can be used in the same manner in natal  charts and annual soli-lunar (Tithi Pravesha or TP ) charts. 
+They are computed in annual charts just as they are  in natal charts. There is no need to consider the star 
+occupied by Moon in natal chart and/or progress it.  Just take the rasi and divisional charts of the an nual chart 
+and use them as though it is a natal chart. The dasas are simply compressed to the time period of the chart. 
+
+<<<PAGE_6>>>
+In natal chart, dasa of the best planet to give an event ( e.g.  marriage, childbirth) may not come at an appropria te 
+age. So we sometimes see that mahadasa at the time of an event makes only some sense while antardasa a t the 
+time of an event makes more sense. But, in annual charts, mahadasa at the time of an event should usually make 
+excellent sense. The strongest candidate to give an event should give it in its mahadasa. 
+Just for completeness, let us define the annual TP chart here. When the lunar month and lunar day (tithi) of birth 
+return every year, we cast a chart at the exact tim e when the angle between Sun and Moon matches that at birth. 
+This chart is used for making predictions for the one [lunar] year that follows. 
+Examples with Annual Soli-lunar (TP) Charts 
+Example 1: Childbirth 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1996 February 19. 
+Consider the annual TP chart of 1995-96. D-7 (saptamsa) chart shows children. D-7 of 1995-96 annual TP chart 
+is shown below. 
+In this D-7, lagna lord Venus is exalted in 11 th  house and 5 th  lord Mercury is exalted in 5 th  house. Both are in 
+nearly exact samasaptaka (at 29Pi46 and 29Vi55!) an d give a powerful raja yoga. No wonder a child was born 
+during the year! 
+In this chart, let us evaluate the applicability of various conditional dasas: 
+
+
+<<<PAGE_7>>>
+(1) Lagna at 18Ta49  (second half of an even sign!) is in Deva hora. Sun is in the 12 th  house from Moon, i.e. 
+in the visible half. If Sun (soul) is in the visibl e half from Moon (mind) in Deva hora or Moon is in the 
+visible half from Sun in Pitri hora, then Shodasottari dasa applies. It applies here. 
+(2) Lagna is at 18Ta49. It maps to Gemini in D-9 (i. e. D-9 of D-7). So Dwadasottari dasa does not apply . 
+(Note: One can use “Sub-divisional chart for resear ch, (D-mxn, i.e. D-n of D-m)” in the pop-up menu on  
+charts in "Jagannatha Hora" software to find D-9 of D-7.) 
+(3) Lagna lord Venus is in Pi. Rahu is in Cp and not  in a trine/quadrant from him. So Ashtottari dasa d oes 
+not apply. 
+(4) Lagna is at 18Ta49. It maps to Sagittarius in D- 12 (i.e. D-12 of D-7). So Panchottari dasa does not  
+apply. (Note: One can use “Sub-divisional chart for  research, (D-mxn, i.e. D-n of D-m)” in the pop-up 
+menu on charts in "Jagannatha Hora" software to find D-12 of D-7.) 
+(5) Lagna is in Taurus in D-7 and in Gemini in D-9 o f D-7, as seen in (2) above. So Sataabdika dasa doe s 
+not apply. 
+(6) Neither 10 th  lord occupies 10 th . So Chaturaaseeti sama dasa does not apply. 
+(7) Neither the lagna lord is in 7 th , nor the 7 th  lord in lagna. So Dwisaptati sama dasa does not apply. 
+(8) Sun is not in lagna. So Shashtisama dasa does not apply. 
+(9) Lagna is in Deva hora. Lagna is in the visible half from Sun. So Shattrimsa sama dasa does not apply. 
+Only Shodasottari dasa applies. Its controlling planet is Jupiter. He is in moolatrikona. Hence the dasa applies. 
+As per compressed Shodasottari dasa from Moon of D- 7, Venus mahadasa ran during 1996 Jan 1-Feb 25. 
+Mercury antardasa in Venus mahadasa ran during Febr uary 17-25. With lagna and 5 th  lords Venus and Mercury 
+being both exalted and giving a raja yoga on the 5 th  house axis, this antardasa is a perfect candidate for a 
+blessing like childbirth. 
+Example 2: Childbirth 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1998 August 21. 
+Consider the annual TP chart of 1998-99. D-7 (saptamsa) chart shows children. D-7 of 1998-99 annual TP chart 
+is shown below. 
+
+<<<PAGE_8>>>
+In this D-7, lagna lord Venus is in a quadrant in a n adhimitra rasi. The 5 th  lord and yogakaraka Saturn joins 9 th 
+lord Mercury very closely. There is a raja yoga bet ween them. Being two natural malefics, they are wel l-placed 
+in the 6 th  house. The 5 th  house of children is hemmed between these 3 trine lords! 
+In this chart, let us evaluate the applicability of various conditional dasas: 
+(1) Lagna at 18Li34  (second half of an odd sign!) is in Pitri hora. Moon is in the 12 th  house from Sun, i.e. in 
+the visible half. If Sun (soul) is in the visible h alf from Moon (mind) in Deva hora or Moon is in the  
+visible half from Sun in Pitri hora, then Shodasottari dasa applies. It applies here. 
+(2) Lagna is at 18Li34. It maps to Pisces in D-9. So  Dwadasottari dasa does not apply. (Note: One can u se 
+“Sub-divisional  chart  for  research,  (D-mxn,  i.e.  D- n  of  D-m)”  in  the  pop-up  menu  on  charts  in 
+"Jagannatha Hora" software to find D-9 of D-7.) 
+(3) Lagna lord Venus is in Capricorn. Rahu is in Sag ittarius and not in a trine/quadrant from him. So 
+Ashtottari dasa does not apply. 
+(4) Lagna is at 18Li34. It maps to Taurus in D-12. S o Panchottari dasa does not apply. (Note: One can u se 
+“Sub-divisional  chart  for  research,  (D-mxn,  i.e.  D- n  of  D-m)”  in  the  pop-up  menu  on  charts  in 
+"Jagannatha Hora" software to find D-12 of D-7.) 
+(5) Lagna is in Libra in D-7 and in Pisces in D-9 of  D-7, as seen in (2) above. So Sataabdika dasa does  not 
+apply. 
+(6) The 10 th  lord is not in 10 th . So Chaturaaseeti sama dasa does not apply. 
+(7) Neither the lagna lord is in 7 th , nor the 7 th  lord in lagna. So Dwisaptati sama dasa does not apply. 
+(8) Sun is not in lagna. So Shashtisama dasa does not apply. 
+(9) Lagna is in Pitri hora. Sun is in the visible half from lagna. So Shattrimsa sama dasa does not apply. 
+
+
+<<<PAGE_9>>>
+Only Shodasottari dasa applies. Its controlling pla net is Jupiter. He is in a neutral sign afflicted b y nodes. He is 
+not strong. Hence the dasa does not apply. We fall back to Vimsottari dasa. 
+As Moon is hardly 4 degrees before Sun ( i.e.  Amavasya Moon) and afflicted by nodes, he is very weak. So we 
+use lagna instead of Moon. 
+As per compressed Vimsottari dasa from lagna of D-7 , Mercury mahadasa ran during 1998 July 13-Sept 2. 
+Jupiter antardasa in Mercury mahadasa ran during Au gust 17-24. Mercury is the 9 th  lord joining 5 th  lord. He is 
+the dispositor of Jupiter and has an exchange with him. Jupiter is the dispositor of the 2 trine lords  giving a raja 
+yoga and he aspects the 5 th  house and lagna. 
+Example 3: Academic Distinction 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He stood first in his state in 12 th  grade exams with a record score on 1987 May 28 and  got admission to 
+Indian Institute of Technology after a couple of days. 
+Consider the annual TP chart of 1987-88. D-24 (sidd hamsa) chart shows education. D-24 of 1987-88 annua l TP 
+chart  is shown below. 
+With lagna lord Venus in a trine in a friendly sign , with 5 th  lord Mercury exalted in 5 th  in close conjunction with 
+yogakaraka (and friend) Saturn and a natural benefic Jupiter (8 th  lord showing sudden events), academic success 
+and recognition in the year are very well-explained . Jupiter is also the karyesha (i.e. the 4 th  lord in rasi chart) 
+and strong in the 4 th  house in rasi chart. 
+Let us check the conditions of all conditional dasas. 
+(1) Lagna at 16Ta30  (second half of an even sign!) is in Deva hora. Moon is in the 6 th  house from Sun, i.e. 
+in the invisible half. If Sun (soul) is in the visible half from Moon (mind) in Deva hora or Moon is i n the 
+visible half from Sun in Pitri hora, then Shodasottari dasa applies. It applies here. 
+(2) Lagna is at 16Ta30. It maps to Taurus in D-9. So  Dwadasottari dasa applies. (Note: One can use “Sub - 
+divisional chart for research, (D-mxn, i.e. D-n of D-m)” in the pop-up menu on charts in "Jagannatha 
+Hora" software to find D-9 of D-7.) 
+(3) Lagna lord Venus is in Capricorn. Rahu is in Ari es and in a trine/quadrant from him. So Ashtottari dasa 
+applies. 
+(4) Lagna is at 16Ta30. It maps to Scorpio in D-12. So Panchottari dasa does not apply. (Note: One can use 
+“Sub-divisional  chart  for  research,  (D-mxn,  i.e.  D- n  of  D-m)”  in  the  pop-up  menu  on  charts  in 
+"Jagannatha Hora" software to find D-12 of D-7.) 
+(5) Lagna is in Taurus in D-7 and in D-9 of D-7, as seen in (2) above. So Sataabdika dasa applies. 
+(6) Neither 10 th  lord is in 10 th . So Chaturaaseeti sama dasa does not apply. 
+(7) Neither the lagna lord is in 7 th , nor the 7 th  lord in lagna. So Dwisaptati sama dasa does not apply. 
+(8) Sun is not in lagna. So Shashtisama dasa does not apply. 
+(9) Lagna is in Deva hora. Lagna is in the visible half from Sun. So Shattrimsa sama dasa does not apply. 
+
+<<<PAGE_10>>>
+So Shodasottari dasa, Dwadasottati dasa, Ashtottari dasa and Sataabdika dasa dasa apply. 
+Controlling planet of Shodasottari dasa is Jupiter.  He is not particularly strong in Vi, being in an a dhisatru rasi 
+(super-inimical sign), based on compound relationship. 
+Controlling planet of Dwadasottati dasa is Ketu. He is not particularly strong in Ar, being in a sama rasi (neutral 
+sign), based on compound relationship. 
+Controlling planet of Ashtottari dasa is Mars. He i s not particularly strong in Ge, being in a sama ra si (neutral 
+house), based on compound relationship. 
+Controlling planet of Sataabdika dasa is Sun. He is in own house and strong! 
+Sun is the strongest planet among the controlling p lanets of applicable conditional nakshatra dasas. S o we pick 
+Sataabdika dasa. 
+As per compressed Sataabdika dasa from Moon of D-24 , Mercury mahadasa Jupiter antardasa gave the event . 
+Mercury is the 5 th  lord exalted in the 5 th  house. Jupiter is strong karyesha in rasi chart an d joins Mercury in the 
+5th  house in D-24. 
+Example 4: Going Abroad 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1994 November 11. 
+Consider the annual TP chart of 1994-95. D-4 (chatu rthamsa) chart shows residence. D-4 of 1994-95 annu al TP 
+chart  is shown below. 
+
+
+<<<PAGE_11>>>
+With 12 th  co-lord and significator of going abroad, Rahu, oc cupying a watery sign in the 9 th  house and with 12 th 
+co-lord Saturn aspecting 12 th , going abroad during the year makes sense. 
+If we check the conditions of all conditional dasas , we will see that only Shodasottari dasa and Shatt rimsa sama 
+dasa apply. Controlling planet of Shodasottari dasa is Jupiter. Though he is in an adhimitra rasi, he is retrograde 
+and aspected by a strong 8 th  lord. He is not particularly strong. Controlling p lanet of Shattrimsa sama dasa is 
+Mercury. He is debilitated and weak. 
+So we are better off using Vimsottari dasa. 
+As per compressed Vimsottari dasa from Moon of D-4,  Rahu mahadasa Saturn antardasa gave the event. As 
+mentioned earlier, Rahu and Saturn are the 12 th  lords. Saturn aspects 12 th  and has 3/4 th  aspect on 9 th . Rahu 
+occupies 9 th  in a watery sign. 
+Example 5: Childbirth 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She had a child on 2000 September 28. 
+Consider the annual TP chart of 2000-01. D-7 (saptamsa) chart shows children. D-7 of 2000-01 annual TP chart 
+is shown below. 
+In this D-7, lagna lord Venus is in 11 th  house and aspects the 5 th  house, while 5 th  lord Saturn is exalted in lagna. 
+The other 5 th  lord Rahu is in a quadrant in an adhimitra rasi. S o this D-7 and 5 th  house in it are very strong. No 
+wonder a child was born during the year. 
+
+
+<<<PAGE_12>>>
+In this chart, Shodasottari dasa, Dwadasottari dasa  and Shattrimsa sama dasa apply. Controlling planet s are 
+Jupiter, Ketu and Mercury respectively. Jupiter and  Ketu are in sama rasis (neutral signs), while Merc ury is in a 
+mitra rasi (friendly sign), as per compound relatio nships. However, combust Mercury is not strong enou gh in a 
+mitra rasi. So we just fall back to Vimsottari dasa. 
+Though Moon is exalted, he is in marana karaka stha na in the 8 th  house and weak. So we take lagna as the seed 
+of dasa instead of Moon. 
+As per compressed Vimsottari dasa from lagna of D-7 , Saturn mahadasa ran during 2000 August 29-October  
+29. Saturn mahadasa Venus antardasa ran during Sept ember 21-October 1. With 5 th  lord Saturn exalted in lagna 
+and with lagna lord Venus aspecting 5 th , this antardasa is a perfect candidate for childbirth. 
+Example 6: Childbirth 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She had a child on 2003 June 21. 
+Consider the annual TP chart of 2002-03. D-7 (saptamsa) chart shows children. D-7 of 2002-03 annual TP chart 
+is shown below. 
+In this D-7, lagna lord Venus is in a quadrant in a  friendly sign and has 3/4 th  aspect on the 5 th  house and its lord, 
+while 5 th  lord Mercury is exalted in 5 th ! The 5 th  house contains a raja yoga between 5 th  and 4 th  lords. So this D-7 
+and 5 th  house in it are very strong. No wonder a child was born during the year. 
+
+
+<<<PAGE_13>>>
+In this chart, Shodasottari dasa, Ashtottari dasa a nd Shattrimsa sama dasa apply. Controlling planets are Jupiter, 
+Mars  and  Mercury  respectively.  Jupiter  is  in  moolatrikona,  Mars  is  in  adhimitra  rasi  and  Mercury  is  in  
+exaltation sign. Though Mercury would have normally  been taken as the strongest planet (exaltation is superior 
+to moolatrikona placement), here Mercury is within 7 arc-min from Sun. He is deeply combust. So we tak e 
+Jupiter to be stronger. So Shodasottari dasa is the  strongest dasa. Though quadrants from Moon are emp ty, 
+Moon is in own sign and 2 nd  and 12 th  are occupied (Dhurdhara yoga). So he is strong enough to be the seed. 
+As per compressed Shodasottari dasa from Moon of D- 7, Sun mahadasa ran during 2003 June 18-July 22. Su n 
+antardasa in Sun mahadasa ran during June 18-21. Gi ven the powerful raja yoga between Mercury and Sun in 
+the 5 th  house, they are perfect candidates for giving chil dbirth. As Mercury and Sun are very close within 7 arc- 
+min, Mercury is deeply combust. So Sun will dominate him and give the result of the rajayoga in his period. 
+Example 7: Childbirth 
+Birthdata : 1970 October 5, 12:32:20 pm (IST), 80e21, 15n49 
+Event : He had a child on 2000 September 28. 
+Consider the annual TP chart of 1999-2000. D-7 (sap tamsa) chart shows children. D-7 of 1999-2000 annua l TP 
+chart  is shown below. 
+In  this D-7, lagna lord Mercury is in 9 th  house while the 5 th  lord Venus is in the 5 th  house itself, in his 
+moolatrikona! So this D-7 and 5 th  house in it are very strong. No wonder a child was born during the year. 
+In this chart, only Shodasottari dasa applies. Cont rolling planet is Jupiter. He is in an adhisatru ra si (super- 
+inimical sign). He is weak. So we fall back to Vimsottari dasa. 
+
+
+<<<PAGE_14>>>
+As per compressed Vimsottari dasa from Moon of D-7,  Venus mahadasa Mercury antardasa gave the event. 
+Venus is the 5 th  lord in 5 th  house, while Mercury is the lagna lord in 9 th ! From dasa lord Venus, Mercury is 9 th 
+lord in 5 th  house. This mahadasa antardasa combination is the perfect candidate for giving a child. 
+Example 8: Childbirth 
+Birthdata : 1970 October 5, 12:32:20 pm (IST), 80e21, 15n49 
+Event : He had a child on 2003 June 21. 
+Consider the annual TP chart of 2002-03. D-7 (saptamsa) chart shows children. D-7 of 2002-03 annual TP chart 
+is shown below. 
+In this D-7, 5 th  and 11 th  lords are in parivartana aspecting their respectiv e houses. This can give gain of a child. 
+In addition, lagna lord and 9 th  lord are in very close samasaptaka  (within less than a degree), showing fortune in 
+this area of life during the year. 
+In this chart, Shodasottari dasa, Dwisaptati sama d asa and Shattrimsa sama dasa apply. Controlling pla nets are 
+Jupiter, Rahu and Mercury respectively. Jupiter and  Rahu are in adhisatru rasis, while Mercury is in a  satru rasi 
+(compound relationship). None of them is strong eno ugh. However, Rahu becomes strong in the signs of M oon 
+and Sun, especially when not alone. He gets really charged up when he occupies the houses of luminarie s. 
+Moreover, here he is in good company! So Rahu in Ca ncer with Saturn is taken to be strong! So we use 
+Dwisaptati sama dasa. 
+As per compressed Dwisaptati sama dasa from Moon of  D-7, Moon mahadasa Saturn antardasa gave the event . 
+Moon is the 5 th  lord in 11 th  and Saturn is the 11 th  lord in 5 th . This exchange and samasaptaka of 5 th  and 11 th  lords 
+is auspicious for the gain of a child. 
+
+
+<<<PAGE_15>>>
+Example 9: Political Power (Barack Obama) 
+Birthdata : 1961 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He was elected as US President on 2008 November 4. 
+Consider the annual TP chart of 2008-09. D-10 (dasa msa) chart shows career. D-10 of 2008-09 annual TP chart 
+is shown below. 
+In this D-10, lagna and 10 th  lord Jupiter is exalted in the 5 th  house of power while the 5 th  lord Moon is closely 
+conjoined with the exalted 7 th  lord in 7 th  giving a powerful rajayoga. Though Rahu is also wi th them and Venus 
+in Pisces and Saturn in Sagittarius (both functiona l malefics here) have an aspect on Moon, those infl uences are 
+are weaker than that of Mercury, who is within 3.5 degrees from Moon. The strength of the 5 th  house can show 
+getting some power in this year. 
+In this chart, Shodasottari dasa and Sataabdika das a apply. Controlling planets are Jupiter and Sun. T hough 
+Jupiter is exalted, he is retrograde and that makes  him a bit weak. He also has 3/4 th  aspect from Saturn. Sun on 
+the other hand is in own house and unafflicted. So we take Sun to be stronger and use Sataabdika dasa.
+As for reference for dasa, Moon closely afflicted b y an enemy at the beginning of a sign and afflicted  by Rahu 
+is not that strong and lagna in deep gandanta is no t strong either. In comparison, unafflicted Sun in own sign is 
+exceedingly strong, though also at the beginning of  a sign. So we take Sun as the seed. [N OTE : We very rarely 
+need to use Sun as the seed.] 
+
+
+<<<PAGE_16>>>
+As per compressed Sataabdika dasa from Sun of D-10,  Jupiter mahadasa Mercury antardasa gave the event.  
+Jupiter is the lagna and 10 th  lord exalted in the 5 th  house of power, while Mercury is exalted disposito r of the 5 th 
+lord and also takes part in a raja yoga with the 5 th  lord. 
+Example 10: Political Power (Barack Obama) 
+Birthdata : 1961 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He was re-elected as US President on 2012 November 6. 
+Consider the annual TP chart of 2012-13. D-10 (dasa msa) chart shows career. D-10 of 2012-13 annual TP chart 
+is shown below. 
+In this D-10, lagna lord Saturn is exalted in the 10 th  house of career. Venus is the lord of the 10 th  house of career 
+and the 5 th  house of power. He is a yogakaraka and is exalted.  Though he is with 8 th  lord Sun, there is enough 
+gap between them to make the affliction weak. Due t o the Saturn-Moon combination in the 10 th  house, there 
+were some tensions and most opinion polls leading t o the election predicted a Mitt Romney win or a clo se call. 
+But, in the end, it was an easy win. 
+In this chart, Shodasottari dasa, Sataabdika dasa a nd Shat-trimsa sama dasa apply.  Controlling planets  are 
+Jupiter, Sun and Mercury. Jupiter is in a sama rasi  based on compound relationship, while Sun and Merc ury are 
+in adhimitra rasis. While Sun is afflicted by a str ong (exalted) adhisatru (Venus), Mercury is afflict ed by only a 
+weak satru (Jupiter). So Mercury is less afflicted. We take Mercury to be stronger. 
+As per compressed Shat-trimsa sama dasa from Moon o f D-10, Venus mahadasa Venus antardasa gave the 
+event. Venus is exalted yogakaraka and the 5 th  lord of power. 
+
+
+<<<PAGE_17>>>
+Example 11: Political Power (George W Bush) 
+Birthdata : 1946 July 6, 7:25:30 am (EDT – 4:00 west of GMT),  New Haven, CT, USA (72w56, 41n18) 
+Event : He was elected as the president of US in on 2000 December 15. Elections were held on November 7, but  
+there was a protracted court fight on the recountin g of some Florida ballots. He was finally declared winner on 
+2000 December 15. 
+Consider the annual TP chart of 2000-01. D-10 (dasa msa) chart shows career. D-10 of 2000-01 annual TP chart 
+is shown below. 
+In this D-10, 5 th  lord Mercury aspects the 5 th  house of power from the 11 th  house of gains and the 11 th  lord 
+Jupiter is in 5 th  house. This exchange and samasaptaka between 5 th  and 11 th  lords shows gain of power. The 10 th 
+house is also strong with a raja yoga between lagna co-lord and yogakaraka. Overall, getting some power during 
+the year is possible. 
+In this chart, Shodasottari dasa, Ashtottari dasa, Dwisaptati sama dasa, Shashtisama dasa and Shattrim sa sama 
+dasa apply.  Controlling  planets are Jupiter,  Mars,  Rahu, Moon  and  Mercury.  Jupiter in an  adhisatru  ras i, 
+Mercury in a satru rasi, Rahu in debilitation sign and Moon in mitra rasi are weaker than Mars in exal tation 
+sign. So we use Ashtottari dasa. 
+As per compressed Ashtottari dasa from Moon of D-10 , Moon dasa was running at the time of elections. M oon 
+is the 6 th  lord in a Martian sign aspected by Mars and he gav e litigation. Next dasa was Mars dasa from 
+November 19 to December 15. Mars being the exalted 10 th  lord but in 12 th , he gave uncertainty and litigation. 
+Mercury dasa started on December 15. Mercury being the 5 th  lord aspecting 5 th  and being in an exchange and 
+samasaptaka  with  the  11 th  lord,  he  gave  power.  He  was  declared  winner  in  Mer cury  mahadasa  Mercury 
+antardasa. 
+
+
+<<<PAGE_18>>>
+Example 12: Political Power (George W Bush) 
+Birthdata : 1946 July 6, 7:25:30 am (EDT – 4:00 west of GMT),  New Haven, CT, USA (72w56, 41n18) 
+Event : He was re-elected as the president of US in on 2004 November 2. 
+Consider the annual TP chart of 2004-05. D-10 (dasa msa) chart shows career. D-10 of 2004-05 annual TP chart 
+is shown below. 
+In this D-10, 5 th  lord Venus aspects the 5 th  house of power from the 11 th  house of gains. This is conducive to 
+retaining power. In addition, lagna lord Mercury is  in a quadrant in a friendly sign and 9 th  lord is strong in own 
+house. The afflictions in the 4 th  house show lack of peace in career and worries, bu t the strength of trines is 
+conducive to retaining the power. 
+In this chart, Ashtottari dasa applies. Controlling  planet Mars is in a sama rasi. So we fall back to Vimsottari 
+dasa. [NOTE : It may appear like Dwisaptati sama dasa applies h ere. However, from lagna at 6Ge30, Mercury at 
+25Sg31 is actually in the 8 th  house and not the 7 th  house.] 
+As Moon is at the beginning of the sign (0Vi55), hi ghly waning and afflicted by nodes, he is weak. We will use 
+lagna as the seed. Lagna is stronger. 
+As per compressed Vimsottari dasa from lagna of D-1 0, Saturn mahadasa Venus antardasa was running at t he 
+time results came out. Saturn is the strong 9 th  lord in own house and aspecting the 5 th  house and having 80% 
+aspect on the 5 th  lord. Venus is the 5 th  lord aspecting 5 th  house. So this period can give a favorable result relating 
+to maintaining one's political power. 
+
+
+<<<PAGE_19>>>
+Example 13: Death of Father (Rajiv Gandhi) 
+Birthdata : 1944 August 20, 7:12 am (IST), 72e49, 18n58 
+Event : His father Feroze Gandhi died on 1957 April 4. 
+Consider the annual TP chart of 1956-57. D-12 (dwad asamsa) chart shows parents. D-12 of 1956-57 annual  TP 
+chart  is shown below. 
+In this D-12, the 9 th  house of father is Le. Taking that as lagna, 2 debilitated planets (Mercury and Venus) are on 
+the 2 nd -8 th  axis with nodes. If the lord of the 3 rd  house of vitality is in 2 nd  house of its loss (or vice versa), it can 
+be a maraka combination. If the lord of the 8 th  house of longevity is in the 7 th  house of its loss (or vice versa), it 
+can also be a maraka combination. In addition, any functional malefics occupying or aspecting the 2 nd  house can 
+become marakas. Here Venus and Mercury are function al malefics for Le and Venus is in 2 nd  while Mercury 
+aspects it. Venus is the 3 rd  lord in 2 nd , while Rahu is the 7 th  co-lord in 8 th . There are clear maraka combinations in 
+this D-12, from the 9 th  house of father. 
+In this chart, lagna is right in the middle of a si gn. This brings into question the applicability of Shodasottari 
+dasa  and  Shattrimsa  sama  dasa  (i.e.  evaluation  of  applicability  changes  with  slight  change  in  birthtime). 
+However, Mercury and Jupiter are weak in neutral ho uses and so it doesn't matter anyway. Sun and Satur n are 
+quite strong and Moon is moderately strong, but Sat aabdika dasa, Chaturaaseeti sama dasa and Shashtisa ma 
+dasa do not apply. So we just use Vimsottari dasa. 
+As per compressed Vimsottari dasa from Moon of D-12 , Venus mahadasa Saturn antardasa gave the event. 
+Venus is a clear maraka from Le as seen before. Sat urn is the 7 th  lord and a maraka too. He can also give Rahu's 
+results. 
+
+
+<<<PAGE_20>>>
+Example 14: Death of Mother (Rajiv Gandhi) 
+Birthdata : 1944 August 20, 7:12 am (IST), 72e49, 18n58 
+Event : His mother Indira Gandhi was assassinated on 1984 October 31. 
+Consider the annual TP chart of 1984-85. D-12 (dwad asamsa) chart shows parents. D-12 of 1984-85 annual  TP 
+chart  is shown below. 
+In this D-12, the 4 th  house of mother is Vi. Taking that as lagna, the 7 th  lord Jupiter is in 8 th , closely conjoining 
+the 8 th  lord. The 7 th  lord is a maraka and he becomes potent when in 8 th  or with 8 th  lord. The 6 th  lord Rahu is 
+aspecting him from 12 th  and can indicate some conspiracy or enmity behind it. 
+In this chart, no conditional nakshatra dasa applies. So we use Vimsottari dasa. 
+As per compressed Vimsottari dasa from Moon of D-12 , Jupiter mahadasa Jupiter antardasa 2 gave the event. 
+Jupiter is clearly the maraka as seen already. 
+Example 15: Political power (Rajiv Gandhi) 
+Birthdata : 1944 August 20, 7:12 am (IST), 72e49, 18n58 
+Event : He unexpectedly became India's Prime Minister in the first week of 1984 November, after his mother 
+was assassinated. 
+2The year is taken to be 13 lunar months instead of 12 here, due to adhika bhadrapada masa in 1985. 
+
+
+<<<PAGE_21>>>
+Consider the annual TP chart of 1984-85. D-10 (dasa msa) chart shows career. D-10 of 1984-85 annual TP chart 
+is shown below. 
+In this D-10, lagna lord Sun is in the 5 th  house of power in a super-friendly sign. The 5 th  lord Jupiter is strong in 
+own sign.  This shows getting  some recognition or po wer.  Placement  of 5 th  lord in 8 th  shows suddenness. 
+Placement of Sun in 5 th  in gandanta and affliction of nodes suggests some unfortunate background. 
+
+
+<<<PAGE_22>>>
+In this chart, Sataabdika dasa and Shattrimsa sama dasa apply. Sataabdika dasa controller Sun is in ga ndanta 
+and weak. Though Mercury is in a friendly sign (Jup iter's), he is retrograde and afflicted by nodes. H e is not 
+strong either. So we just fall back on Vimsottari dasa. 
+It may seem like Ashtottari dasa applies here, but lagna lord Sun at 1Sg14 and Rahu at 25Ge08 are not exactly 
+in quadrants or trines. Rahu is in the 8 th  house from lagna lord Sun. 
+As per compressed Vimsottari dasa from Moon of D-10, Sun mahadasa Jupiter antardasa 3 gave the event. Sun is 
+the lagna lord in 5 th  house in a super-friendly sign while Jupiter is the 5 th  lord strongly placed in own sign. 
+Example 16: Marriage 
+Birthdata : 1975 July 13, 4:02 pm (IST), Eluru, India (81e06, 16n42) 
+Event : She got married on 2001 February 28. 
+Consider the annual TP chart of 2000-01. D-9 (navamsa) chart shows marriage. D-9 of 2000-01 annual TP chart 
+is shown below. 
+In this D-9, lagna lord in moolatrikona and 5 th  lord in exaltation are together. There is a raja yoga between them, 
+that brings the blessings of poorvapunya. The 7 th  lord Venus is in the 9 th  house of fortune from the 7 th  house of 
+marriage, in an adhimitra rasi without any afflicti ons. He is quite strong and can give marriage. Ther e is also a 
+raja yoga between the 4 th  lord of sukha and 9 th  lord of dharma. 
+In this chart, Ashtottari dasa and Shashtisama dasa  apply. As Mars is stronger than Moon, we pick Asht ottari 
+dasa. 
+3The year is taken to be 13 lunar months instead of 12 here, due to adhika bhadrapada masa in 1985. 
+
+
+<<<PAGE_23>>>
+As per compressed Ashtottari dasa from Moon of D-9,  Venus mahadasa Mars antardasa gave the event. Venu s 
+is the strong 7 th  lord of marriage. Mars is the strong lagna lord an d in the 11 th  house of fructification from 
+Venus. 
+Example 17: Marriage (Barack Obama) 
+Birthdata : 1961 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He got married on 1992 October 3. 
+Consider the annual TP chart of 1992-93. D-9 (navamsa) chart shows marriage. D-9 of 1992-93 annual TP chart 
+is shown below. 
+In this D-9, one 7 th  lord Rahu is in the 11 th  house of fructification aspecting the 7 th  house. The other 7 th  lord 
+Saturn is also aspecting the 7 th  house, while yogakaraka occupies the 7 th  house. This makes the 7 th  house 
+powerful. 
+In this chart, Dwadasottari dasa and Ashtottari das a apply. Neither Ketu nor Mars is strong being alon e in 
+inimical signs. Dwisaptati sama dasa may seem to ap ply here, but 7 th  lord Saturn at 1Le42 is actually in the 12 th 
+house from lagna at 23Le0. So Dwisaptati sama dasa does not really apply. 
+As per compressed Vimsottari dasa from Moon of D-9,  Rahu mahadasa Saturn antardasa gave the event. As 
+explained previously, Rahu and Saturn are the 7 th  lords aspecting the 7 th  house. 
+Example 18: Vehicular accident 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a major vehicular accident on 1996 December 5. He was fine, but car was totalled. 
+
+
+<<<PAGE_24>>>
+Consider the annual TP chart of 1996-97. D-16 (shod asamsa) chart shows vehicle. D-16 of 1996-97 annual  TP 
+chart  is shown below. 
+In this D-16, let us take the 4 th  house of vehicle as lagna. From Cp, lagna lord Sat urn and 8 th  lord Sun are in 
+lagna  together.  That  is  a  bad  combination.  The  8 th  lord  afflicting  lagna  and  lagna  lord  can  cause  har m. 
+Moreover, the 2 nd  house contains multiple planets including the 7 th  and 2 nd  lords. This is a maraka combination. 
+In this chart, Ashtottari dasa and Shat-trimsa sama dasa apply. Mars is not strong, but Mercury is exalted. So we 
+use Shat-trimsa sama dasa. 
+As per compressed Shat-trimsa sama dasa from Moon o f D-16, Rahu mahadasa Jupite antardasa gave the eve nt. 
+Rahu is a maraka being the 2 nd  lord in 2 nd  (from the 4 th  house). Jupiter is the 3 rd  lord in badhaka sthana. In 
+addition, from the 4 th  house from dasa lord Rahu, Jupiter is the 8 th  lord in 7 th  and a maraka. 
+
+
+<<<PAGE_25>>>
+Examples with Natal Charts 
+We will see some examples of conditonal nakshatra dasas with natal charts now. 
+It has been seen that mahadasa at the time of an ev ent usually makes excellent sense in annual charts.  The 
+strongest candidate to give an event usually gives it in its mahadasa. In natal charts, however, dasa of the best 
+planet to give an event ( e.g.  marriage, childbirth) may not come at an appropriate age. So we sometimes see that 
+mahadasa at the time of an event may make only limi ted sense while antardasa at the time of an event m ay 
+make more sense. 
+Example 19: Political Power (George W Bush) 
+Birthdata : 1946 July 6, 7:25:30 am (EDT – 4:00 west of GMT),  New Haven, CT, USA (72w56, 41n18) 
+Event : He was elected as the president of US in in 2000 December and re-elected in November 2004. 
+D-10 (dasamsa) chart shows career. D-10 of natal chart  is shown below. 
+In this D-10, lagna is in Pitri hora. As Moon and l agna are in insivible half from Sun, neither Shodas ottari dasa 
+nor Shatrtimsa sama dasa applies. As lagna navamsa (D-9 of D-10) is in Ge, Dwadasottari dasa does not apply. 
+Lagna does not contain Sun and Shashtisama dasa doe s not apply. As lagna does not contain 7 th  lord and 7 th 
+does not contain lagna lord, Dwisaptati sama dasa d oes not apply. As the 10 th  lord is not in 10 th , Chaturaaseeti 
+sama dasa does not apply. As lagna dwadasamsa (D-12 of D-10) is in Ta, Panchottari dasa does not apply. 
+As lagna lord Mercury is in a quadrant from Rahu an d Rahu is not in lagna, Ashtottari dasa applies. As  lagna is 
+in vargottama, Sataabdika dasa applies. The control ling planets are Mars and Sun respectively. Mars is  exalted 
+and quite strong. So we use Ashtottari dasa. 
+
+
+<<<PAGE_26>>>
+As per Ashtottari dasa from Moon of natal D-10, Sat urn mahadasa ran from November 1999 to November 
+2009. It was in this period that he became the repu blican candidate for presidential election of 2000,  then 
+elected as US president and re-elected. He was US p resident from January 2001 till January 2009. That entirely 
+falls in Saturn mahadasa. 
+Saturn is a functional benefic for Ge lagna and he is exalted in the 5 th  house of power! In fact, there is an 
+exchange between 5 th  lord Venus and 9 th  lord Saturn. This, in addition to lagna lord Mercu ry in lagna, makes 
+this a blessed D-10 chart. 
+He was elected US president during Saturn mahadasa Saturn antardasa. His re-election with wider margin  came 
+during Saturn mahadasa Venus antardasa. Venus is the 5 th  lord in 9 th . Previously, he was elected as the governor 
+of Texas state in Mercury mahadasa Venus antardasa.
+Example 20: Political Power (John F Kennedy) 
+Birthdata : 1917 May 29, 3:59 pm (4 hrs west of GMT), Brookline, Massachusetts, USA (71w07, 42n20) 
+Event : He was elected as the President of USA in the first week of 1960 November. 
+D-10 (dasamsa) chart shows career. D-10 of natal chart  is shown below. 
+In this D-10, Shodasottari dasa, Ashtottari dasa an d Shashtisama dasa apply. Controlling planets are J upiter, 
+Mars and Moon. Jupiter is in an adhisatru rasi and Moon is in a satru rasi (as per compound relationships). Mars 
+in an adhimitra rasi is stronger than both. So we use Ashtottari dasa. 
+Moon is just below Sun in D-10 (i.e. Amavasya Moon). So he is weak to be considered as the seed for dasas. So 
+we use lagna. As per Ashtottari dasa from lagna of natal D-10, Moon mahadasa Sun antardasa gave the ev ent. 
+Moon and Sun are the 4 th  and 5 th  lord closely conjoined in lagna and giving a powerful raja yoga! 
+
+
+<<<PAGE_27>>>
+Example 21: Childbirth 
+Birthdata : 1971 March 31, 4:56 am (IST), Amaravati, India (80e22, 16n35) 
+Event : She had a child on 2000 January 12. 
+D-7 (saptamsa) chart shows children. D-7 of natal chart  is shown below. 
+In  this  D-7,  Shodasottari  dasa,  Ashtottari  dasa,  Chaturaseeti  sama  dasa  and  Shattrimsa sama  dasa  apply . 
+Controlling planets are Jupiter, Mars, Saturn and M ercury. Jupiter is in a satru rasi. Mercury is in a n adhimitra 
+rasi. But Mars in moolatrikona is stronger than bot h. However, Saturn in exaltation sign beats him! So  we use 
+Chaturaaseeti sama dasa. 
+As per Chaturaaseeti sama dasa from Moon of natal D -7, Jupiter mahadasa Mars antardasa gave the event.  
+Jupiter is the significator of children and also th e 9 th  lord involved in a raja yoga (by samasaptaka) with  lagna 
+lord Moon. Mars is yogakaraka placed in moolatrikona and also the 5 th  lord of children! 
+Example 22: Childbirth 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1996 February 19. 
+D-7 (saptamsa) chart shows children. D-7 of natal chart  is shown below. 
+In this D-7, Shodasottari dasa and Ashtottari dasa  apply. Controlling planets are Jupiter and Mars. T hough 
+Jupiter is in moolatrikona, he is retrograde and af flicted by Rahu and 6 th  lord Venus. Aspect of Rahu on Jupiter 
+is too close. So Shodasottari dasa does not dominat e over Vimsottari dasa. Mars is in an adhisatru ras i and 
+weak. So Ashtottari dasa does not dominate over Vimsottari dasa either. So we fall back to Vimsottari dasa. 
+
+
+<<<PAGE_28>>>
+As all the quadrants from Moon are empty, Moon is w eak. In contrast, all trines from lagna are occupie d – two 
+by planets in exaltation/moolatrikona. So lagna is much stronger. We start Vimsottari dasa from lagna.
+As per Vimsottari dasa from lagna of D-7, Sun mahad asa Jupiter antardasa gave the child. With Sun bein g the 
+9th  lord  exalted  in  5 th ,  his  dasa  can  be  very auspicious  for  the blessing  of a  childbirth.  Jupiter  is  in  his 
+moolatrikona in lagna and aspects the 5 th  and 9 th  houses. 
+Example 23: Childbirth 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a second child on 1998 August 21. 
+As mentioned in the previous example, Vimsottari da sa started from lagna is the best in this D-7. As p er 
+Vimsottari dasa from lagna of D-7, Sun mahadasa Venus antardasa gave the event. From the 7 th  house of second 
+child, Venus is 5 th  lord in lagna in an adhimitra rasi. He can give the second child. 
+Example 24: Academic Distinction 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got admission to IIT in the first week of June  1987 and also stood first in his state in 12 th  grade with a 
+record score. 
+D-24 (siddhamsa) chart shows education. D-24 of natal chart  is shown below. 
+
+
+<<<PAGE_29>>>
+In this D-24, Ashtottari dasa and Sataabdika dasa are applicable. Controlling planets are Mars and Sun. Being in 
+adhisatru rasis, neither is strong. So we fall back to Vimsottari dasa. 
+As per Vimsottari dasa from Moon of D-24, Venus mahadasa Venus antardasa gave the event. Venus is the lord 
+of the 4 th  house of education and exalted in the 9 th  house of fortune. He gives fortune in education. B eing an 
+exalted planet in a trine, he gives excellent results in education. 
+Example 25: Going Abroad 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1994 November 11. 
+D-4 (chaturthamsa) chart shows residence. D-4 of natal chart is shown below. 
+If we check the conditions of all conditional dasas, we will see that no conditional dasa applies. 
+Moon is in deep debilitation and in gandanta. Lagna is strong enough with 2 planets in trines. Taking Vimsottari 
+dasa from lagna of D-4, we see that Mercury mahadas a Moon antardasa gave the event. Mercury is the bad haka 
+lord and 7 th  lord of long travels. The exalted 12 th  lord aspects him. Moon is in the 9 th  house of foreign travel in a 
+watery sign. 
+Previously, in Mercury mahadasa Ketu antardasa also , the native left motherland and lived abroad for 2  years. 
+He came back for a year and left again on 1994 Nove mber 11. He has been living outside his motherland since 
+then. Ketu is the 9 th  lord in 12 th . His antardasa took him abroad for the first time.
+
+
+<<<PAGE_30>>>
+Example 26: Going Abroad 
+Birthdata : 1976 April 25, 2:32 am (IST), Vijayawada, India (80e37, 16n31) 
+Event : He left his motherland India around 1997 August 5. 
+D-4 (chaturthamsa) chart shows residence. D-4 of natal chart is shown below. 
+
+
+<<<PAGE_31>>>
+If we check the conditions of all conditional dasas , we will see that Shodasottari dasa and Ashtottari  dasa apply. 
+Though Jupiter is exalted, he is in gandanta. Mars is in a sama rasi, as per compound relationships. So neither is 
+strong. So we use Vimsottari dasa. As Moon is debil itated and at the beginning of a sign, he is weak. We use 
+lagna as the seed. 
+As per Vimsottari dasa from lagna of D-4, Rahu maha dasa Venus antardasa gave the event. Rahu is the ka raka 
+for living abroad and he is in the 12 th  house of displacement from motherland here. So his  dasa can take one 
+abroad. Though Venus is lagna lord, he is in the 8 th  house and can show displacement or instability of residence. 
+Moreover, from dasa lord Rahu, Venus is the 7 th  lord in 9 th  house. 
+Example 27: Going Abroad 
+Birthdata : 1975 July 13, 4:04:10 pm (IST), Eluru, India (81e06, 16n42) 
+Event : She left his motherland India in 1997 August. 
+D-4 (chaturthamsa) chart shows residence. D-4 of natal chart is shown below. 
+If  we  check  the  conditions  of  all  conditional  dasas,  we  will  see  that  Shodasottari  dasa,  Ashtottari  dasa, 
+Dwisaptati  sama  dasa  and  Shattrimsa  sama  dasa  apply .  Controlling  palnets  are  Jupiter,  Mars,  Rahu  and 
+Mercury. Of these, exalted Mercury is the strongest. Though Moon is afflicted by Rahu, there is enough gap and 
+exalted Moon is in the middle of a sign. We use Moon as the seed. 
+As per Shasttrimsa sama dasa from Moon of D-4, Venu s mahadasa Rahu antardasa gave the event. Venus and  
+Rahu are in the 7 th  house of long journey in a watery sign and Rahu is  the karaka for going abroad. Though 
+Venus is lagna lord, he is in an inimical sign in t he 7 th  house and can show going abroad. Moreover, being t he 
+dispositor of Ketu, Venus gives Ketu's results also , as Ketu has no dasa. Here, Ketu is the 7 th  lord in lagna and 
+can show going abroad. 
+
+
+<<<PAGE_32>>>
+Example 28: Marriage 
+Birthdata : 1975 July 13, 4:04:10 pm (IST), Eluru, India (81e06, 16n42) 
+Event : She got married in 2001 February. 
+D-9 (navamsa) chart shows marriage. D-9 of natal chart is shown below. 
+If we check the conditions of all conditional dasas, we will see that Dwadasottari dasa and Shattrimsa sama dasa 
+apply. Controlling palnets are Ketu and Mercury. Ne ither lone Ketu nor Mercury in a satru rasi is stro ng. So we 
+fall back to Vimsottari dasa. If debilitated Moon w as in gandanta (i.e. in last 1/9 th  of Scrorpio), he would've 
+been considered too weak. Here he is not in gandant a and has 100% aspect from friend Mars and 92% aspe ct 
+from friend Jupiter. So we accept Moon as the seed of the dasa. 
+Ashtottari dasa may seem to apply here, but Rahu at  5Vi10 is not really in a quadrant from lagna lord Saturn at 
+28Ge36 – he is instead in the 3 rd  house. 
+As per Vimsottari dasa from Moon of D-9, Venus maha dasa Saturn antardasa gave the event. Venus is the 
+yogakaraka in the 7 th  house of marriage and an apt planet for giving mar riage. Saturn is lagna lord. Moreover, 
+from dasa lord Venus, he is placed in the karaka st hana (12 th  house for Venus, as per pachakadi sambandhas). 
+He is the naisargika karaka for Venus too. Hence this antardasa is an apt antardasa for giving wedding. 
+Example 29: Marriage 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got married on 1993 August 1. 
+D-9 (navamsa) chart shows marriage. D-9 of natal chart is shown below. 
+
+
+<<<PAGE_33>>>
+If we check the conditions of all conditional dasas , we will see that Shodasottari dasa, Ashtottari da sa and 
+Shattrimsa sama dasa apply. Controlling palnets are  Jupiter, Mars and Mercury. Jupiter is debilitated and weak. 
+Both Mars and Mercury are strong in adhimitra rasis . Both are alone (i.e. neither strengthened nor wea kened by 
+conjunction). So let us consider aspects on them. T he strongest aspect on Mars is from Mercury (73% as pect). 
+With Mercury being the 5 th  lord and functional benefic, this aspect is auspic ious. The strongest aspect on 
+Mercury  is  from  Jupiter  (99%).  With  Jupiter  being  t he  8 th  lord  and  a  functional  malefic,  this  aspect  is 
+inauspicious. So we declare Mars to be stronger and use Ashtottari dasa. 
+As per Ashtottari dasa from Moon of D-9, Mars mahadasa Rahu antardasa gave the event. Mars is the 7 th  lord of 
+marriage. Rahu is in the 11 th  house of fructification and aspects the 7 th  house. Moreover, he gives the results of 
+the other 7 th  lord Ketu, as Ketu has no dasa under Ashtottari dasa scheme. 
+Example 31: Career with changes (Swami Sivananda) 
+Birthdata : 1887 September 8, 4:15:15 am (LMT, 5:11 east of GMT), 77e40, 8n48 
+Events : He started his career as a physician in India. He  was quite successful in Malaysia during 1913-1923. He 
+gave it all up in 1923 and became a monk in 1924. H e started a charitable dispensary in 1927. He estab lished 
+“Divine Life Society” in January 1936. 
+D-10 (dasamsa) chart shows work. D-10 of natal chart is shown below. 
+If  we check  the conditions of all  conditional  dasas ,  we will see that only Dwisaptati sama dasa applie s. 
+Controlling palnet is Rahu and he is in own sign. So we will use Dwisaptati sama dasa. 
+Moon is debilitated and in gandanta. So we will use lagna as the seed. 
+As per Dwisaptati sama dasa from lagna of D-10, his  career in India started in Rahu dasa. Rahu is lagn a lord in 
+lagna and he gives a good beginning. 
+
+
+<<<PAGE_34>>>
+Sun dasa ran during 1913-1922. He managed a hospita l all by himself in this dasa. Sun is the 7 th  lord in the 2 nd 
+house in an adhimitra rasi along with the 5 th  lord and in samasaptaka with 9 th  lord. He shows a lot of interactions 
+and financial success in career. 
+Moon being a debilitated planet in gandanta in the 10 th  house of career, his dasa brought a big change in career. 
+He left his career as a physician. 
+In Moon mahadasa Venus antardasa, he established a charitable dispensary. Moon aspects the 4 th  house of 
+building/establishing something and Venus is its lo rd. Venus is also yogakaraka. Being in the 8 th  house, Venus 
+antardasa  gave  him  hard  work.  He started  the  dispen sary  to  serve  sadhus  and  poor  and  put  his  medical 
+knowledge to use. 
+Mars is the 10 th  lord of work in the 5 th  house of fame. Mars mahadasa from (1931-1940)  bro ught him some 
+fame (which continued into 5 th  lord Mercury's dasa during 1940-1949). In Mars mah adasa Venus angtardasa, he 
+established “Divine Life Society”. Venus is the 4 th  lord of building things and Mars aspects him. Also , Mars is 
+the 10 th  lord and Venus is the 9 th  lord. Their combination can give dharmik work. 
+Example 32: Sudden Limelight and Spreading Dharma (Swami Vivekananda) 
+Birthdata : 1863 January 12, 6:32:58 a (LMT, 5:54 east of GMT), Calcutta, India (88e30, 22n40) 
+Events : He had trouble finding a job in mid-1880's. He li ved as a wandering monk during 1886-1893. He came 
+to limelight with a famous speech at the parliament of religions on 1893 September 11 and had a successful tour 
+of US and UK teaching Dharma. He established Ramakr ishna Mission in January 1897 and was busy putting 
+the organization in place in 1897-1898. 
+D-10 (dasamsa) chart shows work. D-10 of natal chart is shown below. 
+If we check the conditions of all conditional dasas , we will see that only Panchottari dasa applies. C ontrolling 
+palnet is Venus and he is exalted. So we will use Panchottari dasa. 
+
+
+<<<PAGE_35>>>
+Though Moon is in own sign, he is within a degree f rom Rahu and hence weak. So we will use lagna as th e 
+seed. 
+As per Panchottari dasa from lagna of D-10, Saturn mahadasa was running when he had trouble finding a job. 
+Saturn is a functional malefic in the 2 nd  house of money in a neutral sig and not well-placed. 
+Mars mahadasa started in 1886 October. Mars is the 9 th  lord. He lived as a wandering monk discussing dhar ma 
+with many people – scholars and laymen, kings and c ommoners. 
+Mars mahadasa Jupiter antardasa started on 1893 August 31. Mars is the yogakaraka and aspecting the 5 th  house 
+of fame. Jupiter is the 5 th  lord. So that antardasa brought him sudden limelig ht. With antardasa lord Jupiter 
+being the 8 th  lord too, it was sudden. 
+With Mars, Jupiter and Sun being trine lords, Mars- Jupiter and Mars-Sun antardasas gave him fortune an d were 
+great for spreading dharma. 
+In Mars mahadasa Sun antardasa, he established Ramakrishna Mission. With yogakaraka Mars being the 4 th  lord 
+and Sun aspecting the 4 th  house, this antardasa is conducive to establishing  or building an organization. Sun in 
+the 10 th  house gives administrative work. During 1897, he d id have to manage the construction work and also 
+put in place an organization. 
+Conclusion 
+A methodology deduced from Parasara's teachings, fo r picking one  dasa in any chart from among Vimsottari 
+dasa and nine conditional nakshatra dasas, is proposed in this write-up. This methodology seems to work well in 
+natal charts as well as annual Tithi Pravesha charts, and also in all divisional charts. 
+
+
+<<<PAGE_36>>>
+It is hoped that intelligent and sincere students a nd researchers of this divine subject will take thi s knowledge 
+further and contribute to a renaissance in Jyotish and other knowledge related to rishis. 
+::Om Shaantih Shaantih Shaantih:: 

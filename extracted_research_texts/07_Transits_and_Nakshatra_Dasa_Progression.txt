@@ -1,0 +1,437 @@
+<<<PAGE_1>>>
+Om Gam Ganapataye Namah Om Rishibhyo Namah Om Sree Gu rubhyo Namah 
+Transits and Nakshatra Dasa Progression 
+P.V.R. Narasimha Rao 
+October 12, 2014 (version 1) 
+Warning : All copyrights are reserved with author. This article cannot be reproduced in any form in part or in 
+full, without express permission from the author. 
+Introduction 
+It is well-known that nakshatra dasa systems of Ved ic astrology are essentially progressions. This aut hor will 
+share a technique he discovered, which throws up objective longitude correlations between: 
+• Transit positions at the time of major events 
+• Progressed planetary positions as per a nakshatra dasa at the time 
+Dasa as a Progression 
+Let us take Vimsottari dasa to explain this idea. A s one goes through mahadasas, antardasas and pratyantardasa, 
+we can progress Moon through the zodiac and find the corresponding position of Moon. 
+Example : Suppose Moon is in Krittika nakshatra at birth and  Sun dasa is running. When Sun dasa 
+finishes and Moon dasa starts, progressed Moon enters the next nakshatra, i.e.  Rohini owned by Moon. 
+When Moon dasa finishes and  Mars  dasa starts,  progr essed  Moon enters  the next nakshatra,  i.e. 
+Mrigasira owned by Mars. At any given date and time , one can compute the longitude of progressed 
+Moon. 
+Some astrologers judge transit positions of planets  at the time of important events with respect to progressed 
+Moon at that time, instead of natal Moon. Though th at is logical, this author did not find any compell ing 
+objective correlations that way. He thought that ot her natal planets should also be progressed and not  just Moon 
+and that could throw up better correlations. 
+Progressing All Planets 
+This author tried in the past to progress all plane ts assuming that they were the seeds of dasa. But t hat is not 
+logical. We pick Moon as the dasa seed in most charts, lagna in very few charts and Sun in even fewer charts. It 
+makes no sense to progress all bodies independently by starting dasa from them. There ought to be a way to find 
+dasa from one seed (e.g. Moon) and progress all planets consisten tly based on that one dasa from that one seed. 
+That alone can be logical. But how that should be done was not obvious to this author for a long time.
+The answer, when it finally came, was so simple and  yet elegant and logical that this aurthor was awes truck 
+why nobody had ever thought of it! 
+The idea is simple and yet powerful: Simply rotate the entire natal chart!  Rotate the entire 
+natal chart so that natal Moon moves to his progres sed position! Wherever other 
+planets  and  mathematical  points  end  up  in  that  rota tion,  take  those  as  their 
+progressed positions. 
+
+<<<PAGE_2>>>
+In other words, progress all planets and mathematic al points by the angle between progressed Moon and natal 
+Moon. 
+In other words, a dasa progression is a way to rota te the whole zodiac in a non- 
+linear fashion as time progresses! 
+Calculation of Progressed Chart 
+Find progressed position of Moon as per Vimsottari dasa from Moon. If Moon is weak and dasa should be 
+initiated  from  lagna  or  Sun,  use  the  progressed  position  of  that  seed.  Apply  the  difference  between  the 
+progressed Moon (or other seed) and natal Moon (or other seed) to the natal positions of  all  planets and 
+mathematical points. That is the progressed chart. Then find the corresponding divisional chart positi ons in the 
+divisional chart relevant to the matter of interest. 
+If  one  uses  just  rasi  chart  and  ignores  divisional  charts,  it  is  actually  possible to  mentally  calcula te  the 
+progressed positions of planets approximately. 
+Correlation with Transits 
+If any important planet in natal chart (rasi chart or divisional chart) for the matter of 
+interest  closely  conjoins  or  aspects,  in  its  transi t,  a  relevant  planet/house  or  a 
+luminary in the progressed chart, it can bring an event related to the matter. 
+We can focus on the transit of Jupiter, Saturn, Rahu and Ketu (and perhaps Mars). 
+This will become clearer after being illustrated with a few examples in the rest of this write-up. 
+Replicating Calculations 
+You can download “Jagannatha Hora” software from  http://www.VedicAstrologer.org/jh  and select Pushya- 
+paksha ayanamsa. In addition, you will need to set some divisional chart calculation options to follow  this 
+write-up. Some divisional charts are computed incorrectly by people now-a-days. 
+In  the main menu of “Jagannatha  Hora”  software (ver sion  7.67 or higher),  you  can  select  “Preferences”,  
+“Related to Calculations” and “Set Calculation Opti ons as recommended by author”, to set divisional ch art 
+calculations as used in this write-up. 
+
+<<<PAGE_3>>>
+Examples 
+Example 1: Academic Distinction 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He stood first in his state in 12 th  grade exams with a record score on 1987 May 28 and also got admission 
+to Indian Institute of Technology a few days later.
+Natal rasi and D-24 charts are shown below. 
+
+
+<<<PAGE_4>>>
+Natal Moon of rasi chart is at 29º 43' 37" in Aq an d that corresponds to Jupiter-Moon-Rahu pratyantard asa at 
+birth. At the time of event, Saturn-Mars-Jupiter pr atyantardasa was running. That corresponds to a lon gitude of 
+12º 37' 46" in Pi. The longitude progression is 12º  37' 46" Pi – 29º 43' 37" Aq = 12º 54' 9". Adding t he same 
+longitude to all planets and mathematical points, we get the following progressed rasi chart. 
+Finding D-24 positions of all planets and mathematical points above, we get the following chart. 
+Jupiter, 9 th  lord of natal D-24, was  transiting  at the time of the event at  27Pi34 ! He closely aspected (and 
+activated!) progressed Moon (lagna lord in own sign  in natal D-24!) at 26Vi54  and progressed Sun (lagna lord 
+in progressed D-24) at 27Sc59 !
+
+
+<<<PAGE_5>>>
+Example 2: Foreign Travel 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1991 August 15 and went to USA for masters. 
+Charts : Natal & progressed D-4 (based on Vimsottari dasa from Moon) 
+Mars, 9 th  lord in natal D-4, was transiting at 26Le48  and Rahu, 12 th  lord in natal D-4, was transiting at 25Sg49 . 
+Both activated progressed Mars (9 th  lord in natal D-4) at 24Le05  by a close conjunction and aspect. 
+
+
+<<<PAGE_6>>>
+Example 3: Foreign Travel 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1994 November 10 again and has been living abroad since then. 
+Charts : Progressed D-4 (based on Vimsottari dasa from Moon). Refer to previous example for natal D-4. 
+Mars, 9 th  lord in natal D-4, was transiting at  26Cn06 . He activated progressed Jupiter at  24Cn55  by a close 
+conjunction. In natal D-4 chart also, exalted Mars (9 th  lord) conjoins debilitated Jupiter (lagna lord) an d that can 
+show living abroad. When transit Mars activated progressed Jupiter, that yoga in natal chart was activated. 
+
+
+<<<PAGE_7>>>
+Example 4: Foreign Travel 
+Birthdata : 1976 April 25, 2:32 am (IST), Vijayawada, India (80e37, 16n31) 
+Event : He left his motherland India around 1997 August 5. 
+Charts : Natal & progressed D-4 (based on Vimsottari dasa from Moon) 
+In natal D-4, exalted Jupiter aspects 7 th  & 9 th  houses and 7 th   &12 th  lords and joins 9 th  lord. He is also the 
+dispositor of 7 th  & 12 th  lord. He is a key planet connecting all factors showing going abroad. He was transiting at 
+24Cp50  at the time of the event. He activated progressed Venus (lagna lord in natal D-4) at 24Cn54  by a close 
+aspect. 
+
+
+<<<PAGE_8>>>
+Example 5: Foreign Travel 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She left her motherland in the 2 nd  week of February 1999. 
+Charts : Natal & progressed D-4 (based on Vimsottari dasa from Moon) 
+Saturn, 12 th  lord in natal D-4, was transiting at 5Ar45 . He activated progressed Rahu (12 th  lord in natal D-4) at 
+6Ar36  by close conjunction, progressed Ketu (9 th  lord in natal D-4) at 6Li36  and progressed Mars (9 th  lord in 
+natal D-4) at 3Cp23  by a close aspect. 
+
+
+<<<PAGE_9>>>
+Example 6: Childbirth 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1996 February 19. 
+Charts : Natal & progressed D-7 (based on Vimsottari dasa from Moon) 
+Jupiter, lagna lord of natal D-7, was  transiting  at  the time of the event at  17Sg09 . He closely aspected (and 
+activated!) progressed Sun (exalted 9 th  lord in 5 th  in natal D-7) at  14Ge50 . Mars, 5 th  lord of natal D-7, was 
+transiting at the time of the event at 10Aq12 . He closely aspected (and activated!) progressed M ercury (planet 
+in 5 th  in natal D-7) at 10Vi37 .
+
+
+<<<PAGE_10>>>
+Example 7: Childbirth 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She had a child on 2000 September 28. 
+Charts : Natal & progressed D-7 (based on Vimsottari dasa from Moon) 
+Jupiter, 5 th  lord of natal D-7, was  transiting  at the time of t he event at  18Ta30 ! He closely conjoined (and 
+activated!) progressed Rahu (with yogakaraka in nat al D-7) at  18Ta42 . Mars, yogakaraka of natal D-7, was 
+transiting at the time of the event at 14Le45 . He closely conjoined (and activated!) progressed Jupiter (5 th  lord 
+in natal D-7) at 12Ar35  (half aspect). Moreover, Sun, lagna lord of natal D-7, was transiting at 13Vi18 , close to 
+his own progression position at 13Vi21 .
+
+
+<<<PAGE_11>>>
+Example 8: Childbirth 
+Birthdata : 1971 September 12, 8:25 am (IST), Guntur, India (80e27, 16n18) 
+Event : She had a child on 1996 February 19. 
+Charts : Natal & progressed D-7 (based on Vimsottari dasa from Moon) 
+Saturn, 5 th  lord aspecting 5 th  in natal D-7, was transiting at the time of the ev ent at 1Pi29 ! He closely aspected 
+(and activated!) progressed Rahu (5 th  lord in 5 th  in natal D-7) at 1Ta13 .
+
+
+<<<PAGE_12>>>
+Example 9: Childbirth 
+Birthdata : 1970 November 4, 3:12:35 pm (IST), Lucknow, India (80e55, 26n51) 
+Event : He had a child on 2000 October 11. 
+Charts : Natal & progressed D-7 (based on Vimsottari dasa from Moon). 
+Jupiter, 5 th  lord of natal D-7, was transiting at the time of t he event at 18Ta17 ! He closely conjoined/aspected 
+(and activated!) progressed Mars (yogakaraka in nat al D-7) at 20Ta05  and progressed Jupiter (5 th  lord in natal 
+D-7) at 21Cp17 .
+
+
+<<<PAGE_13>>>
+Example 10: Marriage 
+Birthdata : 1963 August 7, 9:14:34 pm (IST), Sambalpur, India (83e58, 21n27) 
+Event : He had a love marriage on 1991 August 29. 
+Charts : Natal & progressed D-9 (based on Vimsottari dasa from Moon). 
+Jupiter, 5 th  lord in own house and aspecting lagna in natal D-9 , was transiting at the time of the event at 4Le34 ! 
+He closely aspected (and activated!) progressed Mars (lagna lord in 7 th  in natal D-9) at 3Sg09 .
+
+
+<<<PAGE_14>>>
+Example 11: Marriage 
+Birthdata : 1971 September 12, 8:25 am (IST), Guntur, India (80e27, 16n18) 
+Event : She was married on 1993 August 1. 
+Charts : Natal & progressed D-9 (based on Vimsottari dasa from Moon). 
+Saturn, yogakaraka placed in the 8 th  house (important for marriage in female horoscopy)  of natal D-9, was 
+transiting at the time of the event at 5Aq39 ! He closely aspected (and activated!) his own prog ressed position 
+(significance exaplined already) at 4Sc09 .
+
+
+<<<PAGE_15>>>
+Example 12: Marriage 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She got married on 1999 January 24. 
+Charts : Natal & progressed D-9 (based on Vimsottari dasa from Moon). 
+Saturn, 7 th  lord of natal D-9, was transiting at the time of the event at 4Ar39 ! Mars, yogakaraka in 8 th  (important 
+for marriage in female horoscopy) in natal D-9, was  transiting at 6Li16 . They closely conjoined/aspected (and 
+activated!) progressed lagna of D-9 at 5Ar24 .
+
+
+<<<PAGE_16>>>
+Example 13: Marriage (Barack Obama) 
+Birthdata : 1961 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He got married in 1992 October. 
+Charts : Natal & progressed D-9 (based on Vimsottari dasa from Moon). 
+Rahu, exalted 7 th  lord of natal D-9, was transiting at the time of t he event at 2Sg04 ! He closely aspected (and 
+activated!) his own progressed D-9 position at 3Ar31 .
+
+
+<<<PAGE_17>>>
+Example 14: Horse-riding Accident & Paralysis (actor Christopher Reeve) 
+Birthdata : 1952 September 25, 3:12 am (EDT – 4:00 west of GM T), Manhattan, NY, USA(73w58, 40n47) 
+Event : He had an accident while riding a horse in May 1995. He was paralysed below neck. 
+Charts : Natal & progressed D-1 (based on Vimsottari dasa from Moon). 
+Rahu, 8 th  lord in 7 th  in natal D-1 ( i.e.  a maraka), was transiting at the time of the event  at 12Li48 ! He closely 
+aspected (and activated!) progressed Jupiter (6 th  lord of accidents in natal D-1) at 13Ge16 . In addition, Jupiter, 
+6th  lord aspecting 6 th  in natal D-1, was transiting at the time of the ev ent at 18Sc27 ! He closely conjoined (and 
+activated!) progressed Venus (badhaka lord aspecting badhaka sthana in natal D-1) at 19Sc42 . 
+
+
+<<<PAGE_18>>>
+Progressing Divisional Vimsottari Dasa 
+There is another way to find progressed planets in divisional charts. If we want to time events in car eer, 
+obviously Moon in dasamsa is also relevant as the d asa seed and not just Moon in rasi chart. So we can  find 
+dasa from Moon in dasamsa and use that dasa to prog ress Moon in dasamsa. That angle can be applied to the 
+dasamsa positions of all planets and mathematical points and corresponding progressed positions can be found. 
+Example 15: Academic Distinction 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He stood first in his state in 12 th  grade exams with a record score on 1987 May 28 and also got admission 
+to Indian Institute of Technology a few days later.
+D-24 shows education. Natal D-24 is shown below. 
+Natal  D-24 Moon is at  23 Cn 26' 54.75".  That corres ponds  to Mercury mahadasa,  Mars antardasa,  Rahu 
+pratyantardasa. That was running at birth (as per Vimsottari dasa from Moon of D-24). 
+At the time of academic distinction, he was running  Venus mahadasa, Venus antardasa, Jupiter pratyanta rdasa. 
+Of course, in natal D-24, Venus is 4 th  lord exalted in the 9 th  house of fortune and Jupiter is the 9 th  lord in 10 th 
+house. Both planets are associated with a quadrant and a trine and Venus is strong in exaltation sign.  Thus, they 
+can give fortune in education. But let us see how transits combine with this. 
+Venus mahadasda, Venus antardasa, Jupiter pratyanta rdasa running at the time corresponds to a progress ed 
+longitude of 14 Le 11' 00.35". Thus, Moon has progr essed by 14 Le 11' 00.35" – 23 Cn 26' 54.75" = 20º 44' 
+5.60". We add the same angle to the natal positions  of lagna and all planets to get corresponding prog ressed 
+positions. 
+Here are the natal and progressed positions in D-24: 
+Body Natal Longitude Progressed Longitude 
+
+
+<<<PAGE_19>>>
+Lagna 3 Cn 15' 48.53" 23 Cn 59' 54.12" 
+Sun 11 Aq 40' 55.65" 2 Pi 25' 01.25" 
+Moon 23 Cn 26' 54.75" 14 Le 11' 00.35" 
+Mars 7 Ge 32' 04.64" 28 Ge 16' 10.24" 
+Mercury 12 Sc 25' 14.90" 3 Sg 09' 20.49" 
+Jupiter (R) 21 Ar 35' 00.73" 12 Ta 19' 06.33" 
+Venus 7 Pi 18' 31.72" 28 Pi 02' 37.32" 
+Saturn 29 Le 44' 41.30" 20 Vi 28' 46.90" 
+Rahu 12 Sc 34' 25.95" 3 Sg 18' 31.55" 
+Ketu 12 Sc 34' 25.95" 3 Sg 18' 31.55" 
+Progressed D-24 chart is shown below. 
+Venus is the 4 th  lord exalted in 9 th  in natal chart and shows fortune in education. The  9 th  lord Jupiter was 
+transiting  at the time of the event at 27Pi34 ! He activated progressed Venus  at 28Pi03  and gave fortune in 
+education. 
+If we use the natal longitudes, 27Pi34 is not close  to any interesting longitudes. But, if we use prog ressed 
+longitudes, 27Pi34 is quite close to progressed Venus at 28Pi03! 
+
+
+<<<PAGE_20>>>
+Example 16: Foreign Travel 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1991 August 15 and went to USA for masters. 
+Charts : Natal & progressed D-4 (based on Vimsottari dasa from Moon of D-4). 
+Ketu is the 9 th  lord in 12 th  in natal D-4. He is also in the 12 th  house in natal rasi chart. So he shows going abroad. 
+He is at  10Pi27  in progressed D-4. Transit Saturn (12 th  lord of natal D-4) at  9Cp32  had a close aspect on 
+progressed Ketu and activated him. 
+
+
+<<<PAGE_21>>>
+Example 17: Foreign Travel 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1994 November 10 again and has been living abroad since then. 
+Charts : Natal & progressed D-4 (based on Vimsottari dasa from Moon of D-4). 
+Mars is the 9 th  lord in 12 th  house (longitude-wise) in natal D-4. He is at  16Aq08  in progressed D-4. Transit 
+Saturn (12 th  lord of natal D-4) at 13Aq02  had a close conjunction with progressed Mars and activated him. Also, 
+transit Rahu (12 th  co-lord in natal D-4) at  22Li09  had a close conjunction with progressed Sun at  22Li56 . 
+Luminaries are important in a chart. 
+
+
+<<<PAGE_22>>>
+Example 18: First Job 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He joined his first job on 1993 December 10. 
+Charts : Natal & progressed D-10 (based on Vimsottari dasa from Moon of D-10). 
+Jupiter is the 5 th  lord of poorva punya and recognition in natal D-10  and occupies the 6 th  house of service along 
+with yogakaraka Mars. He is an important planet for  getting a job or getting recognition. Transit Jupi ter at 
+13Li25  had a close aspect on (and activated) his own progressed D-10 position at 14Aq04 .
+
+
+<<<PAGE_23>>>
+Example 19: Job loss 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He lost job on 2002 August 12 when the start-up h e worked for cut most operations & went into surviv al 
+mode. 
+Charts : Progressed D-10 (based on Vimsottari dasa from Moon of D-10). Refer to example 18 for natal D-10. 
+Saturn is the 7 th  lord in 2 nd  and a maraka in natal D-10. He can give breaks in career. Transit Saturn at 3Ge16 
+had a close aspect on (and activated) progressed D- 10 Venus (10 th  lord of career in natal D-10) at 5Le21 . In 
+addition, Rahu is the 7 th  co-lord in natal D-10 and can also give breaks in career. Transit Rahu at 22Ta51 had a 
+close aspect on (and activated) progressed D-10 Sun (lagna lord in natal D-10) at 24Cp41 .
+
+
+<<<PAGE_24>>>
+Example 20: Job promotion 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He received a job promotion in 2008 September. 
+Charts : Progressed D-10 (based on Vimsottari dasa from Moon of D-10). Refer to example 18 for natal D-10. 
+Jupiter is the 5 th  lord of poorva punya and recognition in natal D-10 . He is an important planet for getting 
+recognition. Transit Jupiter at 20Sg22  had a close aspect on (and activated) progressed D -10 Venus (10 th  lord in 
+natal D-10) at 16Le40 .
+
+
+<<<PAGE_25>>>
+Example 21: Job change (survival) 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : When his company exited a business line and hundreds were laid off, he switched to another group at the 
+same company and survived (2011 November end). It took a couple of years to regain his position. 
+Charts : Progressed D-10 (based on Vimsottari dasa from Moon of D-10). Refer to example 18 for natal D-10. 
+Saturn is the 7 th  lord in 2 nd  and a maraka in natal D-10. He can give breaks in career. Transit Saturn at 2Li35  had 
+a close conjunction with (and activated) progressed  D-10 Rahu (7 th  co-lord in natal D-10) at 2Li13 . This can 
+show a break in career. 
+Jupiter is the 5 th  lord of poorva punya and recognition in natal D-10 . He is an important planet for getting 
+recognition. Transit Jupiter at 8Ar44  had a close aspect on (and activated) progressed D-10 lagna at 8Li21 . That 
+safeguarded his career and he started a new job. 
+
+
+<<<PAGE_26>>>
+Example 22: Marriage 
+Birthdata : Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e27, 16n18) 
+Event : She got married on 1999 January 25. 
+Charts : Natal & progressed D-9 (based on Vimsottari dasa from Moon of D-9). 
+Saturn is the 7 th  lord in natal D-9. He is at 3Cp31  in progressed D-9. Transit Saturn at 4Ar44  had a close aspect 
+on his own progressed position and activated it. In  addition, transit Rahu at 29Cn32  (other 7 th  lord) activated 
+progressed Venus (significator and natal yogakaraka from 7 th  house, taking part in a raja yoga from 7 th  house) of 
+D-9 at at 27Cn11 .
+
+
+<<<PAGE_27>>>
+Yogini Dasa Progression 
+This  method can  be extended  to several  other  dasa s ystems  apart  from  Vimsottari  dasa, though  we used 
+Vimsottari dasa to illustrate the concepts. In fact , it may apply even better in Tribhagi variations o f Vimsottari 
+dasa and short dasas having 3 cycles naturally, e.g.  Yogini dasa. What is outlined in this writeup is the tip of the 
+iceberg and potentially the key to discovering a lot of interesting objective predictive techniques. 
+Let us illustrate a simple Yogini dasa principle as another application of the basic idea. 
+Confusion Due to An Imagined Problem 
+Some astrologers have considered Yogini dasa progre ssion in the past. They only progressed Moon and no t all 
+planets as done in this writeup. In addition, they were confused by the fact that Yogini dasa has 8 planets and 27 
+is not a multiple of 8. Some elaboration may clarify this. 
+When defining Yogini dasa, Parasara defined the first dasa based on Moon's nakshatra: 
+Aswini – Mars, Bharani – Mercury, Krittika – Saturn , Rohini – Venus, Mrigasira – Rahu, Ardra – Moon, 
+Punarvasu  –  Sun,  Pushya  –  Jupiter,  Aslesha  –  Mars,  Magha  –  Mercury,  ……,  Poorvabhadra  –  Mars, 
+Uttarabhadra – Mercury, Revati – Saturn. 
+Once the first dasa is identified based on Moon's n akshatra, dasas follow in the order of Moon, Sun, J upiter, 
+Mars, Mercury, Saturn, Venus, Rahu (and then repeat the same 8). 
+If one is born in Aswini, first dasa is of Mars. If one is born in Revati, first dasa is of Saturn and the second dasa 
+is of Venus. But Aswini, which comes after Revati, is associated with Mars and not Venus. This caused some 
+confusion. When you map 27 stars to 8 planets, obvi ously there will be a “discontinuity”, to use mathe matical 
+language. 
+Some astrologers saw this as a “problem”, because t hey expected each nakshatra to be linked to a uniqu e planet 
+like in Vimsottari dasa. They claimed to have “solv ed” the problem by mapping the last 3 naksahtras ba ck to the 
+first 3 nakshatras and sharing the same 3 planets. 
+This is an unintelligent solution to an imagined problem and alters Parasara's basic teaching. 
+Vimsottari dasa is one of the few dasa systems wher e the number of dasas (9) is a factor of 27. In man y other 
+dasa systems, we have 7 or 8 dasas. Each dasa syste m maps each nakshtra to a planet when it is the first dasa. 
+When a nakshatra corresponds to a 2 nd  or 3 rd  dasa, it may give dasa of a different planet. Why should there be a 
+unique planet for each star? 
+Correct Progression Method 
+The way to progress Moon based on Yogini dasa is si mple. Moon will be in the birth nakshatra in the fi rst dasa. 
+He will be in the 2 nd  naksahtra from it in the 2 nd  dasa (whichever planet it may belong to). And so on. This is the 
+only logical and cogent way to progress. Also, we p rogress other planets by rotating the whole zodiac so that 
+natal Moon moves to his proper progressed position.
+We will see some simple examples that use only rasi  chart.  If  transit  Jupiter aspects  a progressed  pla net 
+associated with the house corresponding to an event  in natal rasi chart, an auspicious event can occur . If transit 
+Saturn or Rahu aspect, an inauspicious event can occur. 
+
+<<<PAGE_28>>>
+Example 23: Marriage 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got married on 1993 August 1. 
+Charts : Natal & progressed rasi (based on Yogini dasa from Moon of rasi). 
+Moon is in Aquarius in Poorvabhadra at 29Aq44. Dasa calculations are shown below: 
+Mars:  1967-05-05  –  1971-05-05 
+Merc:  1971-05-05  –  1976-05-04 
+Sat:  1976-05-04  –  1982-05-04 
+Ven:  1982-05-04  –  1989-05-04 
+Rah:  1989-05-04  –  1997-05-04 
+The 5 th  dasa was running on 1993 August 1. This correspond s to the 5 th  star from Poorvabhadra, i.e.  Bharani. It 
+was close to the beginning of the 6 th  antardasa in Rahu dasa. Finding longitude based on  the progress in dasa, 
+progressed Moon is at 21º 56' 27" in Ar. The angle by which Moon progressed is 21º 56' 27" Ar – 29º 43 ' 37" 
+Aq = 52º 12' 50". We add this angle to the natal lo ngitudes of all planets and get the progressed char t (see 
+below). 
+At the time of marriage, Jupiter was transiting at 17Vi14 . In natal rasi chart, Sun is alone in the 7 th  house and 
+can  show marriage.  Progressed  Sun at the time of ma rriage  is at  14Ta14 . Transit Jupiter closely aspects 
+progressed Sun and activates him. This can result in marriage. 
+
+
+<<<PAGE_29>>>
+Example 24: Job loss 
+Let us revisit example 19 using Yogini dasa progression of rasi. Progressed rasi chart is shown below.
+In the natal chart, Moon and Rahu are in the 6 th  house of livelihood. Progressed Moon at 2Ge12  was conjoined 
+by transit Saturn at 3Ge18 . Progressed Rahu at 21Ta44  was conjoined by transit Rahu at 22Ta49 . As transit 
+Saturn and Rahu activate 2 planets in the 6 th  house in natal chart, matters shown by 6 th  house can be negatively 
+affected at that time. Job loss is one possibility.  Note that we are looking at just rasi chart here. Looking at 
+divisional charts may give more finer insights. 
+
+
+<<<PAGE_30>>>
+Example 25: Vehicular accident 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a vehicular accident on 1996 December 5, in which his car was totalled (he was fine). 
+Charts : Progressed rasi chart (based on Yogini dasa from Moon of rasi). 
+Transit Saturn at 7Pi56  had a close aspect on (and activated) Jupiter's pr ogressed position at 7Sg28 . In natal 
+chart, Jupiter is the lord of the 4 th  house of vehicles, which is empty. Transit aspects  of Saturn and Rahu on 
+progressed Jupiter can cause issues related to vehicles. 
+Again note that we are looking at just rasi chart h ere. Looking at divisional charts may give more spe cific 
+insights. 
+For example, one can find Yogini dasa from Moon of D-16 (chart showing vehicles) and use that progression. If 
+one does that, one wil find that progressed Jupiter at 10Sg28  and progressed Saturn at 5Pi55  (6 th  and 8 th  lords of 
+natal D-16) were closely aspected/conjoined by transit Saturn at 7Pi56 . That can be a clearer indication of a 
+vehicular accident than what we saw above in rasi chart. Aspect of transit Saturn on progressed 4 th  lord of natal 
+rasi chart can show many negative possibilities. 
+Thousands of factors come together to bring events. Multiple techniques of Jyotish attempt to capture some of 
+them, so that an astrologer can be more confident of one's conclusions. 
+
+
+<<<PAGE_31>>>
+Conclusion 
+Two methods were explained to progress all longitudes in a natal divisional chart, one based on Vimsot tari dasa 
+of rasi chart  and the other based  on Vimsottari  das a of divisional chart.  Using both methods,  interest ing 
+correlations between progressed positions and transit positions trigger events. 
+This method can be extended to several other dasa s ystems apart from Vimsottari dasa. It was briefly i llustrated 
+with Yogini dasa too. What is outlined in this writ eup is the tip of the iceberg and potentially the k ey to 
+discovering a lot of interesting objective predicti ve techniques. Ashtakavarga analysis of progressed and transit 
+positions may also be interesting. 
+It is hoped that intelligent and sincere students a nd researchers of this divine subject will take thi s knowledge 
+further and contribute to a renaissance in Jyotish and other knowledge related to rishis. 
+::Om Shaantih Shaantih Shaantih:: 

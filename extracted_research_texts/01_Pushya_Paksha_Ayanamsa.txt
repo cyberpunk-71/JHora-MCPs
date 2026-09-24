@@ -1,0 +1,218 @@
+<<<PAGE_1>>>
+Om Gam Ganapataye Namah Om Rishibhyo Namah Om Sree Gu rubhyo Namah 
+Introducing Pushya-paksha Ayanamsa 
+P.V.R. Narasimha Rao 
+December 31, 2013 (version 1) 
+Warning : All copyrights are reserved with author. This article cannot be reproduced in any form in part or in 
+full, without express permission from the author. 
+Introduction 
+The issue of ayanamsa has vexed astrologers followi ng the sidereal system for a long time. There are m any 
+popular ayanamsas and yet there is no conclusive  proof, or evidence otherwise, for any of them. 
+An ayanamsa deduced based on Surya Siddhanta and so me philosophical rationalization enabled the author  to 
+discover  some  objective  astrological  principles.  It  will  be shared  with  in terested  scholars  and  students  of 
+astrology in this write-up. 
+Several other write-ups illustrating astrological p rinciples that work nicely with this ayanamsa will be shared at 
+http://www.VedicAstrologer.org/articles  in coming weeks, months and years. 
+Tropical vs Sidereal Zodiacs 
+Sun's transit through tropical zodiac brings season s and is associated with observable phenomena. For example, 
+entry of Sun into tropical Aries is always aligned with spring equinox (when daytime and night time ar e of 
+equal duration) and Sun's entry to tropical Cancer is always  aligned with summer solstice (when daytim e 
+duration reaches a maximum). Tropical zodiac is tie d to seasons and can be reliably fixed based on obs ervable 
+phenomena. Thus, some cultures started using it in astrology. 
+However, zodiacal signs are supposed to be aligned to nakshatras, which correspond to constellations of stars in 
+the sky. For example, the sign of Aries should cont ain Aswini nakshatra, Bharani nakshatra and a part of 
+Krittika nakshatra.  If  we use the tropical  zodiac, signs  will slowly shift with time and point  to diff erent 
+nakshatras in different eras. This is totally inconsistent with the teachings of rishis. 
+Unfortunately, we have no observable phenomena base d on which we can conclude that so and so point in the 
+zodiac is the start of sidereal Aries. All we know is that sidereal Aries should contain certain const ellations, 
+sidereal Taurus should contain certain constellatio ns and so on. So we know approximately where in the  sky 
+sidereal Aries falls. But the precise point where Aries starts is not known! 
+Ayanamsa 
+Ayanamsa is the angle between the start of Aries in  tropical zodiac and the start of Aries in sidereal  zodiac. 
+Different  parts  of  India  got  used  to  different  ayan amsas  over  centuries,  differing  by  upto  5-6  degrees ! 
+Standardization of Lahiri ayanamsa by Lahiri commission formed by Indian government led to some uniformity 
+over the last few decades, but still Vedic astrologers use many ayanamsas differing by a few degrees. 
+Yogataras & Anchor Star 
+
+<<<PAGE_2>>>
+In each constellation (nakshatra), Surya Siddhanta identified one specific star  as the “yogatara” and  gave its 
+exact sidereal longitude and latitude (latitude is the angle from the zodiacal plane or the plane of ecliptic, i.e.  the 
+plane in which earth rotates around Sun). As stars themselves are not completely fixed, these longitud es and 
+latitudes of stars do change with time. So we canno t take the longitudes and latitudes given by Surya Siddhanta 
+as absolute. 
+However, if one particular star is the anchor for the zodiac and remains fixed, then the co-ordin ates given for 
+that  star by Surya Siddhanta must be valid always . Longitudes and latitudes of other stars may chang e slightly, 
+but that star will remain fixed. 
+Chitrapaksha Ayanamsa 
+Chitrapaksha ayanamsa, popularly known as Lahiri  ay anamsa,  takes Chitra nakshatra as the anchor of the  
+zodiac. As per Surya Siddhanta, the yogatara of Chi tra nakshatra is the brightest star in the constell ation and its 
+longitude is 180 ° from the start of Aries and its latitude is 2° sout h of the ecliptic plane. Spica (Alpha Virgonis) 
+is the brightest star in the constellation correspo nding to Chitra nakshatra. Thus Chitrapaksha ayanam sa fixes 
+the start of Aries such that Spica is always at 0Li0. 
+Traditional Lahiri ayanamsa is based on an approxim ate linear formula, but modern software programs (s uch as 
+“Jagannatha Hora”, freely downloadable from http://www.VedicAstrologer.org ) compute the tropical position 
+of Spica accurately at any given time and fix the s tart of sidereal Aries exactly 180° behind it, so t hat the 
+sidereal longitude of Spica is always exactly 0Li0.
+Drawbacks of Chitrapaksha Ayanamsa 
+As per Surya Siddhanta, latitude of the yogatara of  Chitra nakshatra is 2° south of the ecliptic plane . However, 
+Spica is 1° south of the ecliptic plane right now. So it does not anyway satisfy the specifications of  Surya 
+Siddhanta. 
+Secondly, some other respected siddhantas give diff erent longtidue for the yogatara of Chitra nakshatr a. For 
+example,  Pitamaha  Siddhanta,  Brahmagupta  Siddhata,  Siddhanta  Sekhara,  Siddhanta  Siromani  and  Graha 
+Laghava mention it at 3Li0 and Maha Siddhanta at 2Li50. 
+Different siddhantas may approximate planetary moti on differently and their calculations may differ; b ut, the 
+zodiac should be the same. Unless a siddhanta is gr ossly incorrect or too approximate, it should atlea st get the 
+longitude of the anchor star of the zodiac correct (longitudes of other stars are variable and may hav e different 
+values depending on the era when a siddhanta was written). 
+Thirdly, there is no philosophical or esoteric just ification for why Chitra nakshatra, whose deity is Tvashta, 
+should be the anchor of the zodiac. Possibly, Lahiri commission searched for a bright star near the st art of Aries 
+and went for the start of Libra  when they found none near the start of Aries. 
+One more point is worth noting. Though people speak  of “fixing” Spica at 0Li0, we actually can not  fix Spica 
+there, for it does not even lie on the ecliptic pla ne or the zodiacal plane! We can merely fix the projection of 
+Spica onto the zodiacal plane, at 0Li0! 
+A star that lies right on the zodiacal plane is a better candidate for being the “anchor” of the 
+zodiac, than a star that needs to be projected onto  the plane. After all, you want a ship's anchor 
+to be on the ship itself and don't take an object in a helicopter overhead and use its projection on 
+the ship as the ship's anchor! ☺
+
+<<<PAGE_3>>>
+Other Attempts 
+There have been attempts by some scholars in recent  years to take some other nakshatras as the anchor of the 
+zodiac. 
+For example, some speculated that Moola nakshatra i s the Mooladhara chakra of Kala Purusha and fixed t he 
+yogatara of Moola at 0Sg0. There are 3 problems with this: 
+(1) The longitude of the yogatara of Moola is not 0Sg0 as per Surya Siddhanta. It is 1Sg0. 
+(2) As per Surya Siddhanta, latitude of the yogatara  of Moola is 9° south of the ecliptic plane. Howeve r, 
+Shaula (Lambda Scorpii) taken by them as the yogata ra of Moola nakshatra is 12° south of the ecliptic 
+plane. 
+(3) Sc is the guhya of Kala Purusha and Sg is his th ighs, as per Pararsara. Thus, 0Sg0 is the groin are a 
+where thighs start. That is not the location of Mooladhara chakra. 
+(4) Again, Shaula is also not on the zodiacal plane.  It is 12° south of it. It is not ideal to consider  an anchor 
+that is not even on the plane. 
+This author attempted to use the yogataras of sever al nakshatras,  e.g.  Jyeshtha nakshatra owned by Indra, 
+Rohini nakshatra owned by Parajapati  etc . However, these experiments did not give rise to a ny consistent 
+objective principles. Moreover, none of them had anchor stars right on the zodiacal plane. 
+Cancer and Pushya 
+Philosophically speaking, the anchor to one's exist ence is not in one's Mooladhara chakra at the base of the 
+spine; it is not in one's Ajna chakra in the forehe ad; and, it is not even in one's Sahasrara chakra a t the top of 
+head. As per scriptures, the anchor to one's existe nce is in the spark of divinity that lies within th e cave of one's 
+heart !
+The zodiacal sign of Cancer is the heart of Kala Pu rusha according to Parasara. So the anchor of the z odiac 
+must be associated with Cancer, which contains the stars of Pushya, Aslesha and a quarter of Punarvasu. 
+Cancer is also known as the sign of Creation. Lord Krishna taught in Srimad Bhagavatam that the next S atya 
+yuga will commence when Sun, Moon and Jupiter precisely conjoin with Pushya nakshatra  (presumably with 
+the yogatara of Pushya nakshatra). Thus, there is s omething special about Pushya, which makes it the anchor 
+for yuga cycle  itself! 
+As per Surya Siddhanta, the yogatara of Pushya is s upposed to be at a latitude of 0°, i.e.  right on the zodiacal 
+plane . That makes it a good candidate for being the anch or. Though there are a few stars close to  the zodiacal 
+plane, there are very few stars right on it! One of them is the yogatara of Pushya. 
+If one considers  Surya Siddhanta, Brahma Siddhanta, Soma Siddhanta, Vriddha Vasishtha Siddhanta, 
+Pitamaha  Siddhanta,  Maha  Siddhanta,  Brahmagupta  Sid dhanta,  Siddhanta  Sekhara,  Siddhanta 
+Siromani  and  Graha  Laghava,  they  give  different  values  for  the  lontidues  of  the  yogataras  of  several 
+nakshatras. For example, Pitamaha Siddhanta, Brahma gupta Siddhata, Siddhanta Sekhara, Siddhanta Siroma ni 
+and Graha Laghava give the yogatara of Chitra naksh atra at 3Li0 and Maha Siddhanta at 2Li50, while oth ers 
+give it at 0Li0 (which is what Lahiri ayanamsa uses). 
+But all of the above siddhantas agree on 16Cn0 as the longitude of the yogatara of Pushya nakshatra! 
+
+<<<PAGE_4>>>
+Different siddhantas may approximate planetary moti on differently and their calculations may differ; b ut, the 
+zodiac should be the same. Unless a siddhanta is gr ossly incorrect or too approximate, it should atlea st get the 
+longitude of the anchor star of the zodiac correct. Though the above siddhantas give different values for the 
+longitude of the yogatara of Chitra and other naksh atras, they all agree on the longitude of the yogat ara of 
+Pushya nakshatra! 
+The deity of Pushya is Brihaspati (Jupiter), who is  the greatest giver of stability. Pushya can fix/st abilize the 
+zodiacal plane in the skies,  just as Brihaspati st abilizes the throne of Indra in heavens and prevent s it from 
+shaking. Just as Jupiter (standing for dheeshakti i.e.  1 st  house) stabilizes Indra's throne (10 th  house), Pushya in 
+Cancer stabilizes the starting point of Aries in the 10 th  house from it. 1
+Pushya means “the best or topmost one”. In ancient Zoroastrian scripture “Avesta”, Tishtrya (which sou nds like 
+Tishya, the Vedic name of Pushya) is the chief star  in the heavens. In addition, when 27 Sun-Moon yoga s are 
+defined in panchanga, Pushya is used as the seed star. 
+Considering all these factors, it makes great logic al and philosophical sense to take Pushya ( i.e.  its yogatara) as 
+the anchor of the zodiac, rather than Chitra nakshatra. 
+Pushya-paksha Ayanamsa 
+As per Surya Siddhanta, yogatara of Pushya is the star at the centre of the constellation and it is at a longitude of 
+16Cn0 and a latitude of 0°.
+In Cancer constellation, Delta Cancri (Asellus Aust ralis) is at the centre and it is indeed right on t he ecliptic 
+plane, i.e.  at a latitude of 0°! 
+So we define Pushya-paksha ayanamsa by fixing the sidereal longitude of Delta Cancri at 16Cn0. It is derived at 
+any date/time as follows: 
+(1) Take the tropical longitude of Delta Cancri star at the desired date/time. 
+(2) Subtract 106° (16Cn0) from it. 
+(3) The result is the ayanamsa of the date/time. If we subtract this value from the tropical longitudes  of 
+planets (or other bodies/points), we will get their sidereal longitudes at that date/time. 
+Reference Values 
+For reference, here are its values on some dates: 
+500 January 1 (6 am IST): 1° 49´ 9.20´´ (using extra polated Julian calendar) 
+1700 January 1 (6 am IST): 18° 31´ 49.71´´ 
+1800 January 1 (6 am IST): 19° 55´ 37.30´´ 
+1900 January 1 (6 am IST): 21° 19´ 27.11´´ 
+2000 January 1 (6 am IST): 22° 43´ 19.12´´ 
+2014 January 1 (6 am IST): 22° 55´ 3.87´´ 
+2100 January 1 (6 am IST): 24° 7´ 13.48´´ 
+2200 January 1 (6 am IST): 25° 31´ 9.91´´ 
+2300 January 1 (6 am IST): 26° 55´ 8.55´´ 
+3000 January 1 (6 am IST): 36° 44´ 0.98´´ 
+1I would like to thank Pt Sanjay Rath for suggesting this philosophical justifcation. 
+
+<<<PAGE_5>>>
+“Jagannatha  Hora”  software  available  for  a  free  dow nload  at  http://www.VedicAstrologer.org/jh  supports 
+Pushya-paksha ayanamsa in versions 7.65 and higher.  It finds ayanamsa at any given time by finding the  exact 
+tropical longitude of Delta Cancri star and does not approximate with any linear formula. 
+Subjective Objection 
+Some astrologers may object saying that so many ast rologers use Lahiri ayanamsa and they cannot be wro ng. 
+Three points should be noted: 
+(1) Not  everyone  uses  Lahiri  ayanamsa.  Many  follower s  of  Krishnamoorthy  Paddhati  (KP)  use 
+Krishnamoorthy ayanamsa. Some use Raman ayanamsa. S ome use a linear ayanamsa based on Surya 
+Siddhanta (which is close to Raman ayanamsa). There  are several popular ayanamsas other than Lahiri 
+ayanamsa.  Followers  of  various  ayanamsas  make  good  predictions  and  are  “convinced”  that  their 
+ayanamsa is correct. 
+(2) Most astrologers use the rasi chart mainly, whic h is less sensitive to ayanamsa. Even those who sta rted 
+using divisional charts in the last few decades mer ely pay a lip service to divisional charts and rely on 
+rasi chart for most practical purposes. 
+They see things in rasi chart and then “confirm” th em from divisional charts, which they say can not 
+“over-rule” the rasi chart. That may be called “lip  service”. Their lack of confidence in divisional charts 
+could be because their calculations are not reliable enough for divisional charts! 
+(3) Ayanamsa  becomes  relevant  if  one  relies  on  divis ional  charts.  However,  several  divisional  chart 
+definitions used by astrologers today are suspicious and based on an incorrect interpretation of Parasara. 
+For example, see the write-up “Correct Siddhamsa Ch art of Parasara” on the definition of the D-24 char t 
+used for education, at http://www.vedicastrologer.org/articles . Today's astrologers map 24 parts of odd 
+signs to Le → Cn and 24 parts of even signs to Cn → Ge. This is structurally absurd. For even signs, it  
+should  go  anti-zodiacally,  i.e.  Cn → Le  instead  of  Cn → Ge .  Parasara  is  clear,  but  translators 
+misinterpreted him and made silly errors. 
+With such gross errors in definitions and with a wr ong ayanamsa, no wonder even people who want to 
+rely on divisional charts end up paying mere lip se rvice to them! Bottomline is that several reforms a re 
+needed in Vedic astrology and they are inter-dependent. 
+In light of the current state of affairs w.r.t. tec hniques requiring precision of computations, the ar gument 
+“I am so successful that my ayanamsa must be correc t” holds no water. Bottomline is that many people 
+using contradictory calculations are successful usi ng techniques relying more on intuition and less on  
+precise calculations! But that does not  settle the issue of ayanamsa. 
+By the way, Pushya-paksha ayanamsa is very close to  the linear Surya Siddhanta ayanamsa used by 
+many traditional astrologers and also to Raman ayanamsa.  In terms of predictive success, Dr BV Raman 
+is perhaps the most successful among the famous ast rologers of the last century or two. So predictive 
+success of any astrologers using Lahiri ayanamsa cannot be held against Pushya-paksha ayanamsa. 
+Does Pushya-paksha Ayanamsa Work 
+Write-ups illustrating astroloogical principles fou nd to work well with Pushya-paksha ayanamsa will be  shared 
+at http://www.VedicAstrologer.org/articles  in coming weeks, months and years. For starters, o ne may consider 
+reading a write-up titled “ Two Novel Transit Principles: Based on Longitude Correlations ”. 
+This author's primary interest is in objective tech niques and techniques requiring precision of calcul ations. 
+Thus, most of his findings and sharings will be in that area. 
+
+<<<PAGE_6>>>
+It is hoped that astrology students and researchers  will use this ayanamsa to conduct researches and d iscover 
+missing links in our understanding of predictive astrological principles that require precise calculations. 
+A few things to keep in mind are: 
+(1) If one uses mainly rasi chart, ayanamsa does not  matter that much. Though it can change chara karak as, 
+people do not have precise methods of using them an yway. Though it can change the nakshatra dasa 
+dates, those dates are quite sensitive to birthtime and unreliable anyway. 
+(2) Divisional charts, especially the higher ones, c an be sensitive to ayanamsa changes. But definition s of 
+several divisional charts are suspect. One needs to  use the correct definitions. This author's views o n the 
+definitions of various divisional charts will be shared in other write-ups. 
+(3) Though rishis taught several dasa systems, peopl e always use 1 or 2 dasas. One probably needs to us e 
+the  correct  dasa,  correct  divisional  chart  and  corr ect  ayanamsa,  in  order  to  see  some  excellent 
+correlations. Perhaps even a single missing link can muddy the results! 
+(4) Thumb rules people develop in practice may not b e reliable. Learning the correct knowledge may 
+sometimes require un-learning wrong knowledge. One needs to be open-minded and intellectually sharp 
+and alert. 
+Please feel free to experiment with this ayanamsa a nd with principles described in other write-ups her e and also 
+to share the website link with your friends and colleagues interested in Vedic astrology. 
+::Om Shaantih Shaantih Shaantih:: 

@@ -1,0 +1,765 @@
+<<<PAGE_1>>>
+Om Gam Ganapataye Namah Om Rishibhyo Namah Om Sree Gu rubhyo Namah 
+Two Novel Transit Principles: 
+Based on Objective Longitude Correlations 
+P.V.R. Narasimha Rao 
+December 31, 2013 (version 1) 
+Warning : All copyrights are reserved with author. This article cannot be reproduced in any form in part or in 
+full, without express permission from the author. 
+Introduction 
+As planets transit through the zodiac, they interact  with planetary positions in one's natal  chart. Some of those 
+interactions  trigger important events in life. Two principles di scovered by this author, related to  objective 
+correlations  between  natal  and  transit  longitudes  of  planets,  will  be  decribed  in  this  write-up  with  some 
+illustrative examples. 
+The basic idea is this: If you compare the natal lo ngitudes and transit longitudes at the time of majo r life events, 
+there  may not  be  any  interesting  objective correlat ions.  But,  if you  compare  natal  longitudes  and  tran sit 
+longitudes at some  anchor moments  near  major life events, there are significant correlatio ns. This write-up 
+defines two classes of “anchor moments” in the form  of 2 transit principles. There may be more classes  of such 
+“anchor moments” deserving research. A possible exa mple is eclipses. 
+Pushya-paksha Ayanamsa 
+A new ayanamsa called “Pushya-paksha ayanamsa” enab led the discovery shared in this article. Please re ad the 
+write-up  titled  “Introducing  Pushya-paksha  Ayanamsa ”  at  http://www.VedicAstrologer.org/articles  before 
+reading this write-up. It will explain the definition as well as the rationale behind Pushya-paksha ayanamsa. 
+Replicating Calculations 
+You can download “Jagannatha Hora” software from  http://www.VedicAstrologer.org/jh  and select Pushya- 
+paksha ayanamsa. In addition, you will need to set some divisional chart calculation options to follow  this 
+write-up. Some divisional charts are computed incorrectly by people now-a-days. 
+For example, when computing siddhamsa (D-24) chart used for seeing education, today's astrologers map 24 
+parts of odd signs to Le → Cn and 24 parts of even signs to Cn → Ge. This is structurally absurd. For even signs, 
+it  should  go  anti-zodiacally,  i.e.  Cn → Le ,  instead  of  Cn → Ge .  Parasara  is  absolutely  clear,  but  people 
+misinterpreted him. This author identified such err ors in various divisional charts and corrected them  after 
+experimentation. 
+In  the main menu of “Jagannatha  Hora”  software (ver sion  7.65 or higher),  you  can  select  “Preferences”,  
+“Related to Calculations” and “Set Calculation Opti ons as recommended by author”, to set divisional ch art 
+calculations as used in this write-up. 
+Calculation of Divisional Longitudes 
+
+<<<PAGE_2>>>
+Basic Concept 
+While rasi chart is the physical chart, divisional charts are abstract. A planet that is physically at a longitude in a 
+particular sign may be placed in another sign in a divisional chart. 
+Jupiter's navamsa may be an abstract concept and no t something we can see in the skies, but the sign o ccupied 
+by it (Leo) is not an abstract concept and it is th e same Leo of the physical zodiac. Even if Jupiter' s navamsa is 
+an abstract entity and cannot be seen physically, i t must have a specific location in Leo. We call the  longitudes 
+occupied by the divisions of planets as the divisional longitudes. 
+If one downloads the free software program “Jaganna tha Hora”  (go to http://www.VedicAstrologer.org/jh ), one 
+need not calculate anything manually. So one can sk ip the next 2 sections on calculations.  They are 
+included merely for the sake of completeness. 
+Calculation 
+Let us say Jupiter is at 8Aq05. Let us find the div isional longitude of Jupiter’s navamsa. Each sign i s divided 
+into 9 navamsas. Each navamsa lasts 30º/9 = 3º 20 ′. The 3 rd  navamsa of a sign starts at 6º 40 ′ in the sign and 
+goes till 10º. Jupiter is at 8º 5 ′ in Aq. That falls in the 3 rd  navamsa of Aq. As Aq is a fixed sign, navamsas in Aq 
+start from the 9 th  from Aq (Li) and go as Li, Sc, Sg, …, Ta, Ge. The 3 rd  navamsa falls in Sg. So Jupiter’s 
+navamsa is in Sg (we also say that Jupiter is in Sg  in “navamsa chart”). As an arc of 3º 20 ′ in a sign in the 
+physical plane (rasi chart or D-1) is mapped to 30º  in the abstract space of navamsa, each degree in t he physical 
+zodiac is mapped to 9º in the abstract space of nav amsa. The advancement of Jupiter in the 3 rd  navamsa of Aq 
+(8º 5 ′ – 6º 40 ′ = 1º 25 ′) is mapped in navamsa to 9 x 1º 25 ′ = 13º 45 ′. So D-9 divisional longitude of Jupiter is 
+13Sg45. 
+Reverse Reckoning 
+In some divisional charts, we reckon signs in anti- zodiacal order. For example, consider siddhamsa (D- 24). The 
+24 parts of odd signs are mapped in zodiacal order to Le, Vi, Li, … Ge, Cn;  Le, Vi, Li, …, Ge, Cn. Th e 24 
+parts of even signs are mapped in anti-zodiacal  order to Cn, Ge, Ta, … Vi, Le; Cn, Ge, Ta, … Vi, L e. 
+In such cases, divisional longitudes are reckoned from the end of the sign. 
+For example, 0Ar0 → 1Ar15 in D-1 is mapped to 0Le0 → 30Le0 in D-24, 1Ar15 → 2Ar30 in D-1 is mapped to 
+0Vi0 → 30Vi0 in D-24, and so on. 
+Now let us take an even sign. The 24 parts of Ta ar e mapped in anti-zodiacal order to Cn, Ge, Ta etc . Mapping 
+0Ta0 → 1Ta15 in D-1 to 0Cn0 → 30Cn0 in D-24, 1Ta15 → 2Ta30 in D-1 to 0Ge0 → 30Ge0 in D-24, is absurd. 
+Instead,  we  should   map  0Ta0 → 1Ta15  in  D-1  to  30Cn0 → 0Cn0  in  D-24,  1Ta15 → 2Ta30  in  D-1  to 
+30Ge0 → 0Ge0 in D-24, and so on. 
+Suppose Jupiter is at 8° in Ta. This is in the 7 th  siddhamsa (7º 30 ′ to 8º 45 ′). Its advancement in the division is 8º 
+ /uni0336 7º 30 ′ = 30 ′. Multiplying with 24, we get 24 x  30 ′ = 12º. The 7 th  siddhamsa of Ta (an even sign) goes into the 
+7th  sign counted anti-zodiacally from Cn, i.e.  Cp. Counting 12º in reverse from the end of Cp, we get 18º in Cp. 
+So siddhamsa of Jupiter is at 18Cp0. We also say that Jupiter is at 18Cp0 in siddhamsa chart (D-24). 
+Principle 1: Stationary Transit 
+
+<<<PAGE_3>>>
+When a planet is just about to become retrograde or  just about to become direct, it will reach zero sp eed 
+momentarily during the transition. Such a planet is  called a stationary planet. Stationary planets are  akin to a 
+calm and relaxed person who can observe his surroundings well and cause changes in them. 
+The principle is very simple. Take the divisional longitude of a stationary planet in a divisional chart of int erest. 
+See if it conjoins or aspects any sensitive natal divisional longitudes within 3°. If it does, it can trigger events 
+related to the significations of that sensitive nat al point, consistent with the agenda of the aspecti ng (stationary) 
+planet in the natal divisional chart. The event can occur within a coup le of months from the stationary transit 
+(before/after). 
+Particular attention may be paid to the stationary transits of Jupiter and Saturn. Though they become stationary 
+once  or  twice  every  year,  their  divisional  longitudes  need  not  be  close  to  any  sensitive  natal  divisio nal 
+longitudes every time they become stationary. 
+In this research, we will use partial aspects ( e.g.  3/4 th  aspect on 4 th  and 8 th  houses) described by Parasara. 
+Examples will clarify this simple principle. 
+Examples of Principle 1 
+Example 1: Experience of Self (Ramana Maharshi) 
+Birthdata : 1879 December 30, 1:02 am (IST), Pondicherry, India (78e15, 9n50) 
+Event : He held spontaneous self-enquiry and experienced Self on 1896 July 17. 
+Saturn was stationary on 1896 July 15 at 21Li09. Th is corresponds to  3Ge01  in D-20, the chart of spiritual 
+sadhana and evolution. In natal D-20, Saturn was at  3Le57 . Saturn was the 12 th  lord aspecting the 12 th  house, 
+from atmakaraka (AK) Moon in natal D-20. 
+The 12 th  house from AK is the key for liberation, as per Pa rasara. Planets associated with it can take the nat ive 
+towards liberation. An experience of Self is certainly a step in that direction. 
+Transit Saturn's close aspect on a natal planet sig nifying liberation during stationary transit trigge red positive 
+karmik forces that gave an experience of Self. 
+Example 2: Spiritual Experience 
+Birthdata : 1970 April 4, 5:50:40 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a life-altering spiritual experience on 2005 June 10 during meditation. 
+Jupiter was stationary on 2005 June 5 at 16Vi08. Th is corresponds to 22Ge42  in D-20, the chart of spiritual 
+sadhana and evolution. In natal D-20, lagna lord Me rcury in lagna is a key planet for spiritual progre ss. He is at 
+25Ge20 . More importantly, Mercury is also the 12 th  lord occupying the 12 th  house, from atmakaraka (AK) 
+Moon in natal D-20. He can take the native towards liberation. 
+Jupiter is the dispositor of nodes in natal D-20 an d can give mystical experiences. His conjunction wi th a planet 
+signifying  liberation,  during  stationary  transit,  t riggered  positive  karmik  forces  that  gave  the  spiri tual 
+experience. 
+Example 3: Childbirth 
+
+<<<PAGE_4>>>
+Birthdata : 1975 July 13, 4:04:10 pm (IST), Eluru, India (81e06, 16n42) 
+Event : She had a child on 2004 May 5. 
+Jupiter was stationary on 2004 May 4 at 16Le08. Thi s corresponds to 22Sc57  in D-7, the chart of progeny. In 
+natal D-7, Mars is the 5 h lord of children and he is at  23Cn46 . Jupiter is the lagna lord in the 5 th  house of 
+children in natal D-7. His close aspect on natal 5 th  lord during stationary transit triggered positive karmik forces 
+that could soon result in childbirth. 
+Example 4: Childbirth 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1998 August 21. 
+Saturn was stationary on 1998 August 15 at 10Ar56. This corresponds to 16Ge30  in D-7, the chart of progeny. 
+In natal D-7, Jupiter (significator of children) is the lagna lord in lagna. He is at 16Sg18 . Saturn is the 2 nd  lord of 
+family aspecting the 2 nd  and 5 th  houses in natal D-7. His close aspect on natal Jup iter during stationary transit 
+triggered positive karmik forces that could soon result in childbirth. 
+Example 5: Childbirth 
+Birthdata : 1971 March 31, 4:56 am (IST), Amaravati, India (80e22, 16n35) 
+Event : She had a child on 2000 January 12. 
+Jupiter was stationary on 1999 December 20 at 2Ar18 . This corresponds  to  16Ar03  in D-7, the chart  of 
+progeny. In natal D-7, Moon is the lagna lord at 18Le32 . Jupiter is the significator of children and the 9 th  lord of 
+fortune in natal D-7. His close aspect on natal lag na lord during stationary transit triggered positiv e karmik 
+forces that could soon result in childbirth. 
+Example 6: Marriage 
+Birthdata : 1962 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He got married on 1992 October 3. 
+Saturn  was  stationary  on 1992  October  15  at 19Cp12.  This  corresponds  to  22Ge45  in D-9,  the chart  of 
+marriage. In natal D-9, lagna is at  23Le41 . Saturn is the 7 th  lord in natal D-9. His aspect on lagna during 
+stationary transit triggered positive karmik forces that could soon result in his wedding. 
+Example 7: Marriage 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got got married on 1993 August 1. 
+Saturn was stationary on 1993 June 10 at 7Aq42. Thi s corresponds to 9Sg14  in D-9, the chart of marriage. In 
+natal D-9, 7 th  lord Mars is at 10Sg19 . Saturn is yogakaraka in natal D-9. His conjunctio n with the natal 7 th  lord 
+during stationary transit triggered positive karmik forces that could soon result in his wedding. 
+Example 8: Marriage 
+Birthdata : 1971 September 12, 8:25 am (IST), Guntur, India (80e27, 16n18) 
+Event : She got got married on 1993 August 1. 
+
+<<<PAGE_5>>>
+Saturn was stationary on 1993 June 10 at 7Aq42. Thi s corresponds to 9Sg14  in D-9, the chart of marriage. In 
+natal D-9, arudha pada of the 7 th  house (A7) is at 10Vi21 . Transit Saturn at the time of stationary transit had 
+aspect on A7 of natal D-9. Saturn is yogakaraka in natal D-9. His conjunction with the arudha pada of 7 th  house 
+during stationary transit triggered positive karmik forces that could soon result in his wedding. 
+Example 9: Going Abroad 
+Birthdata : 1976 April 25, 2:32 am (IST), Vijayawada, India (80e37, 16n31) 
+Event : He left his motherland India around 1997 August 5. 
+Saturn was stationary on 1997 August 1 at 27Pi40. This corresponds to 20Sg41  in D-4, the chart of residence. In 
+natal D-4, lagna lord Venus is at 21Sg46 . Saturn is the 9 th  lord aspecting 9 th , in natal D-4. He can show going 
+abroad. His conjunction with natal lagna lord durin g stationary transit triggered karmik forces that c ould soon 
+take him abroad. 
+Example 10: Going Abroad 
+Birthdata : 1972 May 14, 8:13:30 am (IST), Idar, India (73e00, 23n50) 
+Event : He left his motherland India on 2002 February 17.
+Saturn was stationary on 2002 February 7 at 15Ta17.  This corresponds to 1Sc08  in D-4, the chart of residence. 
+In natal D-4, 9th lord Saturn is at 1Sc36  and aspects 12 th . He can show going abroad. His conjunction with hi s 
+own natal position during stationary transit triggered karmik forces that could soon take him abroad. 
+Example 11: Major Vehicular Accident 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a major vehicular accident on 1996 December 5. He was fine, but car was totalled. 
+Saturn was stationary on 1996 December 3 at 7Pi56. This corresponds to 23Sc07  in D-16, the chart of vehicles. 
+In natal D-16, lagna lord Moon is at 25Sc31 . Saturn is 7 th  and 8 th  lord in natal D-16 and hence a maraka (killer). 
+His conjunction with the natal lagna lord during st ationary transit triggered negative karmik forces t hat brought 
+a disaster in this area of life. After all, maraka's conjunction with lagna lord lord is not desirable. 
+Example 12: Minor Vehicular Accident 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had  a minor vehicular accident  on 2013 Februar y  11.  He narrowly  missed  a serious multi-car 
+highway accident and landed up on the roadside with out hitting any car, but with some damage to car fr om the 
+snow pile (from a 3 feet snow blizzard a couple of days before). 
+Jupiter was stationary on 2013 January 30 at 13Ta25 . This corresponds  to  25Ar19  in D-16, the chart  of 
+vehicles. In natal D-16, 4 th  lord Venus is at 24Le52 . In natal D-16, Jupiter is the 6 th  lord of accidents, but also 
+the 9 th  lord of protection. His aspect on the natal 4 th  lord during stationary transit triggered karmik fo rces that 
+gave  a  minor vehicular  accident.  Association  of 6 th  lord  with  4 th  lord  can  give  a  vehicular  accident,  but 
+association of 9 th  lord with 4 th  lord can protect. 
+Example 13: Job Promotion 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got a job promotion at the end of September 2008. 
+
+<<<PAGE_6>>>
+Jupiter was stationary on 2008 September 7 at 19Sg41. This corresponds to 16Ge52  in D-10, the chart of career. 
+In natal D-10, lagna lord Sun is in the 5 th  house of recognition at 19Sg52 . Jupiter is the 5 th  lord in natal D-10. 
+His  aspect  on  Sun  during  stationary  transit  trigger ed  positive  karmik  forces  that  could  result  in  his  job 
+promotion. 
+Example 14: Sudden Limelight (Swami Vivekananda) 
+Birthdata : 1863 January 12, 6:32:50 pm (LMT, 5:54 east of GMT), Calcutta, India (88e30, 22n40) 
+Event : He came to limelight with a famous speech at the parliament of religions in the afternoon of 1893 
+September 11. 
+Jupiter was stationary on 1893 September 19 at 10Ta13. This corresponds to 17Ge46  in D-10, the chart of work 
+and accomplishments. In natal D-10, yogakaraka Mars  is at 14Ge38  aspecting the 5 th  house. Jupiter is the 5 th 
+lord of fame and the 8 th  lord of suddenness, in natal D-10. His close conjunction with natal yogakaraka triggered 
+positive karmik forces that gave him fame and fortune in his work. 
+Principle 2: Mutual Trine/7 th  Transit 
+Mutual trine and samasaptaka (7 th ) placement between two bodies is very effective fo r the fructification of the 
+synergy between those bodies. When two bodies are e xactly apart by 0°, 120°, 180° or 240°, they are an alogous 
+to two people who are collaborating closely and eff ectively. A synergy is established between them and  it may 
+amplify their common agenda in various natal divisi onal charts. Just as a meeting between Prime Minist ers of 
+two countries at a United Nations conference can tr igger an important collaboration in coming months, such 
+transits can trigger important life events in a month or two. 
+The principle is simple. When two planets are perfectly in mutual trines or samasaptaka during transit, take their 
+divisional longitudes in the divisional chart of in terest. If one of them (especially the slower movin g planet) 
+conjoins or aspects a key natal divisional longitud e, then it may trigger an event related to that nat al point, 
+provided the common signification of the transiting  planets in that natal divisional chart is conduciv e to that 
+event. 
+In particular, if a trine lord and quadrant lord in  the natal divisional chart have a trine/samasaptak a transit and 
+one of them closely conjoins or aspects a key natal  divisional longitude, it brings the results of a R aja Yoga to 
+the significations of the conjoined/aspected natal longitude. 
+Suppose Aq is lagna in natal D-7 and Saturn and Venus had a perfect trine transit. That gives the effect of a raja 
+yoga (lagna lord and 9 th  lord). Suppose transit Saturn of D-7 at the time o f perfect trine transit closely aspects 
+natal D-7 Mercury, 5 th  lord. Then that transit can trigger childbirth or some auspicious events related to children 
+within a month or two from the transit (before/after). 
+Perfect mutual trine and samasaptaka transits do ha ppen in transit frequently,  but very few of them af fect 
+sensitive  natal  points  like  planets  and  lagna  closely.  If  we  add  the  constraint  that  the  planets  in  perfect 
+trine/samasaptaka transit should also have an impor tant role  in the natal divisional chart  with respec t to the 
+matter shown by the sensitive natal point they are impacting in transit, it becomes even less frequent. 
+It is more useful to take the conjunctions/samasapt akas between two slow moving planets or between one  slow 
+moving planet and one fast moving planet. 
+This principle by itself may or may not help one ti me events. But, it may help increase our confidence  in a 
+possibility or narrow down when one has several lar ge windows based on other techniques. This principl e is 
+
+<<<PAGE_7>>>
+expected to be applied in conjunction with  other principles of Jyotish and is not meant to re place all standard 
+principles of Jyotish. Moreover, principles involvi ng quantitative correlations can someday be used to  convince 
+skeptics of the worth of astrology. 
+In this research, we will use partial aspects ( e.g.  3/4 th  aspect on 4 th  and 8 th  houses) described by Parasara. 
+Examples will clarify this simple principle. 
+Examples of Principle 2 
+First, we will take one example and see several eve nts just related to one divisional chart. Then we w ill see 
+multiple examples of specific types of events ( e.g.  marriage, childbirth, going abroad etc ). 
+Example 15: Sachin Tendulkar (sporting legend – cri cket) 
+Birthdata : 1973 April 24, 1 pm (5:30 hrs east of GMT), Mumbai, India (72e50, 18n58) 
+Background :
+Sachin Tendulkar is a legendary cricket batsman wit h 100 centuries and 34,347 runs in international Te st and 
+Oneday cricket. To put his achievements in perspective, his nearest rival Ricky Ponting of Australia retired after 
+scoring 71 centuries and 27,082 runs in internation al Test and Oneday cricket. Though Tendulkar is kno wn as a 
+batsman and not a bowler, he also took 200 wickets in international Test and Oneday cricket, something  that 
+even many full-time bowlers could not accomplish! 
+Astrologers were using wrong birthtimes until recen tly, when an official birth record from the hospita l he was 
+born at came to light. The birthtime recorded by the hospital is 1 pm. 
+This birthtime was not rectified and there could of  course be some error. However, D-10 lagna we get w ith 1 
+pm is Ta and it seems to be correct. We will not lo ok at all of his divisional charts, but will focus on D-10 and 
+his career. 
+Event 1 :
+On 1989 December 14, the final day of the the final  (4 th ) Test match of his debut series, in Pakistan, he w as hit 
+on the nose by a bouncer from legendary Pakistani p ace bowler Imran Khan. He declined medical assistan ce, 
+wiped away gushing blood and continued batting. He scored his first half century that day and won many  fans. 
+He was only 16 then. 
+On 1989 December 16, he scored 53 (not out) off 18 balls in a 20-over match, in which he hit 28 runs in an over 
+from legendary legspinner Abdul Qadir, including 4 sixes. It announced the arrival of a precocious tal ent to the 
+cricketing world! 
+Saturn and Mercury had a conjunction on 1989 Decemb er 16 at 21Sg17. In terms of D-10 longitudes, they were 
+at 2Cn53 . They had 3/4 th  aspect on natal D-10 Mercury at 1Aq18 . Transit Saturn also had a full aspect on natal 
+D-10 Venus at 4Vi03 .
+Saturn is the 9 th  and 10 th  lord and yogakaraka in natal D-10. Mercury is the 5 th  lord in 10 th . If their influences 
+come together, it gives fame and fortune. If their influence at such a time triggers natal 1 st  lord in 5 th  and 5 th  lord 
+in 10 th , it can give fame. 
+
+<<<PAGE_8>>>
+Event 2 :
+On 1990 August 14, he scored an unbeaten century in  the second innings of a Test match at Manchester, UK to 
+save the match for India. It was the first of his 1 00 centuries and he also won his first “player of t he match” 
+award. 
+Saturn at 27Sg14 and Mercury at 27Le14 had a perfec t trine transit on 1990 August 15. In terms of D-10  
+longitudes, they were at  2Vi19  and  2Ta19 . Transit Saturn had a close conjunction with natal  D-10 Venus at 
+4Vi03 .
+Importance of Saturn and Mercury in natal D-10 has already been seen. If their influences come togethe r, it 
+gives fame and fortune. Influence at such a time on natal 1 st  lord in 5 th  triggers fame. 
+Event 3 :
+On 1992 Fenruary  2-3, he scored  a counter-attacking  century on a bouncy pitch at Perth,  Australia.  It  is 
+considered one of his greatest centuries ever. He o verall had a terrific tour of Australia, which won him some 
+high profile admirers, including legends of the sport, in Australia! 
+Saturn and Mercury had a conjunction on 1992 Februa ry 24 at 17Cp21. In terms of D-10 longitudes, they were 
+at 6Sg33 . Transit Saturn had a full aspect on natal D-10 Venus at 4Vi03 .
+Importance of Saturn and Mercury in natal D-10 has already been seen. If their influences come togethe r, it 
+gives fame and fortune. Influence at such a time on natal 1 st  lord in 5 th  triggers fame. 
+Event 4 :
+He opened innings for the first time in a Oneday International match on 1994 March 27, against New Zealand at 
+Auckland. His sensational innings of 82 (not out) o ff 49 balls won the match for India with more than half the 
+allotted overs still left and won him a “player of the match”. It also paved the way for so many centu ries he 
+made as an opener later on. Playing as an opener gave him more time to build an innings, than as a middle-order 
+batsman, and hence an opportunity to score more run s. This was a turning point in his Oneday Internati onal 
+career. 
+Saturn and Mercury had a conjunction on 1994 Macrh 24 at 13Aq51. In terms of D-10 longitudes, they wer e at 
+18Ge29 . Transit Saturn and Mercury had a 3/4 th  aspect on natal D-10 Saturn at 16Cp00 .
+Importance of Saturn and Mercury in natal D-10 has already been seen. If their influences come togethe r, it 
+gives fame and fortune. Influence at such a time on natal 9 th /10 th  lord in 9 th  opens up fortune in career. It gave an 
+event that proved so lucky for him! 
+Event 5 :
+In the 1996 cricket world cup tournament that ended  on 1996 March 17, he was the highest run-getter wi th 523 
+runs at an average of 87.16 runs per match. 
+Saturn and Mercury had a conjunction on 1996 March 23 at 5Pi30. In terms of D-10 longitudes, they were  at 
+5Ge58 . They had 3/4 th  aspect on natal D-10 Venus at 4Vi03 .
+Importance of Saturn and Mercury in natal D-10 has already been seen. If their influences come togethe r, it 
+gives fame and fortune. Influence at such a time on natal 1 st  lord in 5 th  gives fame. 
+
+<<<PAGE_9>>>
+Event 6 :
+At an age of 23, he was appointed as the captain of Indian cricket team in early August 1996. 
+Saturn at 14Pi43 and Mercury at 14Cn43 had a perfec t mutual trine transit on 1996 July 20. In terms of  D-10 
+longitudes, they were at 2Pi45  and 2Cn45 . Transit Saturn had a close aspect on natal D-10 V enus at 4Vi03 . 
+Transit Mercury had a 3/4 th  aspect on natal D-10 Mercury at 1Aq18 .
+Importance of Saturn and Mercury in natal D-10 has already been seen. If their influences come togethe r, it 
+gives fame and fortune. Influence at such a time on  natal 1 st  lord in 5 th  and 5 th  lord in 10 th  gives fame and 
+achievement. 
+Event 7 :
+We have seen several examples  involving the trine/7 th  association of Saturn (9 th /10 th  lord in 9 th ) and 
+Mercury (5 th  lord in 10 th ) and their influence in transit on the natal posit ion of a trine lord in natal D-10 
+(i.e. Venus, Mercury or Saturn). 
+Let us see another kind of example, for the sake of completeness. 
+After going century-less for more than 2 years in 1 8 Test matches, he scored 154 not out at Sydney on 2008 
+January 3-4. He faced a lot of flak during that lea n phase. He was even booed at his homeground (Mumba i) 
+when he got out after scoring 1 run in 33 minutes i n 2006! He was quite relieved to find form again, a fter an 
+unusually long struggle. 
+On 2007 December 23, Jupiter and Sun had a conjunct ion at 8Sg11. In terms of D-10 longitudes, they wer e at 
+21Aq50 . They had a close aspect on natal D-10 Mars at 21Le12 .
+Sun and Jupiter are the 4 th  and 8 th  lords in natal D-10, while Mars is the 12 th  lord occupying 4 th . So the 
+influences of sukha/moksha trikonas are coming toge ther. From the 4 th  house of comfort and peace and the 12 th 
+house of freedom, these planets are the trine lords ! Two trine lords conjoining in transit and aspecti ng the 3 rd 
+trine lord's natal postion is good. Given that thes e are the lords of peace/freedom trines, this gives  peace and 
+freedom in career. This century was more of a relief than an accomplishment. Unlike the signature found in the 
+previous events, now sukha/moksha trikonas are involved. 
+Event 8 :
+We will switch to another event related to finances and see it in hora chart (D-2). If D-10 lagna is correct, please 
+note that D-2 lagna must be correct too (as 10 is a mutliple of 2). 
+In October 1995, he signed a 5-year contract with W orldTel for Rs. 315 million, becoming the highest p aid 
+cricketer in the world. 
+On 1995 November 15, Jupiter and Mars had a conjunc tion at 26Sc31. In terms of D-2 longitudes, they we re at 
+6Ge58 . They had a close conjunction with natal D-2 Saturn at 9Ge12 .
+Just as trines from 12 th  (moksha trikonas) are important for a sense of rel ief and freedom, trines from 11 th 
+(labha/kaama trikonas) are important for a sense of  gain and fulfillment of desires. The 3 rd  house of drive, 7 th 
+house of desire and 11 th  house of gains form labha/kaama trikonas. 
+
+<<<PAGE_10>>>
+In natal D-2, Jupiter and Mars are the 3 rd  and 7 th  lords. In natal D-2, they are together and in sama saptaka from 
+exalted 11 th  lord Sun. Yogakaraka Saturn fully aspects both 3 rd  and 11 th, , which are empty. (Note: Aspects on 
+empty houses are equivalent to occupancy.) 
+So the influences of Jupiter and either Sun or Mars  coming together and influencing the natal position  of 
+yogakaraka Saturn who connects 3 rd  and 11 th  houses, can bring great financial gains. 
+Example 16: Marriage 
+Birthdata : 1962 August 4, 7:24:20 pm (10 hrs west of GMT), Honolulu, Hwaii, USA (157w52, 21n18) 
+Event : He got married on 1992 October 3. 
+Rahu and Mars are the lords of 7 th  and 9 th  houses in natal D-9, the chart of marriage. If the ir influences come 
+together, it forms a raja yoga and can give developments related to marriage. 
+On 1992 September 7, Rahu at 4Sg57 and Mars at 4Ge5 7 were in perfect samasaptaka. Their influences cam e 
+together at that time. In terms of D-9 longitudes, Rahu was at 14Ta30  and Mars at 14Sc30 .
+Transit Rahu had a close conjunction with natal D-9  Rahu at 16Ta06  and transit Mars had an aspect on him. 
+Rahu is of course the 7 th  lord of marriage in natal D-9. Influence of 9 th  and 7 th  lords in transit on natal 7 th  lord 
+can give marriage.
+Example 17: Marriage 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got married on 1993 August 1. 
+Saturn and Mars are the lords of 9 th  and 7 th  houses in natal D-9, the chart of marriage. If the ir influences come 
+together, it forms a raja yoga and can give developments related to marriage. 
+On 1993 June 23, Saturn at 7Aq33 and Mars at 7Le33 were in perfect samasaptaka. Their influences came 
+together at that time. In terms of D-9 longitudes, Saturn was at 7Sg54  and Mars at 7Ge54 .
+Transit Saturn had a close conjunction with natal D -9 Mars at 10Sg19  and transit Mars had an aspect on him. 
+Mars is of course the 7 th  lord of marriage in natal D-9. Influence of 9 th  and 7 th  lords in transit on natal 7 th  lord can 
+give marriage.
+Example 18: Marriage 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e28, 16n18) 
+Event : She got married on 1999 January 24 early morning.
+Sun and Rahu are the lords of 1 st  and 7 th  houses in natal D-9, the chart of marriage. If the ir influences come 
+together, it forms a raja yoga and can give developments related to marriage. 
+On 1999 February 11, Sun at 29Cp27 and Rahu at 29Cp 27 were in perfect samasaptaka. Their influences ca me 
+together at that time. In terms of D-9 longitudes, Sun was at 24Vi59  and Rahu at 24Pi59 .
+Transit Rahu had a close conjunction with natal D-9 Mars at 24Pi11  and transit Sun had an aspect on him. Mars 
+is of course the 9 th  lord of dharma in natal D-9. Influence of 1 st  and 7 th  lords in transit on natal 9 th  lord can give 
+marriage.
+
+<<<PAGE_11>>>
+Note:  In the previous two examples, 7 th  and 9 th  lords of natal D-9 came together in transit and im pacted natal 7 th 
+lord. In this example, 1 st  and 7 th  lords of natal D-9 came together in transit and im pacted natal 9 th  lord. Some 
+involvement of 9 th  or 5 th  lord triggers poorva punya. 
+Example 19: Marriage 
+Birthdata : 1971 September 12, 8:25 am (IST), Guntur, India (80e28, 16n18) 
+Event : She got married on 1993 August 1. 
+Rahu and Mars are the lords of 5 th  and 7 th  houses in natal D-9, the chart of marriage. If the ir influences come 
+together, it forms a raja yoga and can give developments related to marriage. 
+On 1993 May 22, Rahu at 19Sc31 and Mars at 19Cn31 w ere in perfect trines. Their influences came togeth er at 
+that time. In terms of D-9 longitudes, Rahu and Mars were at 25Sg36 .
+Transit Rahu and Mars had a close aspect on natal D -9 Mars at  26Ge26 . Mars is of course the 7 th  lord of 
+marriage in natal D-9. Influence of 5 th  and 7 th  lords in transit on natal 7 th  lord can give marriage.
+Example 20: Childbirth 
+Birthdata : 1975 July 13, 4:04:10 pm (IST), Eluru, India (81e06, 16n42) 
+Event : She had a child on 2004 May 5. 
+Jupiter and Sun are the lords of 1 st  and 9 th  houses in natal D-7, the chart of progeny. If thei r influences come 
+together, it can give a child. 
+On 2004 April 28, Sun at 16Ar12 and Jupiter at 16Le 12 were in perfect mutual trines. Their influences came 
+together at that time. In terms of D-7 longitudes, Sun was at 23Cn21  and Jupiter at 23Sc21 .
+Transit Jupiter had a close aspect on natal D-7 Mar s at 23Cn50  and transit Sun had a close conjunction with 
+him. Mars is the 5 th  lord of children in natal D-7. So this transit triggered childbirth. 
+Example 21: Childbirth 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a child on 1998 August 21. 
+Jupiter and Sun are the lords of 1 st  and 9 th  houses in natal D-7, the chart of progeny. If thei r influences come 
+together, it can give a child. 
+On 1998 July 20, Sun at 5Cn21 and Jupiter at 5Pi21 were in perfect mutual trines. Their influences cam e 
+together at that time. In terms of D-7 longitudes, Sun was at 22Sg35  and Jupiter at 22Le35 .
+Transit Jupiter had a close aspect on natal D-7 Sun  at 25Ar55 , while transit Sun also had half aspect. Sun is th e 
+9th  lord of fortune in natal D-7. So this transit triggered a fortunate event in the area of life shown by D-7. 
+Example 22: Childbirth 
+Birthdata : 1971 March 31, 4:56 am (IST), Amaravati, India (80e22, 16n35) 
+Event : She had a child on 2000 January 12. 
+
+<<<PAGE_12>>>
+Jupiter and Venus are the lords of 9 th  and 7 th  houses in natal D-7, the chart of progeny. If thei r influences come 
+together, it forms a raja yoga and gives fortunate developments. 
+On 1999 December 1, Jupiter at 2Ar53 and Venus at 2 Li53 were in perfect samasaptaka. Their influences came 
+together at that time. In terms of D-7 longitudes, Jupiter was at 20Ar11  and Venus at 20Li11 .
+Transit Jupiter had a close aspect on natal D-7 Moo n at 18Le32 . Moon is the lagna lord in natal D-7 and joins 
+the 5 th  lord Ketu in the 2 nd  house of family. So this transit triggered a fortunate event in the area of life shown by 
+D-7. 
+Example 23: Childbirth 
+Birthdata : 1973 July 26, 9:48:10 pm (IST), Guntur, India (80e28, 16n18) 
+Event : She had a child on 2003 June 21. 
+Mars and Saturn are the lords of 9 th  and 7 th  houses in natal D-7, the chart of progeny. If thei r influences come 
+together, it forms a raja yoga and gives fortunate developments. 
+On 2003 June 23, Mars at 9Aq42 and Saturn at 9Ge42 were in perfect trines. Their influences came toget her at 
+that time. In terms of D-7 longitudes, Mars was at 7Ar57  and Saturn at 7Le57 .
+Transit Mars and Saturn had a close aspect on natal  D-7 Venus at 6Li59 . Venus is in his moolatrikona in the 3 rd 
+house of gain of children in natal D-7. He also for ms a raja yoga in natal D-7 due to his samasaptaka with 5 th 
+lord Jupiter. So this transit triggered a fortunate event in the area of life shown by D-7. 
+Example 24: Childbirth 
+Birthdata : 1971 September 12, 8:25 am (IST), Guntur, India (80e28, 16n18) 
+Event : He had a child on 1996 February 18. 
+Venus and Saturn are the lords of 1 st  and 5 th  houses in natal D-7, the chart of progeny. If thei r influences come 
+together, it forms a raja yoga and can give a child. 
+On 1996 February 2, Venus and Saturn had a perfect conjunction at at 29Aq36. Their influences came tog ether 
+at that time. In terms of D-7 longitudes, they were at 27Le12 .
+Transit Venus and Saturn had a close aspect on nata l D-7 Rahu at 27Aq52 . Rahu is the 5 th  lord in 5 th  in natal D- 
+7. So this transit triggered childbirth. 
+Example 25: Going Abroad 
+Birthdata : 1976 April 25, 2:32 am (IST), Vijayawada, India (80e37, 16n31) 
+Event : He left his motherland India around 1997 August 5. 
+Saturn and Mars are the lords of 9 th  and 7 th  houses in natal D-4, the chart of residence. If th eir influences come 
+together, it forms a raja yoga and gives developments related to fortune (9 th  house) from a long travel (7 th ). 
+On 1997 July 28, Saturn at 27Pi40 and Mars at 27Vi4 0 were in perfect samasaptaka. Their influences cam e 
+together at that time. In terms of D-4 longitudes, Saturn was at 20Sg39  and Mars at 20Ge39 .
+
+<<<PAGE_13>>>
+Transit Saturn had a close conjunction with natal D -4 Venus at 21Sg46  and transit Mars had an aspect on him. 
+Venus is the lagna lord. Influence of 9 th  and 7 th  lords in transit on natal lagna lord can give a move abroad.
+Example 26: Going Abroad 
+Birthdata : 1972 May 14, 8:13:30 am (IST), Idar, India (73e00, 23n50) 
+Event : He left his motherland India on 2002 February 17.
+Jupiter and Venus are the lords of 7 th  and 5 th  houses in natal D-4, the chart of residence. If th eir influences come 
+together, it forms a raja yoga and gives developmen ts related to poorva punya (5 th  house) from a long travel 
+(7 th ). Moreover, they also are the lords of badhaka sthana and 12 th  house of displacement. 
+On 2002 February 16, Jupiter at 13Ge09 and Venus at  13Aq09 were in perfect mutual trines. Their influe nces 
+came together at that time. In terms of D-4 longitudes, Jupiter was at 22Vi36  and Venus at 22Ta36 .
+Transit Jupiter had a close aspect natal D-4 Rahu a t 23Cp10  and transit Venus had half aspect on him. Rahu is 
+the 9 th  lord and karaka for going abroad. Influence of 5 th  and 7 th  lords in transit on natal 9 th  lord can give a move 
+abroad.
+Example 27: Going Abroad 
+Birthdata : 1970 April 4, 5:47:08 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He left his motherland on 1991 August. 
+Jupiter and Mars are the lords of 1 st  and 9 th  houses in natal D-4, the chart of residence. If th eir influences come 
+together, it forms a raja yoga and gives developments related to fortune related to residence. 
+On 1991 June 14, Mars and Jupiter had a perfect con junction at 18Cn41. Their influences came together at that 
+time. In terms of D-4 longitudes, they were at 14Cp45 .
+Transit Mars and Jupiter had a close conjunction wi th natal D-4 Jupiter at 13Cp36 . Jupiter is the debilitated 
+lagna lord joining exalted 9 th  lord Mars. Transit conjunction of the same planets  close to his natal D-4 longitude 
+triggered the yoga. 
+Example 28: Job Promotion 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He got a job promotion at the end of August 2008.
+Jupiter and Mars are the lords of 5 th  and 4 th /9 th  houses in natal D-10, the chart of profession. If their influences 
+come together, it forms a raja yoga and triggers recognition. 
+On 1998 August 15, Mars at 4Cn03 and Jupiter at 4Pi 03 had a perfect mutual trine transit. Their influe nces 
+came together at that time. In terms of D-10 longitudes, Mars was at 19Li33  and Jupiter at 19Ge33 .
+Transit Jupiter had a close aspect on natal D-10 Sun at 19Sg52 . Sun is the lagna lord in 5 th  in natal D-10. Transit 
+Mars had a close aspect on natal D-10 Jupiter at 19Cp00 . Jupiter is the 5 th  lord in natal D-10. Transit aspects of 
+the planets in raja yoga on key natal D-10 longitudes associated with the 5 th  house triggered the promotion. 
+Example 29: First Job 
+
+<<<PAGE_14>>>
+Birthdata : 1970 April 4, 5:47:08 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He joined his first job on 1993 December 9. 
+Jupiter and Saturn are the lords of 5 th  and 7 th  houses in natal D-10, the chart of profession. If t heir influences 
+come together, it forms a raja yoga and triggers fortune in career. 
+On 1993 October 12, Jupiter at 1Li12 and Saturn at 1Aq12 had a perfect mutual trine transit. Their inf luences 
+came together at that time. In terms of D-10 longitudes, Jupiter was at 11Li56  and Saturn at 11Aq56 .
+Transit Jupiter had a close 3/4 th  aspect on natal D-10 Mars at  8Cp08 . Mars is the yogakaraka in natal D-10. 
+Transit Saturn had a close aspect on natal D-10 Rah u at  12Le44 . Rahu is in lagna in natal D-10. As per 
+Parasara, nodes give the results of houses owned by  them more prominently than houses owned by them. B eing 
+the lone occupant of the 1 st  house, Rahu gives a beginning in career. Transit a spects of the planets in raja yoga 
+on key natal D-10 longitudes associated with the 1 st  house and yogakaraka triggered the beginning of career. 
+Example 30: Political Power (John F Kennedy) 
+Birthdata : 1917 May 29, 4:00 pm (4 hrs west of GMT), Brookline, Massachusetts, USA (71w07, 42n20) 
+Event : He was elected as the President of USA in the first week of 1960 November. 
+Jupiter and Venus are the lords of 9 th  and 7 th  houses in natal D-10, the chart of profession. If t heir influences 
+come together, it forms a raja yoga and triggers fortune in career. 
+On 1960 September 10, Jupiter and Venus had a perfe ct conjunction at 12Sg23. Their influences came tog ether 
+at that time. In terms of D-10 longitudes, they were at 3Ar49 .
+Transit Jupiter and Venus had a close aspect on nat al D-10 Saturn at 4Li03 . Saturn is the exalted 10 th  lord in 
+natal D-10. Transit aspects of the planets in raja yoga on natal 10 th  lord of D-10 triggered the fortune in career. 
+Example 31: Regaining Political Power (Indira Gandhi) 
+Birthdata : 1917 November 19, 11:05 pm (IST), Allahabad, India (81e51, 25n27) 
+Event : She became the Prime Minister of India again on 1980 January 15. 
+Rahu and Venus are the lords of 1 st  and 9 th houses in natal D-10, the chart of profession. If their influences come 
+together, it forms a raja yoga and triggers fortune in career. 
+On 1980 January 15, Rahu at 7Le17 and Venus at 7Aq1 7 had a perfect samasaptaka. Their influences came 
+together at that time. In terms of D-10 longitudes, Rahu was at 12Li46  and Venus at 12Ar46 .
+Transit Venus had a close conjunction with natal D- 10 Saturn at 10Ar46  and transit Rahu aspected him. Saturn 
+is the lagna lord in natal D-10, with neecha bhanga  raja yoga. Transit aspects of the planets in raja yoga on him 
+triggered fortune in career after a reversal. 
+Example 32: Sudden Limelight (Swami Vivekananda) 
+Birthdata : 1863 January 12, 6:32:50 pm (LMT, 5:54 east of GMT), Calcutta, India (88e30, 22n40) 
+Event : He came to limelight with a famous speech at the parliament of religions in the afternoon of 1893 
+September 11. 
+
+<<<PAGE_15>>>
+Sun and Saturn are the lords of 1 st  and 7 th houses in natal D-10, the chart of profession. If t heir influences come 
+together, it forms a raja yoga and triggers interactions with others. 
+On 1893 October 8, Sun and Saturn had a perfect con junction at 24Vi34. Their influences came together at that 
+time. In terms of D-10 longitudes, they were at 24Ta16 .
+Transit Sun and Saturn had a close conjunction with natal D-10 Sun at 24Ta21  and a close aspect on natal D-10 
+Jupiter at 21Sc32 . Sun is the lagna lord in natal D-10 and Jupiter is the 5 th  lord. They are in samasaptaka in natal 
+D-10 and form a raja yoga that shows fame. Transit aspects of the planets in raja yoga on them trigger ed fame 
+in career. 
+Example 33: Horse-riding Accident & Paralysis (actor Christopher Reeve) 
+Birthdata : 1952 September 25, 3:12 am (EDT – 4:00 west of GM T), Manhattan, NY, USA(73w58, 40n47) 
+Event : He had an accident while riding a horse in May 1995. He was paralysed below neck. 
+Jupiter and Mercury are the lords of 6 th  house of accident and 12 th  house of immobility in natal D-1, the chart of 
+physical existence. If their influences come together, it can cause accidents and immobility. 
+On 1995 April 10, Jupiter at 22Sc36 and Mercury at 22Pi36 had a perfect mutual trine transit. Their influence s 
+came together at that time. 
+Transit Jupiter had a close conjunction with natal D-1 Moon at 20Sc28 . Moon is the lagna lord in natal D-1 and 
+shows physical vitality. In addition, transit Mercu ry had a close aspect on natal D-1 Saturn at 23Vi57 . Saturn is 
+the 7 th /8 th  lord and a maraka in natal D-1. Transit yoga betwe en the planets causing accidents and immobility 
+and their influence on natal lagna lord and maraka triggered physical harm and immobility. 
+Example 34: Academic Distinction 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He stood first in his state in 12 th  grade exams with a record score on 1987 May 28 and  got admission to 
+Indian Institute of Technology after a couple of days. 
+Jupiter and Saturn are the lords of 9 th  and 7 th  houses in natal D-24, the chart of education. If t heir influences 
+come together, it forms a raja yoga and triggers recognition. 
+On 1987 May 23, Jupiter at 26Pi32 and Saturn at 26S c32 had a perfect mutual trine transit. Their influ ences 
+came together at that time. In terms of D-24 longitudes, Jupiter and Saturn were at 23Li13 .
+Transit Jupiter and Saturn had a close aspect on na tal D-24 Jupiter at 21Ar35 . In addition, transit Saturn had a 
+close aspect on natal D-24 Moon at 23Cn17 . Moon is the lagna lord in lagna and shows good na me. Jupiter is 
+the 9 th  lord in 10 th  in natal D-24 and shows fortune. Saturn is the 7 th  lord in natal D-24. Transit aspects of the 
+planets in raja yoga on natal D-24 longitudes of the 9 th  and lagna lords triggered fortune and name in education. 
+Example 35: Experience of Self (Ramana Maharshi) 
+Birthdata : 1879 December 30, 1:02 am (IST), Pondicherry, India (78e15, 9n50) 
+Event : He held spontaneous self-enquiry and “experienced ” Self on 1896 July 17. 
+Saturn and Venus are the lords of moksha trikona houses 12 th  and 8 th  in natal D-20, the chart of spiritual sadhana 
+and evolution. If their influences come together, it can give progress towards Self-realization. 
+
+<<<PAGE_16>>>
+On 1896 July 5, Saturn at 21Li14 and Venus at 21Ge14 had a perfect mutual trine transit. Their influences came 
+together at that time. Saturn was then at 4Ge50  in D-20 and Venus at 4Li50 .
+Transit Saturn had a close aspect on natal D-20 Sat urn, 12 th  lord, at 3Le57 . Transit Venus had a close aspect on 
+natal D-20 Mercury, 7 th  lord, at 4Ar55 . Aspect of 8 th  lord on 7 th  lord is a maraka combination. As D-20 is a chart 
+of the sadhana, which is a struggle for Self-realiz ation, maraka combinations can trigger experiences that put a 
+permanent or temporary end to the struggle. 
+Example 36: Spiritual Experience 
+Birthdata : 1970 April 4, 5:50 pm (IST), Machilipatnam, India (81e08, 16n10) 
+Event : He had a life-altering spiritual experience on 2005 June 10 during meditation. 
+Saturn and Venus are the lords of moksha trikona houses 8 th  and 12 th  in natal D-20, the chart of spiritual sadhana 
+and evolution. If their influences come together, it can give progress towards Self-realization. 
+On 2005 June 25, Saturn and Venus conjoined at 4Cn38. Their influences came together at that time. They were 
+then at 2Cn38  in D-20. 
+They had a close 3/4 th  aspect on natal D-20 Venus, 12 th  lord, at 1Li05 . So there was a liberating experience. 
+Example 37: Experience of A Samadhi State 
+Birthdata : 1970 November 4, 3:12:34 pm (IST), Lucknow, India (80e55, 26n51) 
+Event : He entered a samadhi state in the 4 th  week of 2004 May during meditation. 
+Ketu is the 12 th  lord in natal D-20, the chart of spiritual sadhana  and evolution. Exalted Saturn joins 8 th  lord 
+Moon in the 12 th  from AK Venus. If influences of Saturn and Ketu co me together, it can give progress towards 
+Self-realization. 
+On 2004 May 23, Saturn at 18Ge19 and Ketu at 18Li19 had a perfect mutual trine transit. Their influences came 
+together at that time. In terms of D-20 longitudes, Saturn was at 6Le13 and Ketu at 6Ar13 .
+Transit Ketu and Saturn had a close aspect on natal D-20 Saturn at 8Li21 . In natal D-20, Saturn is exalted in the 
+12 th  from AK Venus and joined by Moon (giving dispassio n). Strong planets occupying the 12 th  from AK or 
+associated with it otherwise can take one towards liberation. 
+Transit Saturn very closely conjoined natal D-20 Me rcury at 4Le01 also, but that is not as significant  as the 
+above factor. 
+Example 38: Blessing of a Deity 
+Birthdata : 1970 November 4, 3:12:34 pm (IST), Lucknow, India (80e55, 26n51) 
+Event : He had an encounter with a deity at the dusk time  on 1994 April 21 at Pune, India. Though he was not  
+doing much spiritual sadhana until then, he was tra nsformed to the core and started very intense spiri tual 
+sadhana after that. He also met his spiritual guru (from  the lineage of Sri Tembe Swami) soon after th is 
+experience. 
+Jupiter and Sun are the 1 st  and 9 th  lords in natal D-20, the chart of spiritual sadhan a and evolution. If their 
+influences come together, it can give a raja yoga and blessings of a deity (9 th ). 
+
+<<<PAGE_17>>>
+On 1994 April 30, Jupiter at 17Li08 and Sun at 17Ar08 had a perfect mutual trine transit. Their influences came 
+together at that time. In terms of D-20 longitudes, they were at 12Pi46 .
+Transit Jupiter had a close aspect on natal D-20 Ma rs at  13Cn42  and also on natal D-20 Jupiter at  11Cn51. 
+Transit Sun too had half aspect on them.  In natal D-20, Mars is the 5 th  lord of poorvapunya and Jupiter is 
+exalted lagna lord. They give a rajayoga in the 8 th  house of unexpected developments in natal D-20. A raja yoga 
+involving 1 st  and 9 th  lords in transit having a close aspect on that nat al raja yoga between 1 st  and 5 th  lords 
+triggered poorva punya (5 th ), blessings of a deity (9 th ) and a new beginning in spiritual life (1 st ). 
+Notice the contrast with the previous 3 examples, w here the 12 th  house from lagna or AK was triggered by 
+yogas involving 8 th  and 12 th  lords. It triggered liberating experiences. Here t rine lords are involved. It triggered 
+an encounter with a deity and a new beginning in spiritual life. Dharma and moksha are different things. 
+Use in Birthtime Confirmation/Rectification 
+As these techniques rely on divisional charts, they  are very sensitive to birthtime changes that result in a change 
+in lagna in the divisional chart of interest. It ma y be possible to confirm/rectify lagna in a divisio nal chart if an 
+event occurs close to a mutual trine transit or opp osition between a slow moving planet and another pl anet. Of 
+course, lagna should ideally be confirmed using mul tiple events. Also, this technique can be used in addition to 
+other techniques and need not replace them. 
+We will illustrate this with a couple of examples. 
+Example 39: George W Bush (rectify D-10 lagna) 
+Birthdata : 1946 July 6, 7:25 am (EDT – 4:00 west of GMT), Ne w Haven, CT, USA (72w56, 41n18) 
+Event 1 : He was elected as the president of US in the middle of December 2000. 
+Event 2 : He was re-elected as the president of US on 2004 November 2. 
+Event 3 : He was sworn in as the governor of Texas state in January 1995. 
+Event 4 : He was re-elected as the governor of Texas state with a huge margin in on 1998 November 3. 
+Event 1 :
+In natal D-10, the chart of profession, lagna is Cn  at 7:25 am. If birthtime is after 7:25:20 am, then  lagna is Ge. 
+Let us consider both. 
+On 2000 December 11, Jupiter at 11Ta34 and Venus  at  11Cp34 had a perfect  mutual trine transit. Their 
+influences came together at that time. In terms of D-10 longitudes, they were at 4Ge22  and 4Aq22 .
+Transit Venus had a close conjunction with natal D-10 Venus at 4Aq41 a nd transit Jupiter had a close aspect on 
+him. 
+With both Ge and Cn lagnas, conjunction of Jupiter and Venus (10 th  and 5 th  lords from Ge and 4 th  and 9 th  lords 
+from Cn) forms a raja yoga. However, with Cn lagna,  influence of 4 th  and 9 th  lords in a transit yoga on the 4 th 
+lord in 8 th  gave power. That does not make much sense. With Ge lagna, influence of 5 th  and 10 th  lords in a transit 
+yoga on the natal 5 th  lord in 9 th  gave power. That makes much more sense. 
+Event 2 :
+
+<<<PAGE_18>>>
+On  2004  November  2,  Saturn  at  4Cn32  and  Mercury  at  4Sc32  had  a  perfect  mutual  trine  transit.  Their 
+influences came together at that time. In terms of D-10 longitudes, they were at 14Li43  and 14Aq43 .
+Transit Saturn had a close conjunction with natal D-10 Saturn at 14Li35 , while Mercury had half aspect on him. 
+With Ge lagna, yoga between 1 st  and 9 th  lord in transit and influence on the natal 9 th  lord (occupying 5 th ) can 
+bring fortune in career. President Bush won re-elec tion quite comfortably. With Cn lagna, it does not make 
+much sense. 
+Event 3 :
+On 1995 January 14, Jupiter and Venus had a perfect  conjunction at 14Sc46. Their influences came toget her at 
+that time. In terms of D-10 longitudes, they were at 2Sc22 .
+They had 3/4 th  aspect on natal D-10 Venus at 4Aq41 .
+This basically has the same signature of event 1. 
+Event 4 :
+On 1998  November  8,  Jupiter at  25Aq30  and  Venus  at  25Li30  had  a perfect  mutual  trine transit. Their 
+influences came together at that time. In terms of D-10 longitudes, they were at 15Li01  and 15Ge01 .
+Transit Jupiter closely conjoined with natal D-10 Saturn at 14Li35  and transit Venus had half aspect on him. 
+This is similar to the signature of event 2. Yoga b etween 10 th  and 5 th  lords in transit and influence on the natal 
+9th  lord (occupying 5 th ) can bring fortune in career. President Bush won this re-election too quite comfortably. 
+Static Chart Analysis :
+Overall, Ge lagna in D-10 makes good sense based on  the technique we learnt this in write-up. Now let us 
+analyze the natal chart statically. 
+Lagna lord in lagna makes the chart strong. The 5 th  and 9 th  lords in parivartana makes him fortunate. An exalt ed 
+planet in 5 th  gives power. The planet being Saturn is conducive to power from a mass election (Saturn shows 
+masses). The 12 th  house is the house of freedom. It is strong with G aja-Kesari yoga involving an exalted planet. 
+The native enjoys a certain relaxed and free attitu de in career, which can come from leaving things to  others. 
+Sun and Mars, 3 rd  and 6 th  lords in 8 th , give Viparita Raja Yoga and that gives great rise  after some struggle. 
+Though lagna lord Mercury is in lagna, he is involv ed in a duryoga with 6 th  lord Ketu. If Ketu was not there, he 
+would've been an intelligent and eloquent person in his work. He still is, but Ketu deprecates it to some extent. 
+Example 40: Indira Gandhi 
+Birthdata : 1917 November 19, 11:00 pm (IST), Allahabad, India (81e51, 25n27) 
+Event 1 : She became the Prime Minister of India on 1966 January 24. 
+Event 2: She became India's Prime Minister on 1980 January 15 after being out of power for nearly 3 years. 
+Event 3: She got married in 1942 March. 
+Event 4: She had her first son (Rajiv Gandhi) on 1944 August 20. 
+Event 5: She had her second son (Sanjay Gandhi) on 1946 December 14. 
+Event 1 :
+
+<<<PAGE_19>>>
+In natal D-10, the chart of profession, lagna is Pi at 11:00 pm. Let us consider Aq, Pi and Ar. 
+On 1966 February 21, Mars and Saturn conjoined at 2 5Aq33. In terms of D-10 longitude, they were at 15Li31 . 
+They had an aspect on natal D-10 Jupiter at  18Ar38 . With Aq lagna,  conjunction of 1 st  and 10 th  lords is 
+interesting, but that infleuence on 2 nd  and 11 th  lord Jupiter cannot trigger power. With Pi lagna, conjunction of 
+11 th /12 th  lord with 9 th  lord is not even interesting for power. With Ar la gna, conjunction of 1 st  and 10 th  lords is 
+interesting and that infleuence on 9 th  lord Jupiter can trigger power. Moreover, Saturn and Jupiter give a raja 
+yoga in lagna in natal D-10 with Ar lagna and Mars-Saturn have a parivartana. 
+There was another transit yoga that influenced a na tal D-10 longitude. On 1966 February 10, Jupiter at  29Ta03 
+and Sun at 29Cp03 were in a perfect mutual trine tr ansit. Jupiter at that time was at 9Sg34  in D-10 and he had a 
+close aspect on natal D-10 Saturn at 10Ar46 . With Aq lagna, a yoga between the 7 th  lord and the 2 nd/ /11 th  lord is 
+not interesting for power. With Pi lagna, a yoga between 1 st /10 th  lord and the 6 th  lord is not interesting for power. 
+With Ar lagna, a yoga between 5 th  lord aspecting 5 th  in natal D-10 and 9 th  lord joining 10 th  lord in lagna in natal 
+D-10 is certainly interesting. Influence on natal 10 th  lord can trigger power. 
+Other yogas formed in transits around that time did not conjoin or aspect any natal D-10 longitudes. 
+This event makes great sense with Ar lagna and no sense with Pi and Aq lagnas. That requires birthtime to be 
+before  10:50:20 pm.  That pushes D-7 lagna from Cn to Le. We will later  check events 4 and 5 with Le lagna in 
+D-7. 
+Event 2 :
+On 1979 December 15, Jupiter and Mars conjoined at 17Le37. In D-10, they were at 26Cp14 . They closely 
+conjoined natal D-10 Mars at 25Cp05 . Conjunction between 1 st  and 9 th  lords brings fortune. Their influence on 
+natal lagna lord in 10 th  house brings great fortune. 
+On 1980 January 1, Jupiter at 17Le45 and Sun at 17Sg45 had a perfect mutual trine transit. In D-10, Jupiter was 
+at  27Cp29 . He closely conjoined natal D-10 Mars at  25Cp05 . Conjunction between 1 st  and 5 th  lords brings 
+fortune. Influence at such a time on natal lagna lord in 10 th  house brings great fortune. 
+Event 3 :
+In natal D-9, the chart of marriage, lagna is Aq at  11:00 pm. Even if we change the birthtime to 10:50  pm (see 
+event 1 above), it is still Aq. It changes to Cp before 10:47:20 pm. So let us consider Aq and Cp. 
+On 1942 February 22, Saturn and Mars had a perfect conjunction at 0Ta34. In D-9, they were at 5Cp04 .  They 
+closely aspected natal D-9 Rahu at 3Cn04 . Conjunction between 1 st  and 10 th  lords is a raja yoga. Influence at 
+such a time on natal lagna lord can bring marriage.  In this case, it was a case of political activism (during 
+freedom fight) leading to a relationship and a marr iage against wishes of bride's father. Note the inv olvement of 
+10 th , Saturn-Mars combination and the triggering of Rah u. The event can be explained with Aq lagna and the re 
+is no need to shift birthtime further. 
+Event 4 :
+In natal D-7, the chart of progeny, lagna is Cn at 11:00 pm. Before 10:58:13 pm, it is Le. So let us c heck if Le 
+explains this event. 
+On 1944 August 13, Jupiter and Venus had a perfect conjunction at 11Le59. In D-7, they were at 23Li53 .  They 
+closely aspected natal D-7 Sun at 23Ar14 . Conjunction between 5 th  and 10 th  lords is a raja yoga. Venus is also 
+
+<<<PAGE_20>>>
+the strong 3 rd  lord (11 th  from 5 th , i.e.  gain of children). Influence at such a time on nat al lagna lord can bring 
+auspicious events. 
+Event 5 :
+In natal D-7, the chart of progeny, lagna is Cn at 11:00 pm. Before 10:58:13 pm, it is Le. So let us c heck if Le 
+explains this event. 
+On 1946 September 2, Jupiter and Venus had a perfect conjunction at 3Li38. In D-7, they were at 25Li23 .  They 
+closely aspected natal D-7 Sun at 23Ar14 . This is the same signature as above. 
+In addition, on 1946 November 1, Jupiter and Sun ha d a perfect conjunction at 15Li49. In D-7, they wer e at 
+20Cp41 .  They had 3/4 th  aspect on natal D-7 Saturn at 19Le32 . Conjunction between lagna lord and 5 th  lord is a 
+raja yoga that can give children. Saturn, being the  7 th  lord, shows the second child. Influence of a trans it yoga 
+between natal lagna/5 th  lords on the natal planet showing second child can trigger the second child's birth. 
+Rectified birthtime : 10:50 pm (between 10:47:20 pm and 10:50:20 pm). 
+Example 41: Baba Muktananda 
+Birthdata : 1908 May 16, 5:11 am (IST), Dharmastala, India (75e23, 12n57) 
+Event : On 1947 August 15, Bhagavan Nithyananda gave him a shaktipat diksha. When he was touched, he 
+experienced an awakening and rise of Kundalini. Let us rectify D-20 lagna based on this event. 
+In natal D-20, the chart of spiritual sadhana and e volution, lagna is Ar at 5:11 am. Lagna will be Pi before 
+5:09:42 am and Ta after 5:15:06 am. Let us consider Pi, Ar and Ta. 
+On 2006 June 25, Saturn and Venus conjoined at 21Cn 22. Their influences came together at that time. Th ey 
+were then at 7Ge29  in D-20. They had a close conjunction with natal D-20 Saturn at 3Ge53 .
+In natal D-20, the 12 th  from AK Venus is Ge. Saturn is alone in Ge. So Sat urn is a key planet for liberation. 
+Influence of Saturn and Venus during a transit yoga  on this key natal point can trigger a liberating e xperience if 
+Saturn and Venus are associated with 8 th  and 12 th  houses from lagna. 
+So D-20 lagna is Pi. Birthtime is before 5:09:42. 
+Observations 
+The correlations I found in this research are too g ood to merely be random coincidences. I am convince d that 
+there  is  something  really  worthwhile here.  In  fact,  principles  such  as  this,  which  show  nice  quantitat ive 
+correlations, may prove useful someday to convince critics of astrology that astrology is not humbug. 
+Compared to my previous attempts at unearthing such  longitude correlations, this attempt contains a fa r more 
+structured and logical methodology! 
+Divisional Longitudes 
+This research article establishes that divisional l ongitudes are a valid concept and that there are so me valid 
+transit principles based on them. Researchers will do well to consider longitudes of planets in divisi onal charts 
+and not ignore them. 
+
+<<<PAGE_21>>>
+In divisional charts where divisions of a sign are mapped anti-zodiacally, the divisional longitudes a re found 
+from the end of the sign. Please see the section “R everse Reckoning” at the beginning of the write up for more. 
+Special Divisional Charts 
+Research into divisional charts not mentioned in th e available manuscripts of Parasara’s teachings, su ch as D-5, 
+D-6, D-8, D-11 etc , perhaps hold value. The principle described in th is article can perhaps aid in the researches 
+into special divisional charts. Objective principles help one draw more confident conclusions. 
+Transit Longitudes at Anchor Moments 
+When  transit  longitudes  at  the  time  of  events  were  correlated  to  natal  longitudes,  there  were  not  many  
+interesting correlations. But, when transits at som e “anchor moments” within a month of two from a key  event 
+were considered, there were significant  correlation s. Events like perfect  trine transits of 2 planets,  perfect 
+samasaptakas of 2 planets, stationary transits of p lanets and eclipses are the anchor moments that can  trigger 
+important life events. 
+Conclusion 
+A simple principle related to correlating the transit divisional longitude of a stationary planet or of planets at the 
+time of perfect trine or samasaptaka transit with t he divisional longitudes of natal points is explain ed and 
+illustrated using many examples. If you like this k nowledge, please feel free to refine it, use it and  spread it. If 
+not, please leave it. 
+It is hoped that intelligent and sincere students a nd researchers of this divine subject will take thi s knowledge 
+further and contribute to a renaissance in Jyotish and other knowledge related to rishis. 
+::Om Shaantih Shaantih Shaantih:: 
