@@ -12,7 +12,10 @@ from jhora.panchanga import drik
 from jhora.horoscope import info
 from jhora.horoscope.chart import charts, arudhas, house
 from mcp_base import MCPServer
-from jhora_helpers import create_date_and_place, format_longitude, RASI_NAMES, PLANET_NAMES
+from jhora_helpers import (
+    create_date_and_place, format_longitude, RASI_NAMES, PLANET_NAMES,
+    calculate_chart_vision, get_pvr_divisional_position
+)
 
 server = MCPServer(name="mcp-jhora-vargas-lagnas", version="1.0.0")
 
@@ -46,10 +49,22 @@ VARGA_PARAM = {
 
 @server.tool(
     name="get_divisional_chart",
-    description="Calculates planetary placements and house positions for any Divisional Chart (D-1 to D-60: Rasi, Navamsa, Dasamsa, Shashtiamsa, etc.).",
+    description="Calculates planetary placements and house positions for any Divisional Chart (D-1 to D-60: Rasi, Navamsa, Dasamsa, Shashtiamsa, etc.), supporting PVR reformed varga rules and full structural chart vision.",
     input_schema={
         "type": "object",
-        "properties": VARGA_PARAM,
+        "properties": {
+            **VARGA_PARAM,
+            "pvr_reformed_method": {
+                "type": "boolean",
+                "description": "Whether to use PVR Narasimha Rao's reformed divisional chart formulas (e.g. D-10 Method 3 even sign reversal, D-24 Method 2, D-60 Method 3)",
+                "default": True
+            },
+            "include_detailed_vision": {
+                "type": "boolean",
+                "description": "Include complete 12 house lords, dignities, occupants, Graha & Rasi drishti, Raja yogas, and parivartanas",
+                "default": True
+            }
+        },
         "required": ["year", "month", "day"]
     }
 )
@@ -59,6 +74,8 @@ def get_divisional_chart(
     latitude: float = 13.0827, longitude: float = 80.2707, timezone_offset: float = 5.5,
     place_name: str = "Location", ayanamsa_mode: str = "LAHIRI",
     divisional_chart_factor: int = 1,
+    pvr_reformed_method: bool = True,
+    include_detailed_vision: bool = True,
     **kwargs
 ) -> Dict[str, Any]:
     dob, tob, place, jd = create_date_and_place(
@@ -66,37 +83,104 @@ def get_divisional_chart(
         latitude, longitude, timezone_offset, place_name, ayanamsa_mode
     )
     
-    chart_data = charts.divisional_chart(jd, place, divisional_chart_factor=divisional_chart_factor)
-    
-    lagna_rasi = 0
-    placements = {}
-    for item in chart_data:
+    # Base D-1 positions
+    d1_data = charts.divisional_chart(jd, place, divisional_chart_factor=1)
+    d1_placements = {}
+    d1_lagna_rasi = 0
+    d1_lagna_deg = 0.0
+
+    for item in d1_data:
         p_id = item[0]
         rasi_idx, deg_in_rasi = item[1]
-        total_deg = rasi_idx * 30.0 + deg_in_rasi
-        
         if p_id == 'L':
-            p_name = "Lagna"
-            lagna_rasi = rasi_idx
+            d1_lagna_rasi = rasi_idx
+            d1_lagna_deg = deg_in_rasi
         elif isinstance(p_id, int) and p_id < len(PLANET_NAMES):
-            p_name = PLANET_NAMES[p_id]
-        else:
-            p_name = str(p_id)
-            
-        formatted = format_longitude(total_deg)
-        formatted["house_from_lagna"] = ((rasi_idx - lagna_rasi + 12) % 12) + 1
+            d1_placements[PLANET_NAMES[p_id]] = (rasi_idx, deg_in_rasi)
+
+    # Compute target Varga positions
+    placements = {}
+    v_lagna_sign, v_lagna_deg = get_pvr_divisional_position(
+        d1_lagna_rasi, d1_lagna_deg, divisional_chart_factor,
+        method="pvr" if pvr_reformed_method else "standard"
+    )
+    lagna_total_deg = v_lagna_sign * 30.0 + v_lagna_deg
+    placements["Lagna"] = format_longitude(lagna_total_deg)
+    placements["Lagna"]["house_from_lagna"] = 1
+
+    for p_name, (r_idx, d_in_r) in d1_placements.items():
+        v_p_sign, v_p_deg = get_pvr_divisional_position(
+            r_idx, d_in_r, divisional_chart_factor,
+            method="pvr" if pvr_reformed_method else "standard"
+        )
+        p_tot_deg = v_p_sign * 30.0 + v_p_deg
+        formatted = format_longitude(p_tot_deg)
+        formatted["house_from_lagna"] = ((v_p_sign - v_lagna_sign + 12) % 12) + 1
         placements[p_name] = formatted
 
-    for p_name, data in placements.items():
-        data["house_from_lagna"] = ((data["rasi_index"] - lagna_rasi + 12) % 12) + 1
-
-    return {
+    res = {
         "status": "success",
         "varga": f"D-{divisional_chart_factor}",
         "divisional_factor": divisional_chart_factor,
+        "calculation_method": "PVR Reformed (Pancha Kosha)" if pvr_reformed_method else "Standard Parasara",
         "ayanamsa": ayanamsa_mode,
-        "lagna_rasi": RASI_NAMES[lagna_rasi],
+        "lagna_rasi": RASI_NAMES[v_lagna_sign],
         "placements": placements
+    }
+
+    if include_detailed_vision:
+        vision_input = {}
+        for p_name, p_data in placements.items():
+            if p_name != "Lagna":
+                vision_input[p_name] = {
+                    "rasi_idx": p_data["rasi_index"],
+                    "deg_in_rasi": float(p_data["degrees_in_rasi"].split("°")[0].strip()),
+                    "is_retrograde": False
+                }
+        res["detailed_chart_vision"] = calculate_chart_vision(
+            v_lagna_sign, v_lagna_deg, vision_input, chart_name=f"D-{divisional_chart_factor}"
+        )
+
+    return res
+
+@server.tool(
+    name="get_varga_chart_detailed_vision",
+    description="Provides an exhaustive, deep structural vision of any Divisional Chart (D-1 to D-60) for LLM synthesis: 12 houses with occupants & lords' dignities, Graha & Rasi aspects, Raja yogas, Parivartanas, and Samasaptakas.",
+    input_schema={
+        "type": "object",
+        "properties": {
+            **VARGA_PARAM,
+            "pvr_reformed_method": {
+                "type": "boolean",
+                "description": "Use PVR Narasimha Rao's reformed formulas (D-10 M3, D-24 M2, D-60 M3)",
+                "default": True
+            }
+        },
+        "required": ["year", "month", "day"]
+    }
+)
+def get_varga_chart_detailed_vision(
+    year: int, month: int, day: int,
+    hour: int = 12, minute: int = 0, second: float = 0.0,
+    latitude: float = 13.0827, longitude: float = 80.2707, timezone_offset: float = 5.5,
+    place_name: str = "Location", ayanamsa_mode: str = "LAHIRI",
+    divisional_chart_factor: int = 1,
+    pvr_reformed_method: bool = True,
+    **kwargs
+) -> Dict[str, Any]:
+    chart_res = get_divisional_chart(
+        year, month, day, hour, minute, second,
+        latitude, longitude, timezone_offset, place_name, ayanamsa_mode,
+        divisional_chart_factor=divisional_chart_factor,
+        pvr_reformed_method=pvr_reformed_method,
+        include_detailed_vision=True
+    )
+    return {
+        "status": "success",
+        "varga": chart_res["varga"],
+        "calculation_method": chart_res["calculation_method"],
+        "ayanamsa": ayanamsa_mode,
+        "detailed_chart_vision": chart_res.get("detailed_chart_vision", {})
     }
 
 @server.tool(

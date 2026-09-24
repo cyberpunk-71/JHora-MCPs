@@ -14,7 +14,10 @@ from jhora_helpers import (
     format_rasi_degree,
     PLANET_NAMES,
     RASI_NAMES,
-    NAKSHATRA_NAMES
+    NAKSHATRA_NAMES,
+    WEEKDAY_LORDS,
+    calculate_chart_vision,
+    get_pvr_divisional_position
 )
 from jhora.horoscope.transit import tajaka, saham, tajaka_yoga
 from jhora.horoscope.match import compatibility
@@ -22,6 +25,7 @@ from jhora.horoscope.prediction import longevity
 from jhora.horoscope.chart import charts
 from jhora.panchanga import drik
 from jhora import utils, const
+import swisseph as swe
 
 server = MCPServer(name="mcp-jhora-transits-annual-match", version="1.0.0")
 
@@ -112,6 +116,23 @@ def calculate_tajaka_varshaphal(
         
     vp_date_str = f"{vp_date[0]:04d}-{vp_date[1]:02d}-{vp_date[2]:02d} {vp_time}"
     
+    # Generate Detailed Chart Vision for Varshaphal
+    vision_input = {}
+    annual_lagna_rasi = ac[0][1][0]
+    annual_lagna_deg = ac[0][1][1]
+    for p_id, (rasi_idx, deg_in_rasi) in ac:
+        if p_id != "L":
+            p_name = _get_planet_name(p_id)
+            vision_input[p_name] = {
+                "rasi_idx": rasi_idx,
+                "deg_in_rasi": deg_in_rasi,
+                "is_retrograde": False
+            }
+    
+    detailed_vision = calculate_chart_vision(
+        annual_lagna_rasi, annual_lagna_deg, vision_input, chart_name="Tajaka Annual Varshaphal"
+    )
+    
     return {
         "status": "success",
         "birth_chart_date": f"{year:04d}-{month:02d}-{day:02d} {hour:02d}:{minute:02d}:{second:02.0f}",
@@ -124,7 +145,187 @@ def calculate_tajaka_varshaphal(
             "muntha_sign": RASI_NAMES[muntha_rasi_idx],
             "muntha_house_in_annual_chart": muntha_house_from_annual_lagna
         },
-        "annual_chart_positions": annual_planets
+        "annual_chart_positions": annual_planets,
+        "detailed_chart_vision": detailed_vision
+    }
+
+@server.tool(
+    name="calculate_tithi_pravesha_chart_detailed_vision",
+    description="Calculate the annual Soli-Lunar return chart (Tithi Pravesha) as researched by P.V.R. Narasimha Rao: solves exact Tithi return moment, determines the Lord of the Year (Vara Lord) and Hora Lord, and provides full 12-house structural vision (lords, dignities, occupants, Graha & Rasi aspects, Raja yogas, Parivartanas) across D-1 and divisional charts.",
+    input_schema={
+        "type": "object",
+        "properties": {
+            **LOCATION_PARAMS,
+            "target_year": {
+                "type": "integer",
+                "description": "Calendar year for the Tithi Pravesha return (e.g. 2026)",
+                "default": 2026
+            },
+            "divisional_chart_factor": {
+                "type": "integer",
+                "description": "Varga factor to compute (e.g. 1 for D-1, 9 for D-9, 10 for D-10, 24 for D-24)",
+                "default": 1
+            },
+            "pvr_reformed_method": {
+                "type": "boolean",
+                "description": "Use PVR reformed varga rules (D-10 M3, D-24 M2, D-60 M3)",
+                "default": True
+            }
+        },
+        "required": ["year", "month", "day", "target_year"]
+    }
+)
+def calculate_tithi_pravesha_chart_detailed_vision(
+    year: int, month: int, day: int,
+    hour: int = 12, minute: int = 0, second: float = 0.0,
+    latitude: float = 13.0827, longitude: float = 80.2707,
+    timezone_offset: float = 5.5, timezone: Optional[float] = None,
+    place_name: str = "Location", ayanamsa_mode: str = "PUSHYA_PAKSHA",
+    target_year: int = 2026,
+    divisional_chart_factor: int = 1,
+    pvr_reformed_method: bool = True,
+    **kwargs
+) -> Dict[str, Any]:
+    tz = timezone if timezone is not None else timezone_offset
+    dob, tob, place, birth_jd_ut = create_date_and_place(
+        year, month, day, hour, minute, second,
+        latitude, longitude, tz, place_name, ayanamsa_mode
+    )
+    
+    # 1. Natal Tithi angle
+    s_pos_b = swe.calc_ut(birth_jd_ut, swe.SUN, swe.FLG_SWIEPH)[0][0]
+    m_pos_b = swe.calc_ut(birth_jd_ut, swe.MOON, swe.FLG_SWIEPH)[0][0]
+    natal_tithi_angle = (m_pos_b - s_pos_b) % 360.0
+    tithi_no = int(natal_tithi_angle / 12.0) + 1
+    
+    # Preceding New Moon tropical Sun sign at birth
+    approx_b_nm = birth_jd_ut - (natal_tithi_angle / 12.1907)
+    curr_b = approx_b_nm
+    for _ in range(25):
+        sp = swe.calc_ut(curr_b, swe.SUN, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        mp = swe.calc_ut(curr_b, swe.MOON, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        d = (mp[0][0] - sp[0][0]) % 360.0
+        if d > 180.0: d -= 360.0
+        if abs(d) < 1e-7: break
+        rel_sp = (mp[0][3] - sp[0][3])
+        if abs(rel_sp) < 1e-4: rel_sp = 12.1907
+        curr_b -= (d / rel_sp)
+    birth_nm_sun_trop = swe.calc_ut(curr_b, swe.SUN, swe.FLG_SWIEPH)[0][0] % 360.0
+    birth_nm_sign = int(birth_nm_sun_trop // 30.0)
+
+    # 2. Target Year New Moon in same tropical sign
+    approx_day = 80 + birth_nm_sign * 30.43
+    if approx_day > 365: approx_day -= 365
+    approx_m = max(1, min(12, int(approx_day // 30.43) + 1))
+    approx_d = max(1, min(28, int(approx_day % 30.43) + 1))
+    approx_t_jd = swe.julday(target_year, approx_m, approx_d, 12.0)
+    
+    # Find preceding New Moon
+    s_t = swe.calc_ut(approx_t_jd, swe.SUN, swe.FLG_SWIEPH)[0][0]
+    m_t = swe.calc_ut(approx_t_jd, swe.MOON, swe.FLG_SWIEPH)[0][0]
+    ang_t = (m_t - s_t) % 360.0
+    curr_t = approx_t_jd - (ang_t / 12.1907)
+    for _ in range(25):
+        sp = swe.calc_ut(curr_t, swe.SUN, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        mp = swe.calc_ut(curr_t, swe.MOON, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        d = (mp[0][0] - sp[0][0]) % 360.0
+        if d > 180.0: d -= 360.0
+        if abs(d) < 1e-7: break
+        rel_sp = (mp[0][3] - sp[0][3])
+        if abs(rel_sp) < 1e-4: rel_sp = 12.1907
+        curr_t -= (d / rel_sp)
+    
+    # 3. Solve exact Tithi Pravesha return JD
+    tp_jd_ut = curr_t + (natal_tithi_angle / 12.1907)
+    for _ in range(30):
+        sp = swe.calc_ut(tp_jd_ut, swe.SUN, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        mp = swe.calc_ut(tp_jd_ut, swe.MOON, swe.FLG_SWIEPH | swe.FLG_SPEED)
+        d = (mp[0][0] - sp[0][0]) % 360.0
+        err = (natal_tithi_angle - d)
+        if err > 180.0: err -= 360.0
+        elif err < -180.0: err += 360.0
+        if abs(err) < 1e-7: break
+        rel_sp = (mp[0][3] - sp[0][3])
+        if abs(rel_sp) < 1e-4: rel_sp = 12.1907
+        tp_jd_ut += (err / rel_sp)
+
+    # Local return date
+    cal_date = swe.revjul(tp_jd_ut)
+    y, mo, da, float_hour = cal_date
+    local_h = float_hour + tz
+    if local_h >= 24.0:
+        local_h -= 24.0
+        da += 1
+    hr = int(local_h)
+    mn = int((local_h - hr) * 60.0)
+    sc = round(((local_h - hr) * 60.0 - mn) * 60.0, 2)
+    tp_return_local_str = f"{y:04d}-{mo:02d}-{da:02d} {hr:02d}:{mn:02d}:{sc:05.2f}"
+
+    # Year Lord (Vara Lord)
+    day_of_week_idx = int(tp_jd_ut + (tz / 24.0) + 1.5) % 7
+    vara_lord = WEEKDAY_LORDS[day_of_week_idx]
+
+    # TP Sidereal Positions
+    ayanamsa_val = swe.get_ayanamsa_ut(tp_jd_ut)
+    houses, ascmc = swe.houses(tp_jd_ut, latitude, longitude, b'P')
+    tp_d1_asc = (ascmc[0] - ayanamsa_val) % 360.0
+    
+    tp_d1_planets = {}
+    for p_name in PLANET_NAMES:
+        if p_name == "Ketu":
+            rahu_tot = tp_d1_planets.get("Rahu", (0.0, False))[0]
+            tp_d1_planets["Ketu"] = ((rahu_tot + 180.0) % 360.0, True)
+            continue
+        pid = getattr(swe, p_name.upper()) if p_name != "Rahu" else swe.MEAN_NODE
+        res, _ = swe.calc_ut(tp_jd_ut, pid)
+        sid_deg = (res[0] - ayanamsa_val) % 360.0
+        is_ret = (res[3] < 0.0)
+        tp_d1_planets[p_name] = (sid_deg, is_ret)
+
+    # Compute target Varga
+    v_lagna_sign, v_lagna_deg = get_pvr_divisional_position(
+        int(tp_d1_asc // 30.0), tp_d1_asc % 30.0, divisional_chart_factor,
+        method="pvr" if pvr_reformed_method else "standard"
+    )
+    
+    tp_varga_placements = {}
+    vision_input = {}
+    for p_name, (tot_d, is_ret) in tp_d1_planets.items():
+        v_s, v_d = get_pvr_divisional_position(
+            int(tot_d // 30.0), tot_d % 30.0, divisional_chart_factor,
+            method="pvr" if pvr_reformed_method else "standard"
+        )
+        h_from_l = ((v_s - v_lagna_sign + 12) % 12) + 1
+        tp_varga_placements[p_name] = {
+            "sign": RASI_NAMES[v_s],
+            "degrees_in_sign": f"{v_d:.2f}°",
+            "house_from_lagna": h_from_l,
+            "is_retrograde": is_ret
+        }
+        vision_input[p_name] = {
+            "rasi_idx": v_s,
+            "deg_in_rasi": v_d,
+            "is_retrograde": is_ret
+        }
+
+    detailed_vision = calculate_chart_vision(
+        v_lagna_sign, v_lagna_deg, vision_input,
+        chart_name=f"Tithi Pravesha D-{divisional_chart_factor}"
+    )
+
+    return {
+        "status": "success",
+        "target_year": target_year,
+        "tithi_number": tithi_no,
+        "tithi_pravesha_exact_time_local": tp_return_local_str,
+        "vara_lord_year_ruler": vara_lord,
+        "ayanamsa": ayanamsa_mode,
+        "varga": f"D-{divisional_chart_factor}",
+        "calculation_method": "PVR Reformed" if pvr_reformed_method else "Standard Parasara",
+        "lagna_sign": RASI_NAMES[v_lagna_sign],
+        "lagna_degree": round(v_lagna_deg, 2),
+        "varga_placements": tp_varga_placements,
+        "detailed_chart_vision": detailed_vision
     }
 
 @server.tool(

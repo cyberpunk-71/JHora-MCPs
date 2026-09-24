@@ -44,6 +44,7 @@ def run_verification():
         ]),
         ("MCP 2: Divisional Charts, Lagnas & Arudhas", server2, [
             "get_divisional_chart",
+            "get_varga_chart_detailed_vision",
             "get_all_divisional_charts_summary",
             "get_special_lagnas",
             "get_upagrahas",
@@ -76,6 +77,7 @@ def run_verification():
             "calculate_tajaka_varshaphal",
             "calculate_tajaka_sahams",
             "calculate_tajaka_yogas",
+            "calculate_tithi_pravesha_chart_detailed_vision",
             "calculate_kundali_match",
             "calculate_longevity_estimates"
         ])
