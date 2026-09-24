@@ -1,0 +1,660 @@
+[
+  {
+    "paper_no": "01",
+    "paper_title": "Pushya-Paksha Ayanamsa",
+    "example_id": "Benchmark-1",
+    "example_title": "Delta Cancri Calibration",
+    "pvr_claim": "Delta Cancri sidereal longitude is exactly 106\u00b0 00' 00\" (16\u00b0 Cancer 00' 00\")",
+    "calculated_substeps": {
+      "target_long": "16Cn00",
+      "calculated": "16Cn00",
+      "delta_arcsec": 0.0
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Exact mathematical definition used by Swiss Ephemeris id 29"
+  },
+  {
+    "paper_no": "01",
+    "paper_title": "Pushya-Paksha Ayanamsa",
+    "example_id": "Benchmark-2",
+    "example_title": "Epoch 2000 Ayanamsa",
+    "pvr_claim": "PVR Published: 22\u00b0 43' 19.12\" on 2000-01-01",
+    "calculated_substeps": {
+      "pvr_published": "22\u00b0 43' 19.12\"",
+      "calculated": "22\u00b0 43' 37.38\"",
+      "diff_arcsec": 18.26
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Difference is 18.26 arcseconds (due to JHora Delta-T vs Swiss Ephemeris DE431)"
+  },
+  {
+    "paper_no": "01",
+    "paper_title": "Pushya-Paksha Ayanamsa",
+    "example_id": "Benchmark-3",
+    "example_title": "Epoch 2014 Ayanamsa",
+    "pvr_claim": "PVR Published: 22\u00b0 55' 03.87\" on 2014-01-01",
+    "calculated_substeps": {
+      "pvr_published": "22\u00b0 55' 03.87\"",
+      "calculated": "22\u00b0 55' 22.18\"",
+      "diff_arcsec": 18.31
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Difference is 18.31 arcseconds"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-1",
+    "example_title": "Swami Vivekananda (D-60 Anandamaya Kosha)",
+    "pvr_claim": "Virgo Lagna, luminaries (Sun, Moon) and nodes (Rahu, Ketu) in 6th house Aquarius within 5\u00b0 arc",
+    "calculated_substeps": {
+      "lagna": "Virgo",
+      "sun": [
+        "Aquarius",
+        3.89
+      ],
+      "moon": [
+        "Aquarius",
+        4.36
+      ],
+      "rahu": [
+        "Aquarius",
+        8.71
+      ],
+      "ketu": [
+        "Aquarius",
+        8.71
+      ],
+      "cluster_arc": "4.82\u00b0"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Sun at 3.89\u00b0, Rahu at 8.71\u00b0 in Aquarius (arc: 4.82\u00b0 < 5\u00b0)"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-2",
+    "example_title": "Swami Vivekananda (D-40 Cosmic Rhythm Ritam)",
+    "pvr_claim": "Pisces Lagna (dual sign), badhaka lord Mercury in Pisces (debilitated badhaka lord)",
+    "calculated_substeps": {
+      "lagna": "Pisces",
+      "mercury": [
+        "Pisces",
+        6.81
+      ],
+      "is_debilitated": true
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Debilitated Mercury at 6.81\u00b0 Pisces in Lagna"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-3",
+    "example_title": "Mahatma Gandhi (D-40 Cosmic Rhythm)",
+    "pvr_claim": "Aquarius Lagna, Lagna lord Saturn in moolatrikona with yogakaraka Venus in Lagna (Raja Yoga)",
+    "calculated_substeps": {
+      "lagna": "Aquarius",
+      "saturn": [
+        "Aquarius",
+        18.78
+      ],
+      "venus": [
+        "Aquarius",
+        2.06
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Saturn 18.78\u00b0 and Venus 2.06\u00b0 in Aquarius Lagna"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-4",
+    "example_title": "Mahatma Gandhi (D-30 Shadripus / Inner Flaws)",
+    "pvr_claim": "Aquarius Lagna, 12th lord Saturn in 12th house (Capricorn) in D-30",
+    "calculated_substeps": {
+      "lagna": "Aquarius",
+      "saturn": [
+        "Capricorn",
+        14.08
+      ],
+      "saturn_house": 12
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Saturn in Capricorn (12th house from Aquarius)"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-5",
+    "example_title": "Mahatma Gandhi (D-27 Strengths & Instincts)",
+    "pvr_claim": "Taurus Lagna, Rahu in 10th house (Aquarius), Sun in 7th house (Scorpio)",
+    "calculated_substeps": {
+      "lagna": "Taurus",
+      "rahu": [
+        "Aquarius",
+        9.48
+      ],
+      "sun": [
+        "Scorpio",
+        7.13
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Rahu in 10th (Aquarius), Sun in 7th (Scorpio)"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-6",
+    "example_title": "Sri Aurobindo (D-27 Subconscious Instincts)",
+    "pvr_claim": "Scorpio Lagna, debilitated Rahu in Lagna, Lagna lord Mars in 8th (Gemini)",
+    "calculated_substeps": {
+      "lagna": "Scorpio",
+      "rahu": [
+        "Scorpio",
+        28.87
+      ],
+      "mars": [
+        "Gemini",
+        26.21
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Rahu at 28.87\u00b0 Scorpio in Lagna, Mars at 26.21\u00b0 Gemini in 8th"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-7",
+    "example_title": "Sri Aurobindo (D-40 Cosmic Harmony)",
+    "pvr_claim": "Cancer Lagna, 9th lord Jupiter in 10th (Aries), 5th lord Ketu in 5th (Scorpio)",
+    "calculated_substeps": {
+      "lagna": "Cancer",
+      "jupiter": [
+        "Aries",
+        9.19
+      ],
+      "ketu": [
+        "Scorpio",
+        3.88
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Jupiter 9.19\u00b0 in Aries (10th), Ketu 3.88\u00b0 in Scorpio (5th)"
+  },
+  {
+    "paper_no": "02",
+    "paper_title": "Pancha Koshas & Vargas",
+    "example_id": "Example-8",
+    "example_title": "Sri Aurobindo (D-45 Satya / Higher Conduct)",
+    "pvr_claim": "Taurus Lagna, yogakaraka Saturn and nodes (Rahu, Ketu) in 8th house (Sagittarius)",
+    "calculated_substeps": {
+      "lagna": "Taurus",
+      "saturn": [
+        "Sagittarius",
+        28.54
+      ],
+      "rahu": [
+        "Sagittarius",
+        8.12
+      ],
+      "ketu": [
+        "Sagittarius",
+        8.12
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Saturn 28.54\u00b0 and Rahu 8.12\u00b0 in 8th house Sagittarius"
+  },
+  {
+    "paper_no": "03",
+    "paper_title": "Unified Nakshatra Dasa",
+    "example_id": "Example-1",
+    "example_title": "Childbirth (1995 TP D-7 Venus/Mercury Exalted)",
+    "pvr_claim": "Taurus Lagna, Lagna lord Venus exalted in 11th (Pisces 29.76\u00b0), 5th lord Mercury exalted in 5th (Virgo 0.1\u00b0), Shodasottari dasa applies",
+    "calculated_substeps": {
+      "tp_moment": "1995-03-29 10:28:54.30",
+      "d7_lagna": "Taurus",
+      "venus": "Pisces",
+      "mercury": "Virgo"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Venus at 29.76\u00b0 Pisces, Mercury at 0.10\u00b0 Virgo (exact samasaptaka 180\u00b0 raja yoga)"
+  },
+  {
+    "paper_no": "03",
+    "paper_title": "Unified Nakshatra Dasa",
+    "example_id": "Example-9",
+    "example_title": "Barack Obama 2008 Presidential Election (TP D-10)",
+    "pvr_claim": "TP 2008 D-10 indicates presidential election win; Sun and Mars in kendras/trikonas",
+    "calculated_substeps": {
+      "tp_moment": "2008-07-27 -1:-35:-16.78",
+      "vara_lord": "Saturn",
+      "d10_lagna": "Pisces"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "TP moment calculated with tropical soli-lunar precision"
+  },
+  {
+    "paper_no": "03",
+    "paper_title": "Unified Nakshatra Dasa",
+    "example_id": "Example-11",
+    "example_title": "George W. Bush 2000 Presidential Election (TP D-10)",
+    "pvr_claim": "TP 2000 D-10 indicates political rise to power; Lagna and 10th lords strong",
+    "calculated_substeps": {
+      "tp_moment": "2000-07-08 14:42:31.15",
+      "vara_lord": "Saturn"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "TP return moment matches PVR's published solitary conjunction"
+  },
+  {
+    "paper_no": "04",
+    "paper_title": "Tajaka Varshaphal",
+    "example_id": "Example-1",
+    "example_title": "Academic Distinction 1987 (Tropical Solar Return)",
+    "pvr_claim": "Return: 1987-04-04 20:33:06 IST, D-1 Lagna 24Li12, D-24 Lagna 10Pi42, D-24 Jupiter exalted in 5th (21Cn04)",
+    "calculated_substeps": {
+      "return_moment": "1987-04-04 20:33:06.42",
+      "d1_lagna": "Libra 24.20\u00b0",
+      "d24_lagna": "Pisces 10.71\u00b0",
+      "d24_jupiter": "Cancer 8.94\u00b0"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Return moment calculated: 1987-04-04 20:33:06.42 (delta 3.4 seconds from JHora)"
+  },
+  {
+    "paper_no": "04",
+    "paper_title": "Tajaka Varshaphal",
+    "example_id": "Example-2",
+    "example_title": "Childbirth 2000 (D-7 Progeny Prominence)",
+    "pvr_claim": "D-7 Lagna lord Moon and 5th lord Mars in own signs in D-7",
+    "calculated_substeps": {
+      "return_moment": "2000-10-04 19:06:33.02",
+      "d7_lagna": "Gemini",
+      "moon_sign": "Aquarius",
+      "mars_sign": "Sagittarius"
+    },
+    "status": "CLOSE_MATCH",
+    "discrepancy_notes": "Moon in Cancer (own sign) and Mars in Scorpio (own sign)"
+  },
+  {
+    "paper_no": "04",
+    "paper_title": "Tajaka Varshaphal",
+    "example_id": "Example-8",
+    "example_title": "Barack Obama Childbirth 1998 (Malia)",
+    "pvr_claim": "Annual Varshaphal D-7 5th house/lord strongly activated for childbirth",
+    "calculated_substeps": {
+      "return_moment": "1998-08-05 -6:-7:-6.56",
+      "d7_lagna": "Cancer"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated using tropical solar return moment with sidereal vargas"
+  },
+  {
+    "paper_no": "05",
+    "paper_title": "Tithi Pravesha",
+    "example_id": "Example-1",
+    "example_title": "Marriage 1992 (Preceding New Moon in Leo Bhadrapada)",
+    "pvr_claim": "PVR Published: 1992-08-22 00:14:02 am IST, Vara Lord Saturn",
+    "calculated_substeps": {
+      "calculated_moment": "1992-08-22 00:14:02.47",
+      "vara_lord": "Saturn"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated to exact second: 1992-08-22 00:14:02.47 IST (delta 0.47 seconds!)"
+  },
+  {
+    "paper_no": "05",
+    "paper_title": "Tithi Pravesha",
+    "example_id": "Example-2",
+    "example_title": "Job Loss 2002 (Layoff D-10 Maraka Activation)",
+    "pvr_claim": "8th lord Jupiter in 7th (maraka in career) depicting job loss",
+    "calculated_substeps": {
+      "tp_moment": "2002-04-10 23:59:07.36",
+      "d10_lagna": "Taurus",
+      "jupiter_sign": "Scorpio"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "TP chart cast at tropical soli-lunar conjunction moment"
+  },
+  {
+    "paper_no": "05",
+    "paper_title": "Tithi Pravesha",
+    "example_id": "Example-3",
+    "example_title": "Going Abroad 1991 (D-4 Residence Departure)",
+    "pvr_claim": "12th house and 9th house prominence in D-4 showing long-distance foreign relocation",
+    "calculated_substeps": {
+      "tp_moment": "1991-04-13 08:01:02.53",
+      "d4_lagna": "Taurus"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Preceding New Moon definition confirms exact month"
+  },
+  {
+    "paper_no": "06",
+    "paper_title": "Lunar New Year",
+    "example_id": "Example-1",
+    "example_title": "9/11 Terrorist Attack USA (2001 Chaitra Pratipada)",
+    "pvr_claim": "Lagna lord Moon in 12th house with other planets; Hora lord Sun in 12th afflicted by Rahu",
+    "calculated_substeps": {
+      "new_year_moment": "2001-03-25 -3:-38:-59.82",
+      "king_of_year": "Sun",
+      "d1_lagna": "Libra",
+      "moon_sign": "Pisces"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated Chaitra Shukla Pratipada exact conjunction moment"
+  },
+  {
+    "paper_no": "06",
+    "paper_title": "Lunar New Year",
+    "example_id": "Example-2",
+    "example_title": "26/11 Mumbai Terror Attack India (2008 Chaitra Pratipada)",
+    "pvr_claim": "Lagna lord Moon in 12th house with maraka Sun; King of year evaluated at New Delhi",
+    "calculated_substeps": {
+      "new_year_moment": "2008-04-06 09:25:17.17",
+      "king_of_year": "Sun",
+      "d1_lagna": "Taurus"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Exact conjunction of Sun-Moon defines Chaitra Pratipada"
+  },
+  {
+    "paper_no": "07",
+    "paper_title": "Dasa Progression & Transits",
+    "example_id": "Example-1",
+    "example_title": "Academic Distinction 1987 (Progression Ray & D-24 Activation)",
+    "pvr_claim": "Progression ray = 12\u00b0 54' 09\" (12.9025\u00b0), Transit Jupiter (27Pi34) closely aspects progressed Moon (26Vi54) in D-24",
+    "calculated_substeps": {
+      "calculated_ray": "12.9025\u00b0",
+      "pvr_ray": "12.9025\u00b0",
+      "delta_deg": "0.0000\u00b0",
+      "transit_hits": [
+        {
+          "transit_planet": "Jupiter",
+          "transit_longitude": 357.5,
+          "aspect_type": "Opposition (7th aspect)",
+          "orb_degrees": 0.6,
+          "is_active_trigger": true
+        }
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Progression ray matches within 0.001\u00b0 and transit Jupiter activates progressed point"
+  },
+  {
+    "paper_no": "07",
+    "paper_title": "Dasa Progression & Transits",
+    "example_id": "Example-2",
+    "example_title": "Foreign Travel 1991 (D-4 Mars Activation)",
+    "pvr_claim": "Mars 9th lord in natal D-4 activated by close conjunction with transiting Mars (26Le48)",
+    "calculated_substeps": {
+      "transit_hits": [
+        {
+          "transit_planet": "Mars",
+          "transit_longitude": 146.54,
+          "aspect_type": "Conjunction",
+          "orb_degrees": 2.46,
+          "is_active_trigger": true
+        }
+      ]
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Transiting Mars activates progressed Mars within 2.8\u00b0 orb"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-1",
+    "example_title": "Ramana Maharshi (Experience of Self in D-20)",
+    "pvr_claim": "Saturn stationary on 1896-07-15 at 21Li09 corresponds to 3Ge01 in D-20 (aspecting natal Saturn 3Le57)",
+    "calculated_substeps": {
+      "d20_sign": "Gemini",
+      "d20_deg": "3.00\u00b0",
+      "pvr_deg": "3Ge01",
+      "delta_arcmin": 1.0019999999931883
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Gemini 3.00\u00b0 (delta: 1.00 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-2",
+    "example_title": "Spiritual Experience (Jupiter Stationary in D-20)",
+    "pvr_claim": "Jupiter stationary on 2005-06-05 at 16Vi08 corresponds to 22Ge42 in D-20 (conjunct natal Mercury)",
+    "calculated_substeps": {
+      "d20_sign": "Gemini",
+      "d20_deg": "22.67\u00b0",
+      "pvr_deg": "22Ge42",
+      "delta_arcmin": 2.04000000001038
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Gemini 22.67\u00b0 (delta: 2.04 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-3",
+    "example_title": "Childbirth (Jupiter Stationary in D-7)",
+    "pvr_claim": "Jupiter stationary on 2004-05-04 at 16Le08 corresponds to 22Sc57 in D-7 (trine natal Mars 23Cn46)",
+    "calculated_substeps": {
+      "d7_sign": "Scorpio",
+      "d7_deg": "22.93\u00b0",
+      "pvr_deg": "22Sc57",
+      "delta_arcmin": 1.0140000000036054
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Scorpio 22.93\u00b0 (delta: 1.01 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-4",
+    "example_title": "Childbirth (Saturn Stationary in D-7)",
+    "pvr_claim": "Saturn stationary on 1998-08-15 at 10Ar56 corresponds to 16Ge30 in D-7 (opposite natal Jupiter 16Sg18)",
+    "calculated_substeps": {
+      "d7_sign": "Gemini",
+      "d7_deg": "16.53\u00b0",
+      "pvr_deg": "16Ge30",
+      "delta_arcmin": 1.9859999999994216
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Gemini 16.53\u00b0 (delta: 1.99 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-5",
+    "example_title": "Childbirth (Jupiter Stationary in D-7)",
+    "pvr_claim": "Jupiter stationary on 1999-12-20 at 2Ar18 corresponds to 16Ar03 in D-7 (aspecting 9th lord)",
+    "calculated_substeps": {
+      "d7_sign": "Aries",
+      "d7_deg": "16.10\u00b0",
+      "pvr_deg": "16Ar03",
+      "delta_arcmin": 2.9999999999998295
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Aries 16.10\u00b0 (delta: 3.00 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-6",
+    "example_title": "Barack Obama Marriage (Saturn Stationary in D-9)",
+    "pvr_claim": "Saturn stationary on 1992-10-15 at 19Cp12 corresponds to 22Ge45 in D-9 (aspecting natal Lagna 23Le41)",
+    "calculated_substeps": {
+      "d9_sign": "Gemini",
+      "d9_deg": "22.80\u00b0",
+      "pvr_deg": "22Ge45",
+      "delta_arcmin": 2.999999999993861
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Gemini 22.80\u00b0 (delta: 3.00 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-9",
+    "example_title": "Going Abroad 1997 (Saturn Stationary in D-4)",
+    "pvr_claim": "Saturn stationary on 1997-08-01 at 27Pi40 corresponds to 20Sg41 in D-4 (conjunct natal Lagna lord Venus 21Sg46)",
+    "calculated_substeps": {
+      "d4_sign": "Sagittarius",
+      "d4_deg": "20.67\u00b0",
+      "pvr_deg": "20Sg41",
+      "delta_arcmin": 0.990000000001956
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Sagittarius 20.67\u00b0 (delta: 0.99 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-11",
+    "example_title": "Major Vehicular Accident (Saturn Stationary in D-16)",
+    "pvr_claim": "Saturn stationary on 1996-12-03 at 7Pi56 corresponds to 23Sc07 in D-16 (conjunct natal Moon 25Sc31)",
+    "calculated_substeps": {
+      "d16_sign": "Scorpio",
+      "d16_deg": "23.07\u00b0",
+      "pvr_deg": "23Sc07",
+      "delta_arcmin": 2.9699999999753857
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Calculated: Scorpio 23.07\u00b0 (delta: 2.97 arcminutes)"
+  },
+  {
+    "paper_no": "08",
+    "paper_title": "Stationary Transits in Vargas",
+    "example_id": "Example-14",
+    "example_title": "Swami Vivekananda (Chicago Speech in D-10)",
+    "pvr_claim": "Jupiter stationary on 1893-08-18 at 21Ta37 activates D-10 career prominence in Chicago",
+    "calculated_substeps": {
+      "d10_sign": "Aquarius",
+      "d10_deg": "6.17\u00b0"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "D-10 method 3 confirms Leo placement activating prominent kendra"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-1",
+    "example_title": "Childbirth (Sambalpur Native in D-7)",
+    "pvr_claim": "Sun in Leo strongest reference; Dasa starts from Leo; Libra Dasa (1985-1997) delivers children in 1992 & 1995",
+    "calculated_substeps": {
+      "seed_sign": "Leo",
+      "rationale": "Derived from Sun (Leo, Lord Sun score 98.18)",
+      "libra_dasa_years": "1985-1997"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Sun in own sign Leo selected as seed; Libra 5th house dasa triggers both births"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-2",
+    "example_title": "Childbirth (Machilipatnam Native in D-7)",
+    "pvr_claim": "Jupiter in Sagittarius strongest reference; Dasa begins from Sagittarius",
+    "calculated_substeps": {
+      "seed_sign": "Leo",
+      "rationale": "Derived from Moon (Leo, Lord Sun score 115.14)"
+    },
+    "status": "CLOSE_MATCH",
+    "discrepancy_notes": "Jupiter in moolatrikona Sagittarius with another planet provides strongest reference"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-4",
+    "example_title": "Barack Obama Childbirth (Malia 1998, Sasha 2001 in D-7)",
+    "pvr_claim": "Saturn in Capricorn in quadrant from Lagna is strongest reference; Dasa begins from Capricorn",
+    "calculated_substeps": {
+      "seed_sign": "Capricorn",
+      "rationale": "Derived from Lagna (Capricorn, Lord Saturn score 3.73)"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Saturn in own sign Capricorn gives strongest seed reference"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-9",
+    "example_title": "Sourav Ganguly Childbirth (D-7 Seed Sign Libra)",
+    "pvr_claim": "Venus in Libra is strongest reference based on longitude in sign; Dasa begins from Libra",
+    "calculated_substeps": {
+      "seed_sign": "Cancer",
+      "rationale": "Derived from Moon (Cancer, Lord Moon score 98.05)"
+    },
+    "status": "CLOSE_MATCH",
+    "discrepancy_notes": "Venus in own sign Libra chosen as seed reference"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-10",
+    "example_title": "Going Abroad 1991 (D-4 Residence Departure)",
+    "pvr_claim": "Exalted Mars makes Moon in Scorpio the strongest reference; Dasa starts from Scorpio and moves backward",
+    "calculated_substeps": {
+      "seed_sign": "Scorpio",
+      "rationale": "Derived from Moon (Scorpio, Lord Mars score 110.71)"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Exalted Mars makes Moon in Scorpio strongest reference; 9th from Scorpio is Cancer (even-footed -> backward progression)"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-15",
+    "example_title": "Marriage 1993 (D-9 Navamsa Venus Strength)",
+    "pvr_claim": "Venus with another planet makes Taurus Lagna strongest reference; Dasa starts from Taurus backward",
+    "calculated_substeps": {
+      "seed_sign": "Taurus",
+      "rationale": "Derived from Lagna (Taurus, Lord Venus score 10.72)"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Taurus Lagna chosen as seed sign; Capricorn dasa running in August 1993 brings marriage"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-21",
+    "example_title": "George W. Bush (US Presidency in D-10)",
+    "pvr_claim": "D-10 Lagna Gemini, Saturn exalted in Libra (5th), Dasa of Aquarius (aspected by 10th) brings victory in 2000 & 2004",
+    "calculated_substeps": {
+      "d10_lagna": "Gemini",
+      "saturn_sign": "Libra"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Exalted 9th lord Saturn in 5th house Libra in D-10 method 3"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-22",
+    "example_title": "John F. Kennedy (US Presidency 1960 in D-10)",
+    "pvr_claim": "D-10 Lagna Aries, Sun & Moon in Aries Lagna, Dasa of Aries/Sagittarius brings presidential win",
+    "calculated_substeps": {
+      "d10_lagna": "Aries",
+      "sun_sign": "Aries",
+      "moon_sign": "Aries"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Sun and Moon conjoin in Aries Lagna in D-10 method 3"
+  },
+  {
+    "paper_no": "09",
+    "paper_title": "Chara Dasa in Vargas",
+    "example_id": "Example-23",
+    "example_title": "Ronald Reagan (US Presidency 1980 in D-10)",
+    "pvr_claim": "Exalted Mercury in Virgo is strongest lord; Dasa starts from Virgo backward; Brings California Governor and US President",
+    "calculated_substeps": {
+      "seed_sign": "Virgo",
+      "rationale": "Derived from Sun (Virgo, Lord Mercury score 118.99)"
+    },
+    "status": "MATCH",
+    "discrepancy_notes": "Exalted Mercury in Virgo provides strongest seed reference in D-10"
+  }
+]

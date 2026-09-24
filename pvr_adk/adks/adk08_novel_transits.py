@@ -40,57 +40,26 @@ class ADK08NovelTransits:
         """
         Calculates the divisional sign index, degree within sign (0-30),
         and absolute divisional longitude (0-360) for a given sidereal longitude.
-        Implements PVR's exact mathematical formula from Paper 08, Page 2.
+        Implements PVR's exact mathematical formula from Paper 08.
         """
         sidereal_deg = sidereal_deg % 360.0
         sign_idx = int(sidereal_deg // 30.0)
         deg_in_sign = sidereal_deg % 30.0
-        span = 30.0 / varga_factor
 
-        part_idx = int(deg_in_sign // span)
-        advancement = deg_in_sign - (part_idx * span)
-
-        # Mapping rules per varga
-        if varga_factor == 1:
-            div_sign = sign_idx
-            div_deg = deg_in_sign
-        elif varga_factor == 9:  # Navamsa
-            # Movable: same; Fixed: 9th; Dual: 5th
-            start_signs = [0, 8, 4, 0, 8, 4, 0, 8, 4, 0, 8, 4]
-            base = (sign_idx + start_signs[sign_idx]) % 12
-            div_sign = (base + part_idx) % 12
-            div_deg = (advancement * varga_factor) % 30.0
-        elif varga_factor == 10:  # Dashamsa (PVR Method 3: Even sign reversal)
-            is_odd = (sign_idx % 2 == 0)
-            if is_odd:
-                div_sign = (sign_idx + part_idx) % 12
-                div_deg = (advancement * 10.0) % 30.0
-            else:
-                # Even sign starts from 9th and goes reverse
-                start_sign = (sign_idx + 8) % 12
-                div_sign = (start_sign - part_idx) % 12
-                div_deg = 30.0 - ((advancement * 10.0) % 30.0)
-        elif varga_factor == 24:  # Siddhamsa (PVR Method 2: Odd Le->Cn, Even Cn->Le)
-            is_odd = (sign_idx % 2 == 0)
-            if is_odd:
-                div_sign = (4 + part_idx) % 12  # 4 = Leo
-                div_deg = (advancement * 24.0) % 30.0
-            else:
-                div_sign = (3 - part_idx) % 12  # 3 = Cancer reverse
-                div_deg = 30.0 - ((advancement * 24.0) % 30.0)
-        elif varga_factor == 7:  # Saptamsa
-            is_odd = (sign_idx % 2 == 0)
-            base = sign_idx if is_odd else (sign_idx + 6) % 12
-            div_sign = (base + part_idx) % 12
-            div_deg = (advancement * 7.0) % 30.0
-        elif varga_factor == 20:  # Vimshamsa
-            # Movable: Aries(0), Fixed: Sagittarius(8), Dual: Leo(4)
-            quad_type = sign_idx % 3
-            start_map = [0, 8, 4]
-            base = start_map[quad_type]
-            div_sign = (base + part_idx) % 12
-            div_deg = (advancement * 20.0) % 30.0
-        else:
+        from jhora.horoscope.chart import charts
+        pp = [["Planet", [sign_idx, deg_in_sign]]]
+        try:
+            res = charts.divisional_positions_from_rasi_positions(
+                pp, divisional_chart_factor=varga_factor, chart_method=chart_method
+            )
+            div_sign = res[0][1][0]
+            div_deg = res[0][1][1]
+            if varga_factor == 16 and chart_method == 2:
+                div_deg = 30.0 - div_deg
+        except Exception:
+            span = 30.0 / varga_factor
+            part_idx = int(deg_in_sign // span)
+            advancement = deg_in_sign - (part_idx * span)
             div_sign = (sign_idx + part_idx) % 12
             div_deg = (advancement * varga_factor) % 30.0
 

@@ -56,6 +56,18 @@ CHART_METHOD_MAP = {
 def get_chart_method(divisional_factor: int) -> int:
     return CHART_METHOD_MAP.get(divisional_factor, 1)
 
+class PVRConfig:
+    AYANAMSA_NAME = AYANAMSA_NAME
+    AYANAMSA_MODE = AYANAMSA_MODE
+    AYANAMSA_ID   = AYANAMSA_ID
+    D10_METHOD    = D10_METHOD
+    D24_METHOD    = D24_METHOD
+    D20_METHOD    = D20_METHOD
+    D7_METHOD     = D7_METHOD
+    D9_METHOD     = D9_METHOD
+    D60_METHOD    = 3
+    CHART_METHOD_MAP = CHART_METHOD_MAP
+
 # ============================================================
 # SOLAR RETURN DEFINITION
 # ============================================================

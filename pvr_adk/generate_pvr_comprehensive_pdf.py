@@ -148,24 +148,35 @@ def generate_pdf_report(output_path: str):
         body_style
     ))
 
+    # Load empirical verification results from JSON
+    json_path = "/home/opc/mcp_jhora/output_charts/pvr_exhaustive_verification_results.json"
+    results = []
+    if os.path.exists(json_path):
+        import json
+        with open(json_path) as fp:
+            results = json.load(fp)
+
     bench_data = [
-        [Paragraph("Test & Example", table_header), Paragraph("Published PVR Result", table_header), Paragraph("Our ADK Calculated Result", table_header), Paragraph("Precision / Delta", table_header)],
-        [Paragraph("Paper 01: Pushya Ayanamsa<br/>2000-01-01 06:00 IST", table_cell), Paragraph("22° 43' 19.12\"", table_cell), Paragraph("22° 43' 37.38\" (UT)<br/>22° 43' 23.45\" (Star)", table_cell), Paragraph("4.32 arcsec (Within Delta-T / Nutation margin)", table_cell)],
-        [Paragraph("Paper 04: Tajaka Varshaphal<br/>Academic Distinction 1987", table_cell), Paragraph("Return: 1987-04-04 20:33:06 IST<br/>D-1: 24Li12 | D-24: 10Pi42<br/>D-24 Jupiter: 21Cn04 (Exalted 5H)", table_cell), Paragraph("Return: 1987-04-04 20:33:06.42 IST<br/>D-1: Libra 24.20°<br/>D-24: Pisces 10.71°<br/>D-24 Jupiter: Cancer (Exalted 5H)", table_cell), Paragraph("Exact Match to the second and arcminute!", table_cell)],
-        [Paragraph("Paper 05: Tithi Pravesha<br/>Marriage Example 1 (1992)", table_cell), Paragraph("Return: 1992-08-22 00:14:02 am IST<br/>Vara Lord: Saturn", table_cell), Paragraph("Return: 1992-08-22 00:14:02.47 am IST<br/>Vara Lord: Saturn", table_cell), Paragraph("0.47 second delta across 21 years of planetary cycles!", table_cell)],
-        [Paragraph("Paper 08: Stationary Transits<br/>Ramana Maharshi D-20", table_cell), Paragraph("Saturn stat 1896-07-15 21Li09<br/>D-20: 3° Gemini 01' (12H from AK)", table_cell), Paragraph("Saturn stat: 21Li09<br/>D-20: Gemini 3.00°", table_cell), Paragraph("0.01° delta! Confirms Method 2 Vimshamsa", table_cell)],
-        [Paragraph("Paper 08: Stationary Transits<br/>Marriage Example 6", table_cell), Paragraph("Saturn stat 1992-10-15 19Cp12<br/>D-9: 22° Gemini 45' (Aspects Lagna)", table_cell), Paragraph("Saturn stat: 19Cp12<br/>D-9: Gemini 22.80°", table_cell), Paragraph("0.05° delta! Exact aspect on D-9 Lagna", table_cell)],
-        [Paragraph("Paper 09: Chara Dasa D-10<br/>George W. Bush Career", table_cell), Paragraph("Lagna: Gemini | Saturn: Libra (Exalted)<br/>Venus: Aquarius | Sun: Capricorn", table_cell), Paragraph("Lagna: Gemini | Saturn: Libra<br/>Venus: Aquarius | Sun: Capricorn", table_cell), Paragraph("100% Match! Confirms Method 3 Dashamsa", table_cell)],
-        [Paragraph("Paper 09: Chara Dasa D-7<br/>Barack Obama Children", table_cell), Paragraph("Lagna: Capricorn | Sun: Virgo<br/>Moon: Virgo | Venus: Leo", table_cell), Paragraph("Lagna: Capricorn | Sun: Virgo<br/>Moon: Virgo | Venus: Leo", table_cell), Paragraph("100% Match! Confirms Method 2 Saptamsa", table_cell)],
+        [Paragraph("Paper & Example", table_header), Paragraph("PVR Published Claim & Substeps", table_header), Paragraph("ADK Calculated Substeps", table_header), Paragraph("Status & Delta", table_header)]
     ]
 
-    t2 = Table(bench_data, colWidths=[110, 140, 150, 140])
+    for r in results:
+        status_color = "#047857" if r["status"] == "MATCH" else ("#b45309" if r["status"] == "CLOSE_MATCH" else "#b91c1c")
+        calc_str = "<br/>".join([f"• <b>{k}:</b> {v}" for k, v in list(r["calculated_substeps"].items())[:3]])
+        bench_data.append([
+            Paragraph(f"<b>Paper {r['paper_no']}:</b><br/>{r['example_id']}<br/><i>{r['example_title']}</i>", table_cell),
+            Paragraph(r["pvr_claim"], table_cell),
+            Paragraph(calc_str, table_cell),
+            Paragraph(f"<font color='{status_color}'><b>{r['status']}</b></font><br/>{r['discrepancy_notes']}", table_cell)
+        ])
+
+    t2 = Table(bench_data, colWidths=[110, 150, 140, 140], repeatRows=1)
     t2.setStyle(TableStyle([
         ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#047857')),
         ('ALIGN', (0,0), (-1,-1), 'LEFT'),
         ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
         ('GRID', (0,0), (-1,-1), 0.5, colors.HexColor('#cbd5e1')),
-        ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.white, colors.HexColor('#f0fdf4')])
+        ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.white, colors.HexColor('#f8fafc')])
     ]))
     story.append(t2)
     story.append(Spacer(1, 10))

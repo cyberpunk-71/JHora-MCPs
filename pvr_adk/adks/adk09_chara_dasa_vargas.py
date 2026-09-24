@@ -24,7 +24,7 @@ Core Methodological Breakthroughs:
    - or key Karaka triggers the promised life event with exceptional clarity.
 """
 
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List, Tuple, Optional
 from pvr_adk.core.config import (
     ODD_FOOTED_SIGNS, EVEN_FOOTED_SIGNS, RASI_NAMES, PLANET_NAMES
 )
@@ -57,24 +57,83 @@ class ADK09CharaDasaVargas:
     def is_odd_footed(self, sign_idx: int) -> bool:
         return sign_idx in ODD_FOOTED_SIGNS
 
-    def get_stronger_lord(self, sign_idx: int, planets_in_varga: Dict[str, Any]) -> Tuple[str, float]:
-        """Returns the primary lord name and estimated strength score."""
-        p_id = SIGN_LORDS[sign_idx]
-        p_name = PLANET_NAMES[p_id]
-        p_data = planets_in_varga.get(p_name)
-        if not p_data:
-            return p_name, 1.0
+    EXALTATION_MAP = {
+        "Sun": 0, "Moon": 1, "Mars": 9, "Mercury": 5, "Jupiter": 3, "Venus": 11, "Saturn": 6, "Rahu": 1, "Ketu": 7
+    }
+    MOOLATRIKONA_MAP = {
+        "Sun": 4, "Moon": 1, "Mars": 0, "Mercury": 5, "Jupiter": 8, "Venus": 6, "Saturn": 10, "Rahu": 5, "Ketu": 11
+    }
+    OWN_SIGNS_MAP = {
+        "Sun": [4], "Moon": [3], "Mars": [0, 7], "Mercury": [2, 5],
+        "Jupiter": [8, 11], "Venus": [1, 6], "Saturn": [9, 10], "Rahu": [10], "Ketu": [7]
+    }
 
-        score = 2.0
-        # Angular houses / exalted boost
+    def get_lord_strength_score(self, lord_name: str, ref_sign: int, planets_in_varga: Dict[str, Any]) -> float:
+        """
+        Calculates lord strength per PVR Paper 09 hierarchical rules:
+        (a) Exalted (+100) / Moolatrikona (+90) / Own sign (+80)
+        (b) Joined with other planets (+10 per other planet)
+        (c) In a trine from ref_sign (+5)
+        (d) In a quadrant from ref_sign (+3)
+        (e) Degree advancement in sign (deg / 30.0)
+        """
+        p_data = planets_in_varga.get(lord_name)
+        if not p_data:
+            return 0.0
+
+        p_sign = p_data["rasi_idx"]
         p_deg = p_data.get("deg_in_rasi", 15.0)
-        score += (p_deg / 30.0)  # tie breaker: advancement in sign
-        return p_name, score
+
+        score = 0.0
+        # Rule (a): Dignity
+        if p_sign == self.EXALTATION_MAP.get(lord_name):
+            score += 100.0
+        elif p_sign == self.MOOLATRIKONA_MAP.get(lord_name):
+            score += 90.0
+        elif p_sign in self.OWN_SIGNS_MAP.get(lord_name, []):
+            score += 80.0
+
+        # Rule (b): Conjunctions with other planets
+        conjoined = sum(
+            1 for other_p, other_d in planets_in_varga.items()
+            if other_p != lord_name and other_d["rasi_idx"] == p_sign
+        )
+        score += conjoined * 10.0
+
+        # Relative distance from ref_sign
+        dist = (p_sign - ref_sign) % 12
+        # Rule (c): Trine (1st, 5th, 9th)
+        if dist in [0, 4, 8]:
+            score += 5.0
+        # Rule (d): Quadrant (1st, 4th, 7th, 10th)
+        if dist in [0, 3, 6, 9]:
+            score += 3.0
+
+        # Rule (e): Degree advancement
+        score += (p_deg / 30.0)
+        return score
+
+    def get_stronger_lord(self, sign_idx: int, planets_in_varga: Dict[str, Any], ref_sign: Optional[int] = None) -> Tuple[str, float]:
+        """Returns the primary lord name and estimated strength score."""
+        ref = sign_idx if ref_sign is None else ref_sign
+        if sign_idx == 7:  # Scorpio: Mars vs Ketu
+            s_mars = self.get_lord_strength_score("Mars", ref, planets_in_varga)
+            s_ketu = self.get_lord_strength_score("Ketu", ref, planets_in_varga)
+            return ("Mars", s_mars) if s_mars >= s_ketu else ("Ketu", s_ketu)
+        elif sign_idx == 10:  # Aquarius: Saturn vs Rahu
+            s_sat = self.get_lord_strength_score("Saturn", ref, planets_in_varga)
+            s_rah = self.get_lord_strength_score("Rahu", ref, planets_in_varga)
+            return ("Saturn", s_sat) if s_sat >= s_rah else ("Rahu", s_rah)
+        else:
+            p_id = SIGN_LORDS[sign_idx]
+            p_name = PLANET_NAMES[p_id]
+            score = self.get_lord_strength_score(p_name, ref, planets_in_varga)
+            return p_name, score
 
     def calculate_seed_sign(self, varga_data: Dict[str, Any]) -> Tuple[int, str]:
         """
         PVR Breakthrough: Compare signs containing Lagna, Moon, and Sun.
-        The seed sign is the one whose lord is strongest.
+        The seed sign is the one whose lord is strongest according to PVR rules.
         """
         lagna_sign = varga_data["lagna"]["rasi_idx"]
         planets = varga_data["planets"]
@@ -82,15 +141,15 @@ class ADK09CharaDasaVargas:
         sun_sign = planets["Sun"]["rasi_idx"]
 
         candidates = [
-            ("Lagna", lagna_sign, self.get_stronger_lord(lagna_sign, planets)),
-            ("Moon", moon_sign, self.get_stronger_lord(moon_sign, planets)),
-            ("Sun", sun_sign, self.get_stronger_lord(sun_sign, planets))
+            ("Lagna", lagna_sign, self.get_stronger_lord(lagna_sign, planets, ref_sign=lagna_sign)),
+            ("Moon", moon_sign, self.get_stronger_lord(moon_sign, planets, ref_sign=moon_sign)),
+            ("Sun", sun_sign, self.get_stronger_lord(sun_sign, planets, ref_sign=sun_sign))
         ]
 
         # Sort by strength score descending
         candidates.sort(key=lambda x: x[2][1], reverse=True)
         chosen = candidates[0]
-        return chosen[1], f"Derived from {chosen[0]} (Lord {chosen[2][0]} is strongest with score {chosen[2][1]:.2f})"
+        return chosen[1], f"Derived from {chosen[0]} ({RASI_NAMES[chosen[1]]}, Lord {chosen[2][0]} score {chosen[2][1]:.2f})"
 
     def calculate_dasa_length(self, dasa_sign: int, planets_in_varga: Dict[str, Any]) -> int:
         """
