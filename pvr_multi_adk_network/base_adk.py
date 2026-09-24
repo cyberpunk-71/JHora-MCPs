@@ -8,9 +8,9 @@ LLM agent invocation via Gemini 3.8 Flash High (Port 8090).
 import json
 import requests
 from typing import Dict, Any, List, Optional
-
-LLM_PROXY_URL = "http://127.0.0.1:8090/v1/chat/completions"
-DEFAULT_MODEL = "gemini-3.8-flash-high"
+from pvr_annual_engine.config import (
+    get_llm_headers, get_llm_chat_endpoint, LLM_MODEL
+)
 
 class BasePVRADK:
     """Base class for all specialized PVR Astrological ADKs."""
@@ -51,9 +51,9 @@ Provide your specialized astrological evaluation in structured JSON format with 
 """
 
         try:
-            headers = {"Content-Type": "application/json"}
+            headers = get_llm_headers()
             body = {
-                "model": DEFAULT_MODEL,
+                "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": self.system_prompt},
                     {"role": "user", "content": user_prompt}
@@ -61,7 +61,7 @@ Provide your specialized astrological evaluation in structured JSON format with 
                 "temperature": 0.2,
                 "max_tokens": 1200
             }
-            resp = requests.post(LLM_PROXY_URL, headers=headers, json=body, timeout=45)
+            resp = requests.post(get_llm_chat_endpoint(), headers=headers, json=body, timeout=45)
             if resp.status_code == 200:
                 raw_content = resp.json()["choices"][0]["message"]["content"]
                 # Try to extract JSON if enclosed in code block

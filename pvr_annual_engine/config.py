@@ -4,7 +4,29 @@ PVR Annual Engine Configuration & Constants
 Defines planetary orbs, dignities, Tajaka Saham formulas, and Ayanamsa settings.
 """
 
+import os
 import swisseph as swe
+
+# Centralized Configurable LLM Settings
+LLM_API_KEY = os.environ.get("PVR_LLM_API_KEY") or os.environ.get("LLM_API_KEY") or os.environ.get("GEMINI_API_KEY") or ""
+LLM_BASE_URL = os.environ.get("PVR_LLM_BASE_URL") or os.environ.get("LLM_BASE_URL") or "http://127.0.0.1:8090/v1"
+LLM_MODEL = os.environ.get("PVR_LLM_MODEL") or os.environ.get("LLM_MODEL") or "gemini-3.8-flash-high"
+
+def get_llm_headers(extra_headers: dict = None) -> dict:
+    headers = {"Content-Type": "application/json"}
+    if LLM_API_KEY:
+        headers["Authorization"] = f"Bearer {LLM_API_KEY}"
+    if extra_headers:
+        headers.update(extra_headers)
+    return headers
+
+def get_llm_chat_endpoint() -> str:
+    base = LLM_BASE_URL.rstrip("/")
+    if not base.endswith("/chat/completions"):
+        if base.endswith("/v1"):
+            return f"{base}/chat/completions"
+        return f"{base}/v1/chat/completions"
+    return base
 
 # Ayanamsa: Pushya-Paksha (Delta Cancri @ 16Cn00)
 AYANAMSA_ID = swe.SIDM_TRUE_PUSHYA

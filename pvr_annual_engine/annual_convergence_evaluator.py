@@ -11,7 +11,8 @@ import requests
 from typing import Dict, Any, List, Tuple, Optional
 from pvr_annual_engine.config import (
     TOPIC_SPECS, RASI_NAMES, PLANET_NAMES, SIGN_LORDS,
-    EXALTATION_SIGNS, MOOLATRIKONA_SIGNS, OWN_SIGNS, DEBILITATION_SIGNS
+    EXALTATION_SIGNS, MOOLATRIKONA_SIGNS, OWN_SIGNS, DEBILITATION_SIGNS,
+    get_llm_headers, get_llm_chat_endpoint, LLM_MODEL
 )
 
 class PVRAnnualConvergenceEvaluator:
@@ -370,10 +371,9 @@ Structure your response:
 5. Timing Windows, Potential Obstacles & Prescribed Actions.
 """
         try:
-            url = "http://127.0.0.1:8090/v1/chat/completions"
-            headers = {"Content-Type": "application/json"}
+            headers = get_llm_headers()
             body = {
-                "model": "gemini-3.8-flash-high",
+                "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": "You are a master Vedic Astrologer adhering strictly to P.V.R. Narasimha Rao's research methods and Pushya-Paksha Ayanamsa."},
                     {"role": "user", "content": prompt}
@@ -381,7 +381,7 @@ Structure your response:
                 "temperature": 0.2,
                 "max_tokens": 1500
             }
-            resp = requests.post(url, headers=headers, json=body, timeout=45)
+            resp = requests.post(get_llm_chat_endpoint(), headers=headers, json=body, timeout=45)
             if resp.status_code == 200:
                 data = resp.json()
                 return data["choices"][0]["message"]["content"]

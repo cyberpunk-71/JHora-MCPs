@@ -8,7 +8,9 @@ individual domain agent LLM outputs, and executes the final Master Synthesis LLM
 import json
 import requests
 from typing import Dict, Any, List, Optional
-from pvr_multi_adk_network.base_adk import DEFAULT_MODEL, LLM_PROXY_URL
+from pvr_annual_engine.config import (
+    get_llm_headers, get_llm_chat_endpoint, LLM_MODEL
+)
 from pvr_multi_adk_network.adk04_tajaka_agent import ADK04TajakaAgent
 from pvr_multi_adk_network.adk05_tithi_pravesha_agent import ADK05TithiPraveshaAgent
 from pvr_annual_engine.annual_convergence_evaluator import PVRAnnualConvergenceEvaluator
@@ -88,9 +90,9 @@ Synthesize these independent agent findings into a final, unified scholarly judg
 """
 
         try:
-            headers = {"Content-Type": "application/json"}
+            headers = get_llm_headers()
             body = {
-                "model": DEFAULT_MODEL,
+                "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": "You are P.V.R. Narasimha Rao conducting the final master synthesis of all multi-agent astrological streams."},
                     {"role": "user", "content": master_prompt}
@@ -98,7 +100,7 @@ Synthesize these independent agent findings into a final, unified scholarly judg
                 "temperature": 0.2,
                 "max_tokens": 1500
             }
-            resp = requests.post(LLM_PROXY_URL, headers=headers, json=body, timeout=45)
+            resp = requests.post(get_llm_chat_endpoint(), headers=headers, json=body, timeout=45)
             master_synthesis = resp.json()["choices"][0]["message"]["content"] if resp.status_code == 200 else "Master synthesis fallback."
         except Exception as e:
             master_synthesis = f"Master synthesis connection notice: {e}"
