@@ -67,9 +67,10 @@ class ADK04TajakaVarshaphal:
         """
         Generates complete annual Varshaphal chart for the target year.
         """
-        birth_jd = calculate_julian_day(birth_year, birth_month, birth_day,
-                                        birth_hour, birth_minute, birth_second)
-        sun_trop = self.get_natal_sun_tropical(birth_jd)
+        birth_jd_local = calculate_julian_day(birth_year, birth_month, birth_day,
+                                              birth_hour, birth_minute, birth_second)
+        birth_jd_ut = birth_jd_local - (timezone / 24.0)
+        sun_trop = self.get_natal_sun_tropical(birth_jd_ut)
         return_jd = self.find_annual_solar_return_jd(sun_trop, target_year, birth_month, birth_day)
 
         # Convert return_jd back to Gregorian date and time
