@@ -97,7 +97,7 @@ html_content = """<!DOCTYPE html>
 <div class="container">
   <div class="header">
     <h1>Complete Vedic Astrology Kundali (North Indian Diamond Style)</h1>
-    <p><strong>Native Data:</strong> October 6, 2001 at 16:59:09 IST | Ahmedabad, Gujarat, India (23.02°N, 72.57°E)</p>
+    <p><strong>Native Data:</strong> October 6, 2001 at 16:59:07 IST | Ahmedabad, Gujarat, India (23.02°N, 72.57°E)</p>
     <p><strong>Astronomical Standard:</strong> Pushya-Paksha Ayanamsa (22°45'08") | Pt. P. V. R. Narasimha Rao Formulation</p>
     <span class="badge">PyJHora 6-MCP Architecture Certified</span>
   </div>

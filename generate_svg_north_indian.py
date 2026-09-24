@@ -7,7 +7,7 @@ sys.path.insert(0, '/home/opc/mcp_jhora')
 from jhora.horoscope.chart import charts
 from jhora_helpers import create_date_and_place, RASI_NAMES, PLANET_NAMES
 
-dob, tob, place, jd = create_date_and_place(2001, 10, 6, 16, 59, 9, 23.0225, 72.5714, 5.5, "Ahmedabad", "PUSHYA_PAKSHA")
+dob, tob, place, jd = create_date_and_place(2001, 10, 6, 16, 59, 7, 23.0225, 72.5714, 5.5, "Ahmedabad", "PUSHYA_PAKSHA")
 
 # Planet colors & glyphs/names
 PLANET_DISPLAY = {
