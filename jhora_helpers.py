@@ -27,16 +27,19 @@ NAKSHATRA_NAMES = [
 ]
 
 AYANAMSA_MAP = {
-    "LAHIRI": const._DEFAULT_AYANAMSA_MODE,
-    "PUSHYA_PAKSHA": "PUSHYA_PAKSHA",
-    "PUSHYAPAKSHA": "PUSHYA_PAKSHA",
-    "RAMAN": "BVRAMAN",
-    "BVRAMAN": "BVRAMAN",
-    "KP": "KRISHNAMURTHY",
-    "KRISHNAMURTI": "KRISHNAMURTHY",
+    "LAHIRI": "LAHIRI",
+    "TRUE_CITRA": "TRUE_CITRA",
+    "TRUE_LAHIRI": "TRUE_LAHIRI",
+    "PUSHYA_PAKSHA": "TRUE_PUSHYA",
+    "PUSHYAPAKSHA": "TRUE_PUSHYA",
+    "TRUE_PUSHYA": "TRUE_PUSHYA",
+    "RAMAN": "RAMAN",
+    "BVRAMAN": "RAMAN",
+    "KP": "KP",
+    "KRISHNAMURTHY": "KP",
+    "KRISHNAMURTI": "KP",
     "YUKTESHWAR": "YUKTESHWAR",
-    "JN_BHASIN": "JN_BHASIN",
-    "SAYANA": "SAYANA"
+    "FAGAN": "FAGAN"
 }
 
 def create_date_and_place(
@@ -59,14 +62,13 @@ def create_date_and_place(
     tob = (hour, minute, second)
     place = drik.Place(place_name, latitude, longitude, timezone_offset)
     
-    # Calculate Julian Day
-    jd = utils.julian_day_number(dob, tob)
-    
     # Set Ayanamsa if requested
     mode_key = ayanamsa_mode.upper().replace("-", "_")
-    if mode_key in AYANAMSA_MAP:
-        const._DEFAULT_AYANAMSA_MODE = AYANAMSA_MAP[mode_key]
-        
+    mapped_mode = AYANAMSA_MAP.get(mode_key, "LAHIRI")
+    drik.set_ayanamsa_mode(mapped_mode)
+    
+    # Calculate Julian Day
+    jd = utils.julian_day_number(dob, tob)
     return dob, tob, place, jd
 
 parse_birth_data = create_date_and_place
