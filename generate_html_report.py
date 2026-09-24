@@ -98,7 +98,7 @@ html_content = """<!DOCTYPE html>
   <div class="header">
     <h1>Complete Vedic Astrology Kundali (North Indian Diamond Style)</h1>
     <p><strong>Native Data:</strong> October 6, 2001 at 16:59:07 IST | Ahmedabad, Gujarat, India (23.02°N, 72.57°E)</p>
-    <p><strong>Astronomical Standard:</strong> Pushya-Paksha Ayanamsa (22°45'08") | Pt. P. V. R. Narasimha Rao Formulation</p>
+    <p><strong>Astronomical Standard:</strong> True Chitra-Paksha (Lahiri) | Pt. P. V. R. Narasimha Rao JHora Default & Even Sign Reversal Method</p>
     <span class="badge">PyJHora 6-MCP Architecture Certified</span>
   </div>
 
@@ -118,13 +118,13 @@ html_content = """<!DOCTYPE html>
     </div>
   </div>
 
-  <div class="section-title">2. Planetary Placements & Karakas</div>
+  <div class="section-title">2. Planetary Placements & Karakas (Exact JHora Positions)</div>
   <table>
     <thead>
       <tr>
         <th>Planet</th>
         <th>D-1 Rasi</th>
-        <th>D-10 Dasamsa</th>
+        <th>D-10 Dasamsa (Method 3)</th>
         <th>D-9 Navamsa</th>
         <th>D-24 Siddhamsa</th>
         <th>Nakshatra & Pada</th>
@@ -132,20 +132,35 @@ html_content = """<!DOCTYPE html>
       </tr>
     </thead>
     <tbody>
-      <tr><td><strong>Lagna (Ascendant)</strong></td><td>Aquarius 24°01' (H1)</td><td>Libra 00°14' (H1)</td><td>Taurus 06°13' (H1)</td><td>Pisces 06°35' (H1)</td><td>Purva Bhadrapada (P2)</td><td>Self / Physical Vitality</td></tr>
-      <tr><td><strong>Sun</strong></td><td>Virgo 20°32' (H8)</td><td>Scorpio 25°24' (H2)</td><td>Cancer 04°52' (H3)</td><td>Scorpio 12°58' (H9)</td><td>Hasta (P4)</td><td>Putrakaraka (PK)</td></tr>
-      <tr><td><strong>Moon</strong></td><td>Taurus 05°16' (H4) [Exalted]</td><td>Aquarius 22°47' (H5)</td><td>Aquarius 17°30' (H10)</td><td>Scorpio 06°41' (H9)</td><td>Krittika (P3)</td><td>Darakaraka (DK)</td></tr>
-      <tr><td><strong>Mars</strong></td><td>Sagittarius 23°15' (H11)</td><td>Cancer 22°31' (H10)</td><td>Libra 29°16' (H6)</td><td>Aquarius 18°04' (H12)</td><td>Purva Ashadha (P3)</td><td>Amatyakaraka (AmK)</td></tr>
-      <tr><td><strong>Mercury</strong></td><td>Libra 05°35' (H9)</td><td>Scorpio 25°52' (H2)</td><td>Scorpio 20°17' (H7)</td><td>Sagittarius 14°06' (H10)</td><td>Chitra (P4)</td><td>Gnatikaraka (GK)</td></tr>
-      <tr><td><strong>Jupiter</strong></td><td>Gemini 21°46' (H5)</td><td>Capricorn 07°40' (H4)</td><td>Aries 15°54' (H12)</td><td>Capricorn 12°23' (H11)</td><td>Punarvasu (P1)</td><td>Matrikaraka (MK)</td></tr>
-      <tr><td><strong>Venus</strong></td><td>Leo 26°08' (H7) [Yogakaraka]</td><td>Aries 21°18' (H7)</td><td>Scorpio 25°11' (H7)</td><td>Aries 27°09' (H2)</td><td>Purva Phalguni (P4)</td><td>Atmakaraka (AK)</td></tr>
-      <tr><td><strong>Saturn</strong></td><td>Taurus 22°08' (H4)</td><td>Leo 11°27' (H11)</td><td>Cancer 19°18' (H3)</td><td>Sagittarius 21°29' (H10)</td><td>Rohini (P4)</td><td>Bhratrikaraka (BK)</td></tr>
-      <tr><td><strong>Rahu</strong></td><td>Gemini 07°28' (H5)</td><td>Leo 14°40' (H11)</td><td>Sagittarius 07°12' (H8)</td><td>Capricorn 29°11' (H11)</td><td>Ardra (P1)</td><td>Chaya Graha</td></tr>
-      <tr><td><strong>Ketu</strong></td><td>Sagittarius 07°28' (H11)</td><td>Aquarius 14°40' (H5)</td><td>Gemini 07°12' (H2)</td><td>Capricorn 29°11' (H11)</td><td>Mula (P3)</td><td>Mokshakaraka</td></tr>
+      <tr><td><strong>Lagna (Ascendant)</strong></td><td>Aquarius 22°53' (H1)</td><td>Virgo 18°47' (H1)</td><td>Aries 25°54' (H1)</td><td>Aquarius 09°04' (H1)</td><td>Purva Bhadrapada (P1)</td><td>Tanu Bhava (Self)</td></tr>
+      <tr><td><strong>Sun</strong></td><td>Virgo 19°24' (H8)</td><td>Cancer 14°03' (H11)</td><td>Gemini 24°39' (H3)</td><td>Libra 15°44' (H9) [Debil]</td><td>Hasta (P3)</td><td>Putrakaraka (PK)</td></tr>
+      <tr><td><strong>Moon</strong></td><td>Taurus 04°09' (H4) [Exalted]</td><td>Leo 11°26' (H12)</td><td>Aquarius 07°17' (H11)</td><td>Libra 09°26' (H9)</td><td>Krittika (P3)</td><td>Darakaraka (DK)</td></tr>
+      <tr><td><strong>Mars</strong></td><td>Sagittarius 22°07' (H11)</td><td>Cancer 11°11' (H11) [Debil]</td><td>Libra 19°04' (H7)</td><td>Capricorn 20°49' (H12) [Exalted]</td><td>Purva Ashadha (P3)</td><td>Amatyakaraka (AmK)</td></tr>
+      <tr><td><strong>Mercury</strong></td><td>Libra 04°27' (H9)</td><td>Scorpio 14°32' (H3)</td><td>Scorpio 10°05' (H8)</td><td>Scorpio 16°52' (H10)</td><td>Chitra (P4)</td><td>Gnatikaraka (GK)</td></tr>
+      <tr><td><strong>Jupiter</strong></td><td>Gemini 20°38' (H5)</td><td>Sagittarius 26°19' (H4) [Own Sign]</td><td>Aries 05°41' (H1)</td><td>Sagittarius 15°09' (H11) [Own Sign]</td><td>Punarvasu (P1)</td><td>Matrikaraka (MK)</td></tr>
+      <tr><td><strong>Venus</strong></td><td>Leo 24°60' (H7) [Yogakaraka]</td><td>Aries 09°58' (H8)</td><td>Scorpio 14°58' (H8)</td><td>Pisces 29°54' (H2) [Exalted]</td><td>Purva Phalguni (P4)</td><td>Atmakaraka (AK)</td></tr>
+      <tr><td><strong>Saturn</strong></td><td>Taurus 21°01' (H4)</td><td>Aquarius 00°06' (H6) [Own Sign]</td><td>Cancer 09°05' (H4)</td><td>Scorpio 24°15' (H10)</td><td>Rohini (P4)</td><td>Bhratrikaraka (BK)</td></tr>
+      <tr><td><strong>Rahu</strong></td><td>Gemini 06°20' (H5)</td><td>Leo 03°19' (H12)</td><td>Scorpio 26°59' (H8) [Debil]</td><td>Capricorn 01°57' (H12)</td><td>Mrigashira (P4)</td><td>Chaya Graha</td></tr>
+      <tr><td><strong>Ketu</strong></td><td>Sagittarius 06°20' (H11)</td><td>Aquarius 03°19' (H6)</td><td>Taurus 26°59' (H2) [Exalted]</td><td>Capricorn 01°57' (H12)</td><td>Mula (P2)</td><td>Mokshakaraka</td></tr>
     </tbody>
   </table>
 
-  <div class="section-title">3. Marriage & Career Timing Summary</div>
+  <div class="section-title">3. Pt. P.V.R. Narasimha Rao Video & JHora Method Explanation</div>
+  <p style="line-height: 1.6; color: #334155; font-size: 14px;">
+    In his definitive video lecture on <em>Divisional Charts (Part 6)</em> and research papers on <em>Two Novel Transit Principles</em>, Pt. P.V.R. Narasimha Rao explicitly clarifies:
+    <br><br>
+    <em>"Similarly for Dashamsa, I use this variation, the third one in Jagannatha Hora which is Parasara Dashamsa with even sign reversal, go reverse and end in nine... But for Taurus, Parasara taught that you count from the ninth house. So what people normally do is they start from Capricorn and go forward. But what I found is you have to go in reverse... So the first 1/10 of Taurus is mapped to Libra, and the last part is mapped to Cancer. This is actually reversed."</em>
+    <br><br>
+    Under this exact formulation in Jagannatha Hora:
+    <br>
+    • <strong>D-10 Lagna</strong> falls in <strong>Virgo</strong> (8th division of Aquarius counted from itself).
+    <br>
+    • <strong>Saturn</strong> in Taurus (even sign, 8th division) is reckoned in reverse and lands in <strong>Aquarius (6th House)</strong>.
+    <br>
+    • <strong>Ketu</strong> in Sagittarius (odd sign, 3rd division) lands in <strong>Aquarius (6th House)</strong> with Saturn.
+    <br>
+    • <strong>D-24 Lagna</strong> falls in <strong>Aquarius</strong> (19th division of Aquarius counted from Leo).
+  </p>
   <table>
     <thead>
       <tr>

@@ -7,7 +7,7 @@ sys.path.insert(0, '/home/opc/mcp_jhora')
 from jhora.horoscope.chart import charts
 from jhora_helpers import create_date_and_place, RASI_NAMES, PLANET_NAMES
 
-dob, tob, place, jd = create_date_and_place(2001, 10, 6, 16, 59, 7, 23.0225, 72.5714, 5.5, "Ahmedabad", "PUSHYA_PAKSHA")
+dob, tob, place, jd = create_date_and_place(2001, 10, 6, 16, 59, 7, 23.0225, 72.5714, 5.5, "Ahmedabad", "LAHIRI")
 
 # Planet colors & glyphs/names
 PLANET_DISPLAY = {
@@ -24,7 +24,8 @@ PLANET_DISPLAY = {
 }
 
 def generate_north_indian_svg(chart_factor, title, filename, width=640, height=640):
-    data = charts.divisional_chart(jd, place, divisional_chart_factor=chart_factor, chart_method=1)
+    m = 3 if chart_factor == 10 else 1
+    data = charts.divisional_chart(jd, place, divisional_chart_factor=chart_factor, chart_method=m)
     lag_idx = data[0][1][0]
     lag_deg = data[0][1][1]
     
