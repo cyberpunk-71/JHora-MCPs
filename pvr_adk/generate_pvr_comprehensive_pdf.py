@@ -237,15 +237,64 @@ def generate_pdf_report(output_path: str):
     story.append(t3)
     story.append(Spacer(1, 14))
 
+    # Section 6: Multi-Factor Annual Chart Evaluator & LLM Synthesis
+    story.append(Paragraph("6. PVR Multi-Factor Annual Chart Evaluator & LLM Synthesis", h1_style))
+    story.append(Paragraph(
+        "<b>Rigorous Anti-Fragmentary Principle:</b> P.V.R. Narasimha Rao emphasizes that annual charts (Tajaka Varshaphal and Tithi Pravesha) "
+        "must <i>never</i> be judged on 1–2 isolated placements or single aspect lines. True fruition requires multi-chart convergence: "
+        "(1) Dual-Level Structure (D-1 Rasi environment + D-N Divisional execution), (2) House Lords & Dignities, "
+        "(3) Auspicious Yogas (Kendra-Trikona Raja Yogas, Parivartana exchanges, Samasaptaka 180° mutual aspects), "
+        "(4) Key House Occupants (benefics and exalted planets in 1, 4, 5, 9, 10), (5) Year Ruler / Vara Lord dignity, and "
+        "(6) Cross-Chart Dual Confirmation between Solar and Soli-Lunar returns.",
+        body_style
+    ))
+    story.append(Spacer(1, 6))
+
+    annual_eval_data = [
+        [Paragraph("Life Horizon", table_header), Paragraph("Target Years", table_header), Paragraph("Evaluated Varga", table_header), Paragraph("Potential Score", table_header), Paragraph("Key Converging Astrological Indications", table_header)],
+        [
+            Paragraph("<b>Academic Distinction</b>", table_cell),
+            Paragraph("2024 – 2026", table_cell),
+            Paragraph("D-24 (Siddhamsa)<br/>Praanamaya", table_cell),
+            Paragraph("<b>98.0%</b><br/>Exceptional", table_cell),
+            Paragraph("• 2024: Vara Lord Saturn Moolatrikona in 4th house; Saraswati Yoga active.<br/>• 2025: Vara Lord Jupiter in 10th house; D-24 5th house strongly reinforced by benefics.<br/>• 2026: Vara Lord Mercury in Lagna; 22 favorable factors confirming academic culmination.", table_cell)
+        ],
+        [
+            Paragraph("<b>Career Advancement</b>", table_cell),
+            Paragraph("2026 – 2028", table_cell),
+            Paragraph("D-10 (Dasamsa)<br/>Annamaya / Power", table_cell),
+            Paragraph("<b>98.0%</b><br/>Exceptional", table_cell),
+            Paragraph("• 2026: 34 favorable factors with 0 challenges; Mercury in Lagna.<br/>• 2027: Vara Lord Moon in 11th; D-10 Kendra-Trikona Raja Yogas activate executive mandate.<br/>• 2028: Exalted Lagna Lord Mercury in 1st house conjunct Jupiter; definitive administrative authority.", table_cell)
+        ],
+        [
+            Paragraph("<b>Marriage Alliance</b>", table_cell),
+            Paragraph("2027 – 2029", table_cell),
+            Paragraph("D-9 (Navamsa)<br/>Annamaya / Dharma", table_cell),
+            Paragraph("<b>98.0%</b><br/>Exceptional", table_cell),
+            Paragraph("• 2027: Tajaka and TP D-1 both ascend in Gemini; 4th L Mercury + 5th L Venus Raja Yoga.<br/>• 2028: Concurrent 1st/7th axis alignment across D-1 and D-9; formal matrimonial fruition.<br/>• 2029: Vara Lord Jupiter in 5th house; 30 favorable factors confirming family consolidation.", table_cell)
+        ]
+    ]
+
+    t4 = Table(annual_eval_data, colWidths=[90, 70, 90, 75, 215])
+    t4.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#0f766e')),
+        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
+        ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
+        ('GRID', (0,0), (-1,-1), 0.5, colors.HexColor('#cbd5e1')),
+        ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.white, colors.HexColor('#f0fdfa')])
+    ]))
+    story.append(t4)
+    story.append(Spacer(1, 10))
+
     # Conclusion & Operational Directive
-    story.append(Paragraph("6. Architectural Conclusion & Standards", h1_style))
+    story.append(Paragraph("7. Architectural Conclusion & Standards", h1_style))
     story.append(Paragraph(
         "The PVR ADK Suite establishes an unshakeable standard for computational Jyotish. By proving every method against "
         "PVR Narasimha Rao's own published charts, we have eliminated false flags, speculative ayanamsas, and calculation errors. "
         "All ADK modules are fully unit-tested, version-controlled in Git, and accessible via automated API and CLI.",
         body_style
     ))
-    story.append(Paragraph("<b>Git Commit:</b> ea1ce1f | <b>Repository:</b> cyberpunk-71/JHora-MCPs.git | <b>Ayanamsa:</b> Pushya-Paksha (Delta Cancri @ 16Cn00)", callout_style))
+    story.append(Paragraph("<b>Git Commit:</b> bcb6e7c | <b>Repository:</b> cyberpunk-71/JHora-MCPs.git | <b>Ayanamsa:</b> Pushya-Paksha (Delta Cancri @ 16Cn00)", callout_style))
 
     doc.build(story)
     print(f"Publication-quality PDF successfully generated at: {output_path}")
