@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+import os
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedic Astrology Kundali Portfolio - Pt. P.V.R. Narasimha Rao Standard</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    margin: 0;
+    padding: 24px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px -2px rgba(0,0,0,0.08);
+    padding: 32px;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  .header h1 {
+    font-size: 26px;
+    margin: 0 0 8px 0;
+    color: #1e293b;
+  }
+  .header p {
+    color: #64748b;
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  .badge {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  .grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+  .chart-card {
+    background: #fdfbf7;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .chart-card object {
+    width: 100%;
+    height: 520px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+  th, td {
+    padding: 10px 14px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+  }
+  th {
+    background: #f1f5f9;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e293b;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    border-left: 4px solid #b45309;
+    padding-left: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Complete Vedic Astrology Kundali (North Indian Diamond Style)</h1>
+    <p><strong>Native Data:</strong> October 6, 2001 at 16:59:09 IST | Ahmedabad, Gujarat, India (23.02°N, 72.57°E)</p>
+    <p><strong>Astronomical Standard:</strong> Pushya-Paksha Ayanamsa (22°45'08") | Pt. P. V. R. Narasimha Rao Formulation</p>
+    <span class="badge">PyJHora 6-MCP Architecture Certified</span>
+  </div>
+
+  <div class="section-title">1. North Indian Kundali Charts (D-1, D-10, D-9, D-24)</div>
+  <div class="grid-2x2">
+    <div class="chart-card">
+      <object data="D1_Rasi_Chart_North_Indian.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="chart-card">
+      <object data="D10_Dasamsa_Chart_North_Indian.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="chart-card">
+      <object data="D9_Navamsa_Chart_North_Indian.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="chart-card">
+      <object data="D24_Siddhamsa_Chart_North_Indian.svg" type="image/svg+xml"></object>
+    </div>
+  </div>
+
+  <div class="section-title">2. Planetary Placements & Karakas</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Planet</th>
+        <th>D-1 Rasi</th>
+        <th>D-10 Dasamsa</th>
+        <th>D-9 Navamsa</th>
+        <th>D-24 Siddhamsa</th>
+        <th>Nakshatra & Pada</th>
+        <th>Jaimini Karaka</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Lagna (Ascendant)</strong></td><td>Aquarius 24°01' (H1)</td><td>Libra 00°14' (H1)</td><td>Taurus 06°13' (H1)</td><td>Pisces 06°35' (H1)</td><td>Purva Bhadrapada (P2)</td><td>Self / Physical Vitality</td></tr>
+      <tr><td><strong>Sun</strong></td><td>Virgo 20°32' (H8)</td><td>Scorpio 25°24' (H2)</td><td>Cancer 04°52' (H3)</td><td>Scorpio 12°58' (H9)</td><td>Hasta (P4)</td><td>Putrakaraka (PK)</td></tr>
+      <tr><td><strong>Moon</strong></td><td>Taurus 05°16' (H4) [Exalted]</td><td>Aquarius 22°47' (H5)</td><td>Aquarius 17°30' (H10)</td><td>Scorpio 06°41' (H9)</td><td>Krittika (P3)</td><td>Darakaraka (DK)</td></tr>
+      <tr><td><strong>Mars</strong></td><td>Sagittarius 23°15' (H11)</td><td>Cancer 22°31' (H10)</td><td>Libra 29°16' (H6)</td><td>Aquarius 18°04' (H12)</td><td>Purva Ashadha (P3)</td><td>Amatyakaraka (AmK)</td></tr>
+      <tr><td><strong>Mercury</strong></td><td>Libra 05°35' (H9)</td><td>Scorpio 25°52' (H2)</td><td>Scorpio 20°17' (H7)</td><td>Sagittarius 14°06' (H10)</td><td>Chitra (P4)</td><td>Gnatikaraka (GK)</td></tr>
+      <tr><td><strong>Jupiter</strong></td><td>Gemini 21°46' (H5)</td><td>Capricorn 07°40' (H4)</td><td>Aries 15°54' (H12)</td><td>Capricorn 12°23' (H11)</td><td>Punarvasu (P1)</td><td>Matrikaraka (MK)</td></tr>
+      <tr><td><strong>Venus</strong></td><td>Leo 26°08' (H7) [Yogakaraka]</td><td>Aries 21°18' (H7)</td><td>Scorpio 25°11' (H7)</td><td>Aries 27°09' (H2)</td><td>Purva Phalguni (P4)</td><td>Atmakaraka (AK)</td></tr>
+      <tr><td><strong>Saturn</strong></td><td>Taurus 22°08' (H4)</td><td>Leo 11°27' (H11)</td><td>Cancer 19°18' (H3)</td><td>Sagittarius 21°29' (H10)</td><td>Rohini (P4)</td><td>Bhratrikaraka (BK)</td></tr>
+      <tr><td><strong>Rahu</strong></td><td>Gemini 07°28' (H5)</td><td>Leo 14°40' (H11)</td><td>Sagittarius 07°12' (H8)</td><td>Capricorn 29°11' (H11)</td><td>Ardra (P1)</td><td>Chaya Graha</td></tr>
+      <tr><td><strong>Ketu</strong></td><td>Sagittarius 07°28' (H11)</td><td>Aquarius 14°40' (H5)</td><td>Gemini 07°12' (H2)</td><td>Capricorn 29°11' (H11)</td><td>Mula (P3)</td><td>Mokshakaraka</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">3. Marriage & Career Timing Summary</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Life Milestone</th>
+        <th>Primary Favorable Window</th>
+        <th>Key Astrological Triggers</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Marriage Timing (Primary Window)</strong></td>
+        <td><strong>November 2027 – March 2029</strong> (Age 26–27.5)</td>
+        <td>Vimshottari Rahu-Saturn (Lagna Lord + Exalted DK Moon) / Rahu-Mercury (D-9 7H Vivaha Yoga); Chara Dasa Taurus MD; Jupiter transits 7H Leo & Upapada Lagna (UL) Virgo.</td>
+      </tr>
+      <tr>
+        <td><strong>Marriage Timing (Alternative Peak)</strong></td>
+        <td><strong>May 2030 – July 2031</strong> (Age 28.5–29.8)</td>
+        <td>Rahu-Mercury-Venus Dasa; Tithi Pravesha 2031 Hora Lord Jupiter; Tajaka Muntha in 1H Leo (Varshapathi Venus).</td>
+      </tr>
+      <tr>
+        <td><strong>Career Breakthrough & Major Promotion</strong></td>
+        <td><strong>December 2025 – November 2028</strong> (Age 24.5–27)</td>
+        <td>Rahu-Saturn Dasa (Saturn is D-10 Yogakaraka in 11H Leo); Transit Jupiter EXALTED in Cancer over D-10 10H AmK Mars (2026-2027).</td>
+      </tr>
+      <tr>
+        <td><strong>Rapid Senior Management & Financial Surge</strong></td>
+        <td><strong>November 2028 – May 2031</strong> (Age 27–29.5)</td>
+        <td>Rahu-Mercury Dasa (Mercury forms Dhana/Bhagya Yoga in D-10 2H Scorpio); Chara Dasa Taurus MD (D-10 10L Moon sign).</td>
+      </tr>
+      <tr>
+        <td><strong>Peak Executive Power & Prestige</strong></td>
+        <td><strong>June 2032 – June 2035</strong> (Age 31–33.5)</td>
+        <td>Rahu-Venus Dasa (Venus is D-10 Lagna Lord in 7H and D-1 Yogakaraka in 7H).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
+"""
+
+with open("/home/opc/mcp_jhora/output_charts/North_Indian_Charts_Portfolio.html", "w") as f:
+    f.write(html_content)
+
+print("Saved HTML Portfolio: /home/opc/mcp_jhora/output_charts/North_Indian_Charts_Portfolio.html")
